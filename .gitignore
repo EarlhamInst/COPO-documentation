@@ -8,3 +8,6 @@ venv
 
 # User-specific files
 ~$*
+
+# Logs
+logs
