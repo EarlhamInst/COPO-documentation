@@ -3,29 +3,53 @@
 Contact COPO
 =============
 
-Send an email to the COPO team at :email:`ei.copo@earlham.ac.uk <ei.copo@earlham.ac.uk>`, indicating your enquiry or
-request. A member from the COPO team will respond as soon as possible.
+Email the COPO team at :email:`ei.copo@earlham.ac.uk <ei.copo@earlham.ac.uk>`
+or use the `Contact page <https://copo-project.org/contact>`__ to make an
+enquiry or request. A member from the team will respond as soon as possible.
 
-..  figure:: /assets/images/contact/ui/copo-contact-webpage.png
+To access the Contact page, go to **Help** --> **Contact Us** in the top
+navigation bar if you are not logged in as shown below.
+
+..  figure:: /assets/images/contact/ui/accessing-contact-page-logged-out.png
+    :alt: Contact page accessed from Help menu when not logged into COPO
     :align: center
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/contact/ui/copo-contact-webpage.png
-    :alt: COPO contact form
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/contact/ui/accessing-contact-page-logged-out.png
     :class: with-shadow with-border
 
-**Alternatively, you can input your enquiry or request in the form on the Contact web page**
-
-To access the `Contact web page <https://copo-project.org/contact>`__, navigate to **Help** --> **Contact Us**
-in the top navigation bar if you are not logged into COPO.
+    **Accessing the Contact page when not logged in**
 
 .. raw:: html
 
     <br>
 
-..  figure:: /assets/images/contact/ui/copo-contact-icon.png
-    :align: center
-    :alt: COPO contact icon
-    :class: with-shadow with-border
-    :height: 80px
+Alternatively, click the |help-icon| icon (top-right) in the top navigation
+bar then, **Contact Us**, to go to the Contact page if you are already logged
+in as shown below.
 
-**Alternatively, click the envelope icon located in the top-right section of the top navigation bar to be
-redirected to the Contact web page (if you are already logged into COPO)**
+..  figure:: /assets/images/contact/ui/accessing-contact-page-logged-in.png
+    :alt: Contact page accessed from Help menu when logged into COPO
+    :align: center
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/contact/ui/accessing-contact-page-logged-in.png
+    :class: with-shadow with-border
+
+    **Accessing the Contact page when logged in**
+
+.. raw:: html
+
+   <br>
+
+..  figure:: /assets/images/contact/ui/contact-page.png
+    :alt: Contact page with form
+    :align: center
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/contact/ui/contact-page.png
+    :class: with-shadow with-border
+
+    **Contact page**
+
+..
+    Images declaration
+..
+
+.. |help-icon| image:: /assets/images/icons/help_icon.png
+   :height: 2ex
+   :class: no-scaled-link

@@ -3,83 +3,76 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-===================
+================
 COPO: Guidelines
-===================
+================
 
-Welcome to the guidelines for submission, updates and retrieval for the Collaborative OPen Omics project. Please use the
-links to find instructions specific to your needs. 
+Welcome to the guidelines for submission, updates and retrieval for the
+Collaborative OPen Omics project.
+Please use the links to find instructions specific to your needs.
 
 .. toctree::
    :caption: Getting Started
    :name: getting-started-section
 
    about/overview
-   about/copo-project-affiliations
-   about/first-time-user-login
+   about/project-affiliations
    about/sample-managers-guidelines
 
 .. toctree::
-   :caption: COPO Profile
-   :name: copo-profile
+   :caption: Profiles
+   :name: profiles-section
 
-   profile/genomics/genomics-profile-walkthrough
-   profile/tol/tol-profile-walkthrough
-   profile/releasing-profiles
+   profile/profile-types
    profile/sharing-profiles
    profile/sorting-profiles
-   profile/profile-types-legend
 
 .. toctree::
-   :caption: COPO Data Submission
-   :name: copo-submission
+   :caption: Data Submissions
+   :name: submissions-section
 
-   submissions/tol/tol-general-submission-guide
-   submissions/files
-   submissions/assemblies
-   submissions/tol/barcoding-manifest-submissions
-   submissions/images/index
-   submissions/permits
-   submissions/reads
+   submissions/data-files
    submissions/samples
+   submissions/reads
+   submissions/assemblies
+   submissions/biodata/single-cell-submissions
    submissions/sequence-annotations
-   submissions/genomics/single-cell-submissions
+   submissions/tol/barcoding-submissions
+   submissions/images/overview
+   submissions/permits
+   submissions/data-download
+   submissions/publishing-data
 
 .. toctree::
-   :caption: COPO Data Updates
-   :name: copo-data-updates
+   :caption: Data Updates
+   :name: data-updates-section
 
-   updates/profile
-   updates/samples
-   updates/reads
-   updates/sequence-annotations
-   updates/adding-children-projects
+   updates/profiles
+   updates/data-updates
+   updates/adding-child-projects
 
 .. toctree::
-   :caption: COPO Data Discovery & Retrieval
-   :name: copo-data-discovery-retrieval
+   :caption: Data Discovery & Retrieval
+   :name: data-discovery-retrieval-section
 
-   discovery/manifest-wizard
    retrieval/manifest_templates
-   discovery/manifest-checklist
-   retrieval/copo-api
-   retrieval/accessions-dashboard
+   discovery/manifest-wizard
+   retrieval/accessions
    discovery/tol-dashboard
-   discovery/copo-statistics
+   discovery/data-statistics
+   retrieval/copo-api
 
 .. toctree::
    :caption: Advanced
-   :name: advanced
+   :name: advanced-section
 
    advanced/project_setup/project-local-setup-index
    advanced/project_setup/project-application-structure.rst
-   advanced/project_setup/setup-django-admin-interface
-   advanced/profile_setup/profile-setup-index
-   advanced/profile_setup/profile-management-on-django-admin-interface
+   advanced/admin-interface
 
 .. toctree::
    :caption: Policies
-   :name: policies
+   :name: policies-section
 
    policies/citation
    policies/fair-data-principles
@@ -90,7 +83,7 @@ links to find instructions specific to your needs.
 
 .. toctree::
    :caption: Help
-   :name: help
+   :name: help-section
    :maxdepth: 2
 
    help/contact
@@ -99,7 +92,7 @@ links to find instructions specific to your needs.
 
 .. toctree::
    :caption: Research Outputs & Presentations
-   :name: research outputs and presentations
+   :name: research-outputs-and-presentations-section
    :maxdepth: 2
 
    presentations/presentation-materials

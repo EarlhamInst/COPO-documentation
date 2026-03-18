@@ -1,613 +1,533 @@
 .. _project-local-setup-index:
 
-=================
-COPO Local Setup
-=================
+========================
+Local Setup Instructions
+========================
 
 .. _copo-project-setup-with-docker:
 
 Project Setup With Docker
---------------------------
+-------------------------
 
-The central instance of COPO runs on a pool of three virtual machines. The following set up instructions are structured
-in a similar manner using one node. Feel free to make changes for a bigger or smaller pool.
-
-Clone the `GitHub COPO project repository <https://github.com/TGAC/COPO-production>`__.
-
-Visual Studio Code (VSCode) is recommended for running the COPO project after having sat up the Docker environment.
-You can download VSCode from `here <https://code.visualstudio.com/>`__ for your local machine.
-
-.. note::
-
-   There are a number of parameters in the command below that need to be updated or you may want to change
-   for your local deployment. Please read through carefully.
-
-.. hint::
-   A Python virtual environment is not required to run the COPO project application locally since the project is
-   running via Docker containers. However, if you would like to run the project locally without Docker and within
-   a Python virtual environment, please refer to the
-   :ref:`COPO project setup with PyCharm documentation <copo-project-setup-without-docker>`.
-
-
-.. warning::
-   The **ENA_SERVICE** environment variable is set to the ENA development server. All submission to this
-   server will be deleted after 24 hours. To submit to the production ENA server remove ``dev`` and set ``prod``.
+The central instance of COPO runs on a pool of three virtual machines (VMs) -
+a swarm manager and two swarm workers that host the service and web
+containers. However, for simplicity, this local setup uses a single node.
 
 .. raw:: html
 
    <hr>
 
-Install Docker
-~~~~~~~~~~~~~~
-Follow the official `Docker installation documentation <https://docs.docker.com/engine/install/>`__ for your
-distribution.
-
-Make changes to your firewall, iptables and security groups to serve a website, use Docker swarm and redis.
-The port number will depend on your setup and if you choose to use the default ports for each service.
-
-Initialise Docker Swarm
+Step 1: Create Secrets
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: docker
-   :caption: Start a Docker swarm
+.. code-block:: bash
+   :caption: Create a directory to store file-based secrets
 
-    docker swarm init --advertise-addr <the IP of the machine you want to advertise>
+    mkdir local-project-setup
+    cd local-project-setup
 
-**e.g.** ``$ docker swarm init 127.0.0.1`` where ``127.0.0.1`` is the IP address of localhost.
-
-This command will return a token. You need this token to make the other VMs join the swarm if you plan to use more
-than one one node. On the other machines run:
-
-.. code-block:: docker
-   :caption: Command to make other VMs join the swarm manager
-
-    docker-swarm join --token <the token returned by the previous command> <the IP advertised previously>:2377
-
-Check out the Docker documentation if you want to change the default port.
-
-.. note::
-
-   You may need to change the following instructions depending on the server you are deploying to.
-   Please consider which services need to run in the backend or frontend network.
-
-
-.. raw:: html
-
-   <hr>
-
-Add Docker Node Labels
-~~~~~~~~~~~~~~~~~~~~~~~
-Label the node as a web service, nginx service, mongo service, postgres service and backup service. The web service
-and nginx service will be deployed on the frontend network. The mongo service, postgres service and backup service
-will be deployed on the backend network.
-
-Adding One Docker Node Label
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. hint::
-   ``$HOSTNAME`` is a bash variable that returns the hostname of the machine. You can use the hostname of the machine
-   instead of the variable. In a Linux OS, you can run ``$ echo $HOSTNAME`` to get the hostname.
-
-   If you are using more than one node, you will need to label the other nodes as well.
-
-.. code-block:: docker
-   :caption: Documentation for the Docker swarm command
-
-   docker node update \
-       --label-add web-service=true \
-       --label-add nginx-service=true \
-       --label-add mongo-service=true \
-       --label-add postgres-service=true \
-       --label-add backup-service=true \
-       $HOSTNAME
-
-Adding More than Docker One Node Labels
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If you are using more than one Docker node, you can label the other nodes as follows:
-
-**Node 1**
-
-.. code-block:: docker
-   :caption: Node 1 Docker label command
-
-   docker node update \
-       --label-add web-service=true \
-       --label-add nginx-service=true \
-       --label-add mongo-service=false \
-       --label-add postgres-service=false \
-       --label-add backup-service=false \
-       copo-0
-
-**Node 2**
-
-.. code-block:: docker
-   :caption: Node 2 Docker label command
-
-    docker node update \
-            --label-add web-service=false \
-        --label-add nginx-service=false \
-            --label-add mongo-service=false \
-            --label-add postgres-service=true \
-            --label-add backup-service=true \
-            copo-1
-
-**Node 3**
-
-.. code-block:: docker
-   :caption: Node 3 Docker label command
-
-    docker node update \
-         --label-add web-service=false \
-         --label-add nginx-service=false \
-         --label-add mongo-service=true \
-         --label-add postgres-service=false \
-         --label-add backup-service=false \
-         copo-2
-
-.. raw:: html
-
-   <hr>
-
-Create Docker Volumes
-~~~~~~~~~~~~~~~~~~~~~~
-
-Docker volumes are used to persist data via the plugin, **local-persist**. This ensures that the data is not lost when
-the containers are restarted. Volumes are created on the swarm manager.
-
-Substitute the paths in commands before running it.
-
-.. hint::
-    You may need to install curl before running the command below. You can install curl by running
-    $ ``sudo apt-get install curl``.
-
-    You may need to install the **local-persist** plugin to persist volumes before running the command below. You can install
-    it by running:
-    $ ``curl -fsSL https://raw.githubusercontent.com/MatchbookLab/local-persist/master/scripts/install.sh | sudo docker``
-
-
-.. code-block:: docker
-   :caption: Commands to create Docker volumes
-
-    docker volume create -d local-persist -o mountpoint=/path/to/web-data --name=web-data
-    docker volume create -d local-persist -o mountpoint=/path/to/static-data --name=static-data
-    docker volume create -d local-persist -o mountpoint=/path/to/submission-data --name=submission-data
-    docker volume create -d local-persist -o mountpoint=/path/to/logs-data --name=logs-data
-    docker volume create -d local-persist -o mountpoint=/path/to/mongo-data --name=mongo-backup
-    docker volume create -d local-persist -o mountpoint=/path/to/postgres-data --name=postgres-backup
-
-    docker volume create mongo-data
-    docker volume create postgres-data
-
-.. raw:: html
-
-   <hr>
-
-Create Networks on Docker Swarm Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-On the swarm manager create two networks - one for the frontend and one for the backend. The front-end network will be
-used by the web service and the nginx service while the backend network will be used by the database services.
-
-.. code-block:: docker
-   :caption: Commands to create Docker networks on the swarm manager
-
-    docker network create -d overlay copo-frontend-network
-    docker network create -d overlay copo-backend-network
-
-.. code-block::
-   :caption: View networks created on Docker swarm manager
-
-   docker network ls
-
-.. raw:: html
-
-   <hr>
-
-Create Secrets on Docker Swarm Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-All secrets are file based. You will need to create some of the keys with third parties
-and choose passwords before proceeding with the COPO setup.
-
-.. code-block:: docker
-   :caption: Commands to create secrets on Docker swarm manager
-
-   docker secret create copo_mongo_initdb_root_password copo_mongo_initdb_root_password
-   docker secret create copo_mongo_user_password copo_mongo_user_password
-   docker secret create copo_postgres_user_password copo_postgres_user_password
-   docker secret create copo_web_secret_key copo_web_secret_key
-   docker secret create copo_orcid_secret_key copo_orcid_secret_key
-   docker secret create copo_orcid_client_id copo_orcid_client_id
-   docker secret create copo_figshare_consumer_secret_key copo_figshare_consumer_secret_key
-   docker secret create copo_figshare_client_id_key copo_figshare_client_id_key
-   docker secret create copo_figshare_client_secret_key copo_figshare_client_secret_key
-   docker secret create copo_google_secret_key copo_google_secret_key
-   docker secret create copo_twitter_secret_key copo_twitter_secret_key
-   docker secret create copo_facebook_secret_key copo_facebook_secret_key
-   docker secret create copo_webin_user copo_webin_user
-   docker secret create copo_webin_user_password copo_webin_user_password
-   docker secret create copo-project.crt copo-project.crt
-   docker secret create copo-project.key copo-project.key
-   docker secret create copo_nih_api_key copo_nih_api_key
-   docker secret create copo_public_name_service_api_key copo_public_name_service_api_key
-   docker secret create copo_mail_password copo_mail_password
-   docker secret create copo_bioimage_path copo_bioimage_path
-   docker secret create ecs_secret_key ecs_secret_key
-
-.. code-block:: docker
-   :caption: View secrets created on Docker swarm manager
-
-   docker secret ls
-
-.. raw:: html
-
-   <hr>
-
-Build COPO Project Docker Image
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Download the Dockerfile :download:`Dockerfile_local  <../../assets/files/setup/project/Dockerfile_local>`.
-for your local machine.
-
-Place the downloaded Dockerfile in the COPO project root directory.
-
-Alternatively, you can use the Dockerfile present in the root project directory :download:`Dockerfile for demonstration environment <https://raw.githubusercontent.com/TGAC/COPO/development/services/web20/Dockerfile>`.
-
-.. note::
-    The Dockerfile is configured to build the **local_copo_web** container image with the tag, ``v1.0.1``. If you have
-    a different tag and container name, you will need to change the Dockerfile accordingly.
-
-    If you are using a Mac OS, download the :download:`Dockerfile_mac  <../../assets/files/setup/project/Dockerfile_mac>`.
-
-
-Visit `here <https://docs.docker.com/get-started/02_our_app/>`__ for more information on how to build an application
-with a Docker image.
-
+* Replace ``local-project-setup`` in the command above with the name of the
+  directory you would like to create.
 
 .. code-block:: bash
-   :caption: Navigate to COPO project root directory
+   :caption: Create secrets in an .env file in the directory created above
 
-    cd <path-to-project-root-directory>/COPO
-
-.. code-block:: docker
-   :caption: Build Docker image
-
-    docker build . -f  Dockerfile_local -t local_copo_web:v1.0.1
-
-.. raw:: html
-
-   <hr>
-
-Deploy Docker Image on Docker Swarm Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The **redis**, **postgres** and **mongo** Docker services are created on the swarm manager. Download the
-:download:`local compose file </assets/files/setup/project/local_copo.compose.yaml>` file to create the services.
-
-Alternatively, you can download :download:`compose file for demonstration environment
-<https://raw.githubusercontent.com/TGAC/COPO/development/services/copo.compose.yaml>`.
-
-Replace the ``<path-to-project-root-directory>`` with the absolute path to the COPO project root directory.
-
-.. note::
-    The Docker compose file is configured to use the secrets and volumes created above. If you have used different
-    names for the secrets and volumes, you will need to change the compose file accordingly.
-
-    If you are using a Mac OS, download the :download:`Mac compose file  </assets/files/setup/project/mac_copo.compose.yaml>`.
-
-    The following commands should be run from the root directory of the COPO project.
-
-.. warning::
-   The **ENA_SERVICE** environment variable is set to the ENA development server. All submission to this
-   server will be deleted after 24hours. To submit to the production ENA server remove \"dev\"
-
-.. code-block:: bash
-   :caption: Edit Compose file to container tag e.g. local_copo_web:v1.0.1
-
-   nano local_copo.compose.yaml
-
-Update the tag, save the file then, exit by inputting: ``CTRL + O`` then, ``ENTER`` then, ``CTRL + X``
-
-.. code-block:: docker
-   :caption: Command to deploy Docker image, local_copo_web:v1.0.1
-
-    docker stack deploy --compose-file '<path-to-file>/local_copo.compose.yaml' copo
-
-.. raw:: html
-
-   <br>
-
-.. collapse:: Compose file to configure COPO project application locally with Docker
-
-   .. literalinclude:: /assets/files/setup/project/local_copo.compose.yaml
-      :language: yaml
-      :caption: Local Compose file for COPO project application
-
-.. raw:: html
-
-   <br>
-
-.. code-block:: docker
-    :caption: View services created on Docker swarm manager
-
-     docker service ls
-     docker ps
-     docker ps -a
-
-.. code-block:: docker
-    :caption: Inspect created image and check if it is running
-    
-     docker image inspect local_copo_web:v1.0.1
-
-.. code-block:: docker
-    :caption: Start ``copo_web`` Docker container (if it is not started)
-    
-     docker service scale copo_web=1
-
-.. code-block:: docker
-    :caption: Command to stop ``copo_web`` Docker container
-    
-     docker service scale copo_web=0
+   cat <<EOF > .env
+   vault_copo_mongo_initdb_root_password=secret123
+   vault_copo_bioimage_path=secret123
+   vault_copo_mail_password=secret123
+   vault_copo_nih_api_key=secret123
+   vault_copo_orcid_client_id=secret123
+   vault_copo_orcid_secret_key=secret123
+   vault_copo_public_name_service_api_key=secret123
+   vault_copo_web_secret_key=secret123
+   vault_copo_webin_user=secret123
+   vault_copo_webin_user_password=secret123
+   vault_ecs_secret_key=secret123
+   vault_ecs_access_key=secret123
+   ZENODOTOKEN=secret123
+   vault_copo_bioimage_password=secret123
+   EOF
 
 .. raw:: html
 
    <hr>
 
-Set up PostgreSQL database
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-In the terminal, navigate to the root directory of the COPO project application then, run the following commands.:
-
-.. hint::
-    Retrieve the **local_copo_web** container ID by running the $ ``docker ps`` command below in the root project
-    directory of the COPO project application in the terminal for the **local_copo_web:v1.0.1**  Docker image.
-
-.. code-block:: docker
-   :caption: Install PostgreSQL database version 9.6 in terminal
-
-    docker run --name postgresql -e POSTGRES_USER=<postres-username> -e POSTGRES_PASSWORD=<postres-password> -p 5432:5432 -v /data:/var/lib/postgresql/data -d postgres:9.6
-
-Replace ``<postgres-username>`` and ``<postgres-password>`` with the username and password for PostgreSQL database respectively.
-
-.. code-block:: docker
-   :caption: Enter the **local_copo_web** container
-
-    docker exec -it <local_copo_web-container-id> bash
-
-.. code-block:: python
-   :caption: Setup scripts to be run in the **local_copo_web** Docker container
-
-   python manage.py makemigrations
-   python manage.py makemigrations chunked_upload
-   python manage.py makemigrations allauth
-   python manage.py migrate
-   python manage.py setup_groups
-   python manage.py setup_schemas
-   python manage.py createcachetable
-   python manage.py social_accounts
-
-.. code-block:: python
-   :caption: Install Python requirements for the project
-
-   python manage.py makemigrations
-   python manage.py makemigrations chunked_upload
-   python manage.py makemigrations allauth
-   python manage.py migrate
-   python manage.py setup_groups
-   python manage.py setup_schemas
-   python manage.py createcachetable
-   python manage.py social_accounts
-
-.. code-block:: python
-   :caption: Create a Django admin/superuser
-
-   python3 manage.py createsuperuser
-
-Enter the required details to create the Django admin/superuser. The Django admin/superuser can log into the COPO
-project application from the `Django local admin website <http://127.0.0.1:8000/admin>`__.
-
-.. code-block:: bash
-   :caption: Exit the **local_copo_web** Docker container
-
-   CTRL + P
-   CTRL + Q
-   exit
-
-The commands above can be accessed in the :download:`postgresqlDB_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/postgresqlDB_setup.sh>`.
-This file is located in the **set_up_scripts** directory of the COPO project root directory.
-
-.. raw:: html
-
-   <br>
-
-In the following steps, we will create the PostgreSQL database for the COPO project application in the
-root directory of the project.
-
-.. hint::
-    Retrieve the PostgreSQL container ID by running the command below in the root project directory of the COPO project
-    application in the terminal for the **postgres:9.6**  Docker image:
-    $ ``docker ps``
-
-.. code-block:: docker
-   :caption: Enter the PostgreSQL container
-
-    docker exec -it <postgres-container-id> bash
-
-.. code-block:: bash
-   :caption: Run setup scripts in the PostgreSQL Docker container
-
-   psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c 'DELETE FROM socialaccount_socialapp_sites'
-   psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c 'DELETE FROM django_site'
-   psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c 'DELETE FROM socialaccount_socialapp'
-   psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c "INSERT INTO django_site (id, domain, name) VALUES (1, 'www.copo-project.org', 'www.copo-project.org')"
-   psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c "INSERT INTO socialaccount_socialapp (id, provider, name, client_id, secret, key) VALUES (1, 'orcid', 'Orcid', '$ORCID_CLIENT_ID', '$ORCID_SECRET', '')"
-   psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c 'INSERT INTO socialaccount_socialapp_sites (id, socialapp_id, site_id) VALUES (1, 1, 1)'
-
-The commands above can be accessed in the :download:`postgresqlDB_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/postgresqlDB_setup.sh>`.
-This file is located in the **set_up_scripts** directory of the COPO project root directory.
-
-.. raw:: html
-
-   <hr>
-
-Updating COPO Website Service
+Step 2: Download COPO project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The COPO project is updated frequently and as such is under active development. To update your instance to a newer
-(or the latest) version, download the
-:download:`local compose file </assets/files/setup/project/local_copo.compose.yaml>`  or the :download:`compose file for
-demonstration environment
-<https://raw.githubusercontent.com/TGAC/COPO/development/services/copo.compose.yaml>`
-on the swarm manager or root directory of the project if you have one node.
-
-Then, run the following commands in the terminal:
+Download the COPO project to your local machine. It does not have to be
+downloaded in the same directory (``local-project-setup``) where the secrets
+were created in step 1.
 
 .. note::
 
-   The Docker tag below needs to be changed to reflect the most recent version available in DockerHub.
-   Please check the latest version there. You can safely ignore the \*feature tags as they are not stable releases.
-   For stable releases look for ``*rc``.
-
-.. hint::
-
-    * Retrieve the **copo-web** container ID by running the $ ``docker ps`` command below in the root project
-      directory of the COPO project application in the terminal for the **copo/copo-web:v1.0.1**  Docker image.
-
-    * To check if the web service is running, run the command below in the root project directory of the COPO project
-      application in the terminal for the **copo/copo-web:v1.0.2**  Docker image:
-      $ ``docker logs -f <container-ID-for-updated-copo-web>``
-
-    * If you update often we recommend taking care of removing old docker images regularly.
+   Take note of the absolute path to the project directory on your local
+   machine as it will be used in the Docker compose file to mount the
+   project directory as a volume in the Docker container in step 3.
 
 .. code-block:: bash
-   :caption: Edit Compose file by updating the Docker container tag on the Docker swarm manager
+   :caption: Clone the COPO project from GitHub to your local machine
 
-   nano local_copo.compose.yaml
+   git clone https://github.com/EarlhamInst/COPO-production.git
 
-Update the Docker tag, save the file then, exit it by inputting: ``CTRL + O`` then, ``ENTER`` then, ``CTRL + X``
-
-.. code-block:: docker
-   :caption: Command to deploy updated Docker image: local_copo_web:v1.0.2 on the Docker swarm manager
-
-    docker stack deploy --compose-file '<path-to-file>/local_copo.compose.yaml' copo
+* Alternatively, download the :download:`GitHub project ZIP file
+  <https://github.com/EarlhamInst/COPO-production/archive/refs/heads/main.zip>`
+  then, extract it on your local machine.
 
 .. raw:: html
 
    <hr>
 
-Launch COPO Website
-~~~~~~~~~~~~~~~~~~~
-The COPO project application can be accessed locally on `port 8100 <http://127.0.0.1:8100/>`__ via the VSCode browser
-extension.
+Step 3: Create a Docker Image
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Within the VSCode IDE browser, add a new configuration by following the steps below:
+.. important::
 
-#. Navigate to Run -> Add Configuration
-#. Edit the **launch.json** file that is created with the following file contents:
+   The following commands should be executed in the terminal in the
+   ``local-project-setup`` directory that was created in step 1.
 
-.. collapse:: VSCode configuration file
+.. tip::
+
+   Substitute all items enclosed in angle brackets (<>) with the appropriate
+   values for your local setup.
+
+.. code-block:: bash
+   :caption: Navigate to the setup directory
+
+   cd local-project-setup
+
+
+.. tab-set::
+
+   .. tab-item:: On Linux OS
+
+      .. code-block:: bash
+         :caption: Download the local Docker compose file from GitHub
+
+         wget https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/deployment/local.copo.compose.linux.yaml
+
+      * Alternatively, download the :download:`Linux Docker compose file
+        <https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/deployment/local.copo.compose.linux.yaml>`
+        then, extract it on your local machine.
+
+      .. code-block:: bash
+         :caption: Edit the local Docker compose file to reflect the Docker
+                   image tag
+
+         vim  local.copo.compose.linux.yaml
+
+   .. tab-item:: On Mac OS
+
+      .. code-block:: bash
+         :caption: Download the local Docker compose file from GitHub
+
+         wget https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/deployment/local.copo.compose.mac.yaml
+
+      * Alternatively, download the :download:`Mac Docker compose file
+        <https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/deployment/local.copo.compose.mac.yaml>`
+        then, extract it on your local machine.
+
+      .. code-block:: bash
+         :caption: Edit the local Docker compose file to reflect the Docker
+                   image tag
+
+         vim  local.copo.compose.mac.yaml
+
+.. code-block:: bash
+   :caption: Edit the image tag for the "copo_web" service in the Docker
+             compose file
+
+   services:
+     copo_web:
+       # Edit the image tag to reflect what you would like to build
+       image: local_copo_web:v1.0.0
+       ...
+       ...
+       # Edit the absolute path to the project directory on your local machine
+       volumes:
+         - /<path-to-project-directory>/COPO-production:/copo
+
+
+Explanation of the commands above:
+
+* ``vim`` is used as an example to edit files but you can use any text editor
+  of your choice to edit the compose file like ``nano``.
+
+* The local Docker image is created with the tag, ``local_copo_web:v1.0.0``.
+
+  ``local_copo_web`` is the name of the Docker image and ``v1.0.0`` is the
+  version.
+
+* The path, ``/<path-to-project-directory>/COPO-production`` is the absolute
+  path to the project directory on your local machine.
+
+* ``/copo`` is the path to the Django project app within the Docker container.
+
+*  In the Docker compose file, the environment variables related to
+   European Nucleotide Archive (ENA) are configured to use the ENA development
+   server. Submissions to this server are deleted after 24 hours. To submit to
+   the production ENA server, remove ``dev`` from the values.
+
+.. raw:: html
+
+   <hr>
+
+Step 4: Build Docker Image
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. important::
+
+   The following commands should be executed in the terminal in the
+   ``COPO-production`` directory that was downloaded in step 2.
+
+.. code-block:: bash
+   :caption: Navigate to the project root directory (if you are not already
+             there)
+
+   cd COPO-production
+
+.. tab-set::
+
+   .. tab-item:: On Linux OS
+
+      .. code-block:: bash
+         :caption: Build Docker image
+
+         docker build . -f  'deployment/web/Dockerfile_local_linux' -t local_copo_web:v1.0.0
+
+   .. tab-item:: On Mac OS
+
+      .. code-block:: bash
+         :caption: Build Docker image
+
+         docker build . -f  'deployment/web/Dockerfile_local_mac' -t local_copo_web:v1.0.0
+
+
+* The Docker image tag, ``local_copo_web:v1.0.0``, references the tag that was
+  created in the Docker compose file in step 3.
+
+* The Dockerfile is located in the **deployment/web** directory of the COPO
+  project. Use the appropriate Dockerfile for your operating system (OS).
+
+.. raw:: html
+
+   <hr>
+
+Step 5: Deploy the Docker Image
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. important::
+
+   The following commands should be executed in the terminal in the
+   ``local-project-setup`` directory that was created in step 1.
+
+   It should have the **.env** file and Docker compose file that were created
+   in step 1 and step 3 respectively.
+
+.. code-block:: bash
+   :caption: Navigate to the setup directory
+
+   cd local-project-setup
+
+.. tab-set::
+
+   .. tab-item:: On Linux OS
+
+      .. code-block:: bash
+         :caption: Deploy Docker image
+
+          export $(cat .env) > /dev/null 2>&1; docker compose -f local.copo.compose.linux.yaml up -d
+
+   .. tab-item:: On Mac OS
+
+      .. code-block:: bash
+         :caption: Deploy Docker image
+
+          export $(cat .env) > /dev/null 2>&1; docker compose -f local.copo.compose.mac.yaml up -d
+
+.. code-block:: bash
+   :caption: View the created Docker containers
+
+   docker ps
+
+.. raw:: html
+
+   <hr>
+
+Step 6: Execute Celery & Django commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: console
+   :caption: Enter the **local_copo_web** Docker container
+
+   # Retrieve the "local_copo_web" container ID
+   $ docker ps
+
+   # Enter the container using the ID
+   $ docker exec -it <local-copo-web-container-id> bash
+
+.. code-block:: python
+   :caption: Setup scripts to be executed in the **local_copo_web** Docker
+             container
+
+   python manage.py makemigrations
+   python manage.py makemigrations allauth
+   python manage.py migrate
+   python manage.py setup_groups
+   python manage.py createcachetable
+   python manage.py setup_sequencing_centres
+   python manage.py social_accounts
+
+.. code-block:: console
+   :caption: Enter the **copo/copo-mongo** Docker container
+
+   # Exit the "local_copo_web" container by inputting:
+     CTRL + P
+     CTRL + Q
+
+   # Retrieve the "copo/copo-mongo" container ID
+   $ docker ps
+
+   # Enter the container using the ID
+   $ docker exec -it <copo-mongo-container-id> bash
+
+.. code-block:: bash
+   :caption: Initialise Mongo database replica set as "copo_admin" user in the
+             **copo/copo-mongo** Docker container
+
+   # Enter the Mongo shell
+   mongosh
+
+   # Switch to the "admin" database
+   use admin
+
+   # Authenticate as "copo_admin" user
+   db.auth("copo_admin", "password")
+
+   # Initialise the replica set
+   rs.initiate()
+
+.. code-block:: console
+   :caption: Return to the **local_copo_web** Docker container
+
+   # Exit the "copo-mongo" container by inputting:
+     CTRL + P
+     CTRL + Q
+
+   # Retrieve the "local_copo_web" container ID
+   $ docker ps
+
+   # Enter the container using the ID
+   $ docker exec -it <local-copo-web-container-id> bash
+
+.. code-block:: python
+   :caption: Run additional Django commands in the **local_copo_web** Docker
+             container
+
+   python manage.py setup_schemas
+   python manage.py setup_associated_profile_types
+   python manage.py setup_profile_types
+   python manage.py setup_news
+
+.. code-block:: python
+   :caption: Create a Django admin user in the **local_copo_web** Docker
+             container
+
+   python manage.py createsuperuser
+
+* Enter the required details to create a Django admin or superuser. This
+  individual will have the privilege to log into the admin section of the COPO
+  project using URL, http://127.0.0.1:8000/admin.
+
+.. code-block:: bash
+   :caption: Run celery commands to populate the database with data
+
+   # Switch to root user if not already it
+   sudo -i
+
+   # Execute celery commands
+   celery -A src call src.apps.copo_single_cell_submission.tasks.update_singlecell_schema
+   celery -A src call src.apps.copo_core.tasks.update_ena_read_checklist
+   celery -A src call src.apps.copo_core.tasks.update_ena_checklist
+   celery -A src call src.apps.copo_core.tasks.update_ena_read_platform
+
+.. raw:: html
+
+   <hr>
+
+Step 7: Launch COPO website
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+7.1: Download Visual Studio Code
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Visual Studio Code (VS Code) is an integrated development environment (IDE)
+recommended for running the COPO project on your local machine. It
+can be downloaded from the `VS Code website <https://code.visualstudio.com/>`__.
+
+7.2: Install extensions to Visual Studio Code
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Navigate to the **Extensions** tab (indicated by the |vs-code-extensions-icon|
+icon) on the left-hand side of the :abbr:`VS Code (Visual Studio Code)` window.
+Then, search for and install the following extensions:
+
+* `Dev Containers <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>`__
+  by Microsoft Corporation
+* `Python <https://marketplace.visualstudio.com/items?itemName=ms-python.python>`__
+  by Microsoft Corporation
+* `Python Debugger <https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy>`__
+  by Microsoft Corporation
+
+7.2.1: Optional applications to install on your local machine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* **Docker Desktop**: a graphical user interface (GUI) application
+  that allows you to manage Docker containers and images. It can be
+  downloaded from the
+  `Docker Desktop website <https://www.docker.com/products/docker-desktop>`__.
+
+* **Studio 3T Community Edition**: a :abbr:`GUI (Graphical User Interface)`
+  application that allows  you to manage your MongoDB databases. It can be
+  downloaded from the `Studio 3T website <https://studio3t.com/download/>`__.
+
+7.3: Use Dev Containers extension to launch the COPO project application
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**7.3.1**: Click the **Dev Containers** extension (which was installed in step
+7.2) on the left-hand side of the :abbr:`VS Code (Visual Studio Code)` as shown
+in the image below.
+
+.. figure:: /assets/images/setup/ui/project-setup-pointer-to-vscode-extension.png
+   :alt: Accessing the Dev Containers extension in VS Code
+   :align: center
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/setup/ui/project-setup-pointer-to-vscode-extension.png
+   :class: with-shadow with-border
+   :height: 400px
+
+   **Click** ``Dev Containers`` **VS Code extension**
+
+**7.3.2**: Right-click on the ``local_copo_web:v1.0.0`` container under the
+**CONTAINERS** section then, click "Attach Visual Studio Code" as shown in the
+image below.
+
+.. note::
+
+   Note that the example below uses the Docker tag, *local_copo:v1.0.0*.
+   This corresponds to the tag you created for the local Docker image in
+   step 3 where it was specified as ``local_copo_web:v1.0.0``.
+
+.. figure:: /assets/images/setup/ui/project-setup-pointer-to-open-docker-container-with-vscode.png
+   :alt: Opening the COPO project application in VS Code using the Dev Containers extension
+   :align: center
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/setup/ui/project-setup-pointer-to-open-docker-container-with-vscode.png
+   :class: with-shadow with-border
+   :height: 400px
+
+   **Click** ``Attach Visual Studio Code`` **option for** ``local_copo_web:v1.0.0`` **Docker container**
+
+**7.3.3**: Click "Open Folder" button under the **EXPLORER** section. Then,
+enter ``/copo`` in the prompt that appears and click "OK" to open the project
+folder in the container.
+
+.. figure:: /assets/images/setup/ui/project-setup-pointer-to-open-project-folder-in-container-in-vscode.png
+   :alt: Opening the COPO project folder in Docker container in VS Code
+   :align: center
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/setup/ui/project-setup-pointer-to-open-project-folder-in-container-in-vscode.png
+   :class: with-shadow with-border
+
+   **Open** ``/copo`` **directory in the Docker container**
+
+* If prompted, enable **Manage Unsafe Repositories** in **Source Control**
+  section in VS Code to allow it to access the project directory.
+
+**7.3.4**: Click |vs-code-run-and-debug-icon| to navigate to the
+**Run and Debug** section. Then, click the dropdown menu next to the green
+play button.
+
+.. figure:: /assets/images/setup/ui/project-setup-pointer-run-and-debug-project-in-vscode.png
+   :alt: Opening the COPO project folder in Docker container in VS Code
+   :align: center
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/setup/ui/project-setup-pointer-run-and-debug-project-in-vscode.png
+   :class: with-shadow with-border
+
+   **Click run and debug icon**
+
+**7.3.5**: A list of configurations will be displayed. They are set up in
+the **launch.json** file located in the ``.vscode`` directory in the project.
+
+Click the following configurations to run the COPO project application:
+
+* Python: Django
+* Python: Celery Beat
+* Python: Celery Workers
+
+.. collapse:: Click to view the contents of the VS Code launch.json
+              configuration file
 
    .. literalinclude:: /assets/files/setup/project/launch.json
       :language: json
-      :caption: VSCode **launch.json** configuration file contents
+      :caption: VS Code **launch.json** configuration file contents
 
 .. raw:: html
 
    <br>
 
-The COPO project application can be accessed locally on `on port 80000 <http://127.0.0.1:8000>`__
-or `on port 81000 <http://127.0.0.1:8100>`__.
+.. figure:: /assets/images/setup/ui/project-setup-pointer-run-and-debug-project-in-vscode-with-configurations-list.png
+   :alt: Opening the COPO project folder in Docker container in VS Code
+   :align: center
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/setup/ui/project-setup-pointer-run-and-debug-project-in-vscode-with-configurations-list.png
+   :class: with-shadow with-border
 
+   **List of configurations set up in the launch.json file**
 
-.. note::
-   Install required VSCode extensions for the COPO project application by following the steps below:
+**7.3.6**: Access the COPO project application locally on port 8000 by
+searching for http://127.0.0.1:8000 in your web browser.
 
-    #. Navigate to the **Extensions** tab on the left-hand side of the VSCode IDE
-    #. Search for and install the following extensions:
-
-       * Python   (required)
-
-
-   If your local machine is restarted, you will need to start the Docker container again at startup. To do this, run the
-   following command in the terminal: $ ``docker start <container-ID-for-copo-web>``. You can retrieve the container ID
-   by running the command below in the root project directory of the COPO project application in the terminal for the
-   **copo/copo-web:v1.0.2**  Docker image: $ ``docker ps``
+Searching for http://127.0.0.1:8000/copo will take you to the **Work profiles**
+page of the application. An Orcid login will be required to access the
+application. You can `create an Orcid account <https://orcid.org/register>`__
+after which, you can use the credentials to log into the application.
 
 .. raw:: html
 
    <hr>
 
-Tips
-~~~~~
-
-* Enable **Manage Unsafe Repositories** in **Source Control** in VSCode browser application to allow VSCode to access
-  the COPO GitHub project repository.
-
-* Install the following VSCode extensions:
-
-   * GitHub Copilot
-   * Prettier - Code formatter
-   * Git Extension Pack
+Useful Git Commands
+~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
    :caption: Set GitHub configuration in terminal
 
-   git config --global user.name "<GitHub-username>"
-   git config --global user.email "<GitHub-email-address>"
+   git config --global user.name "<github-username>"
+   git config --global user.email "<github-email-address>"
 
 .. code-block:: bash
    :caption: Create a tag via the terminal
 
-   git tag <tagname>
+   git tag <tag-name>
 
 .. code-block:: bash
    :caption: Push a particular tag to GitHub via the terminal
 
-   git push origin <tagname>
+   git push origin <tag-name>
 
 .. code-block:: bash
    :caption: Remove an existing tag from GitHub via the terminal
 
    git tag -d <tag-name>
 
-.. code-block:: docker
-   :caption: Docker command used to list all the running Docker containers
+.. raw:: html
 
-   docker ps
+   <hr>
 
-.. code-block:: docker
-   :caption: Docker command used to start, stop and restart a Docker service
+Related Topics
+~~~~~~~~~~~~~~~
 
-   sudo systemctl start docker
-   sudo systemctl stop docker
-   sudo systemctl restart docker
+.. seealso::
 
-.. code-block:: docker
-   :caption: Docker command used to start, stop and restart a container respectively
-
-   docker start
-   docker stop
-   docker restart
-
-.. code-block:: docker
-   :caption: Docker command used to execute a command in a running container
-
-   docker exec it <container-ID> bash
-
-.. code-block:: docker
-   :caption: Docker command used to find the installed version of docker
-
-   docker version
-
-.. code-block:: docker
-   :caption: Docker command used to know the details of all the running, stopped, or exited containers
-
-   docker ps -a
-
-.. code-block:: docker
-   :caption: Docker command used to create a volume so that the docker container can use it to store data
-
-   docker volume create <volume-name>
+   `Docker documentation: Building an application <https://docs.docker.com/get-started/02_our_app/>`__
 
 .. raw:: html
 
@@ -618,33 +538,27 @@ Tips
 Project Setup Without Docker
 -----------------------------
 
-The COPO project is built on the Django framework and uses MongoDB, Redis, and PostgreSQL databases.
-Python is the main programming language used in the project.
-
-The open source project is hosted on `GitHub <https://github.com/TGAC/COPO-production>`__.
-
-According to your OS, please choose the appropriate link below for instructions on how to set up the project on your
-local machine:
+Choose the appropriate link below based on your operating system (OS) to
+set up the project locally.
 
 .. toctree::
    :titlesonly:
 
-   copo-project-setup-linux
-   copo-project-setup-windows
+   Set Up Project on Linux <copo-project-setup-linux>
+   Set Up Project on Windows <copo-project-setup-windows>
 
 ..
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. Indices and tables
-.. ==================
-..
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+.. |vs-code-extensions-icon| image:: /assets/images/setup/icons/vscode-icon-extensions.png
+   :height: 3ex
+   :class: no-scaled-link
 
-
+.. |vs-code-run-and-debug-icon| image:: /assets/images/setup/icons/vscode-icon-debug.png
+   :height: 3ex
+   :class: no-scaled-link

@@ -1,12 +1,13 @@
 .. _faq-manifests:
 
 Manifests
---------------------
+---------
 
 .. tip::
 
-   To read the entire answer to a :abbr:`FAQ (Frequently Asked Question)`, click the arrow icon
-   (|collapsible-item-arrow|) below any question to expand or collapse it.
+   To read the entire answer to a :abbr:`FAQ (Frequently Asked Question)`,
+   click the arrow icon (|collapsible-item-arrow|) below any question to
+   expand or collapse it.
 
 .. raw:: html
 
@@ -14,7 +15,7 @@ Manifests
 
 .. _faq-manifests-explanation:
 
-What are manifests?
+What is a manifest?
 ~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
@@ -23,9 +24,11 @@ What are manifests?
 
       <br>
 
-   A manifest [#f1]_ is a spreadsheet (``.xlsx`` format) or :abbr:`CSV (comma-separated values)`  (``.csv`` format) file that
-   contains metadata about a research object such as samples, reads, sequence annotations, single-cell, images and
-   barcoding to be submitted to :abbr:`COPO (Collaboratibe OPen Omics)`.
+   A manifest [#f1]_ is a spreadsheet (``.xlsx`` format) or :abbr:`CSV (comma-
+   separated values)`  (``.csv`` format) file that contains metadata about a
+   research object such as samples, reads, sequence annotations, single-cell,
+   images and barcoding to be submitted to
+   :abbr:`COPO (Collaboratibe OPen Omics)`.
 
 .. raw:: html
 
@@ -40,11 +43,13 @@ What is the difference between a manifest and a checklist?
 
       <br>
 
-   A checklist [#f2]_ is a set of fields that are required to be filled in a manifest while a manifest is the actual file that
-   contains those fields. In other words, a checklist is a template that defines the fields to be filled in a manifest
-   and each manifest type has a corresponding checklist. *Checklist* is used interchangely with the term *manifest*.
+   A checklist [#f2]_ defines the fields required in a manifest, which is the
+   actual file containing those fields. Each manifest type has a corresponding
+   checklist and the terms *checklist* and *manifest* are sometimes used
+   interchangeably.
 
-   For example, the **Samples** manifest has the **ERC000053 Tree of Life** sample checklist associated with it.
+   For example, the Samples manifest uses the **ERC000053 Tree of Life**
+   sample checklist.
 
 .. raw:: html
 
@@ -68,7 +73,7 @@ What is the difference between a manifest and a checklist?
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
    :height: 2ex
    :class: no-scaled-link
 
@@ -85,10 +90,6 @@ What is the difference between a manifest and a checklist?
    :class: no-scaled-link
 
 .. |finish-button| image:: /assets/images/buttons/finish_button1.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-components-button| image:: /assets/images/profiles/buttons/components_button.png
    :height: 4ex
    :class: no-scaled-link
 

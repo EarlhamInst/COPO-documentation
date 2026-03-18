@@ -3,20 +3,20 @@
 Component
 ~~~~~~~~~
 
-Components [#f1]_ are individual elements or modules that make up the profile. These can include various functionalities or
-data points that contribute to the profile's overall purpose.
+Components [#f1]_ are individual elements or modules that make up the profile.
+These can include various functionalities or data points that contribute to
+the profile's overall purpose.
 
 .. seealso::
 
    * :ref:`Defining Component Django model <django-model-definition>`
-   * `ProfileType structure <profile-setup-profile-type>`_
-   * `RecordActionButton structure <profile-setup-record-action-button>`_
-   * `TitleButton structure <profile-setup-title-button>`_
+   * :ref:`ProfileType structure <profile-setup-profile-type>`
+   * :ref:`RecordActionButton structure <profile-setup-record-action-button>`
+   * :ref:`TitleButton structure <profile-setup-title-button>`
 
-..
-   * :ref:`Genomics profile components <genomics-profile-components>`
-   * :ref:`ToL profile components <tol-profile-components>`
-   * :ref:`Accessions profile component <accessions-component>`
+   * :ref:`biodata-profile-components`
+   * :ref:`tol-profile-components`
+   * :ref:`accessions`
 
 .. raw:: html
 
@@ -25,8 +25,8 @@ data points that contribute to the profile's overall purpose.
 Component Database Table Structure
 -----------------------------------
 
-Each component that make up a profile has specific settings and functionalities that contribute to the profile's
-overall purpose.
+Each component that make up a profile has specific settings and
+functionalities that contribute to the profile's overall purpose.
 
 The PostgreSQL table **Component** consists of the following fields:
 
@@ -34,11 +34,14 @@ The PostgreSQL table **Component** consists of the following fields:
 * ``name`` (String): The name of the component
 * ``title`` (String): The display title of the component
 * ``widget_icon`` (String): The icon associated with the component
-* ``widget_colour`` (String): The colour associated with the component, used for UI elements
-* ``widget_icon_class`` (String): The :abbr:`CSS (Cascading Style Sheets)` class for the icon
+* ``widget_colour`` (String): The colour associated with the component, used
+  for UI elements
+* ``widget_icon_class`` (String): The :abbr:`CSS (Cascading Style Sheets)`
+  class for the icon
 * ``table_id`` (String): The identifier for the associated table
 * ``reverse_url`` (String): The URL used for reversing the component
-* ``subtitle`` (String): The subtitle of the component, providing additional context
+* ``subtitle`` (String): The subtitle of the component, providing additional
+  context
 
 .. hint::
 
@@ -48,17 +51,41 @@ The PostgreSQL table **Component** consists of the following fields:
 
    .. code-block:: bash
 
-       id |         name         |        title         | widget_icon  | widget_colour | widget_icon_class  |      table_id       |                    reverse_url                     |      subtitle
-      ----+----------------------+----------------------+--------------+---------------+--------------------+---------------------+----------------------------------------------------+---------------------
-        1 | profile              | Work Profiles        |              |               |                    | copo_profiles_table |                                                    | #component_subtitle
-        2 | accessions           | Accessions           | sitemap      | pink          | fa fa-sitemap      | accessions_table    | copo_accession:copo_accessions                     |
-        3 | accessions_dashboard | Accessions           | pink         |               | fa fa-sitemap      | accessions_table    | copo_accession:copo_accessions                     |
-        4 | assembly             | Assembly             | puzzle piece | violet        | fa fa-puzzle-piece | assembly_table      | copo_assembly_submission:copo_assembly             |
-        5 | taggedseq            | Barcoding Manifests  | barcode      | red           | fa fa-barcode      | tagged_seq_table    | copo_barcoding_submission:copo_taggedseq           | #component_subtitle
-        6 | files                | Files                | file         | blue          | fa fa-file         | files_table         | copo_file:copo_files                               |
-        7 | sample               | Samples              | filter       | olive         | fa fa-filter       | sample_table        | copo_sample:copo_samples                           |
-        8 | read                 | Reads                | dna          | orange        | fa fa-dna          | read_table          | copo_read_submission:copo_reads                    | #component_subtitle
-        9 | seqannotation        | Sequence Annotations | tag          | yellow        | fa fa-tag          | seqannotation_table | copo_seq_annotation_submission:copo_seq_annotation |
+       id |         name         |        title         | widget_icon  |
+       widget_colour | widget_icon_class  |      table_id       |
+       reverse_url                     |      subtitle
+      ----+----------------------+----------------------+--------------+-------
+      ---------+--------------------+---------------------+--------------------
+      ---------------------------------+---------------------
+        1 | profile              | Work profiles        |              |
+        |                    | copo_profiles_table |
+        | #component_subtitle
+        2 | accessions           | Accessions           | sitemap      | pink
+        | fa fa-sitemap      | accessions_table    |
+        copo_accession:copo_accessions                     |
+        3 | accessions_dashboard | Accessions           | pink         |
+        | fa fa-sitemap      | accessions_table    |
+        copo_accession:copo_accessions                     |
+        4 | assembly             | Assembly             | puzzle piece | violet
+        | fa fa-puzzle-piece | assembly_table      |
+        copo_assembly_submission:copo_assembly             |
+        5 | taggedseq            | Barcoding Manifests  | barcode      | red
+        | fa fa-barcode      | tagged_seq_table    |
+        copo_barcoding_submission:copo_taggedseq           |
+        #component_subtitle
+        6 | files                | Files                | file         | blue
+        | fa fa-file         | files_table         | copo_file:copo_files
+        |
+        7 | sample               | Samples              | filter       | olive
+        | fa fa-filter       | sample_table        | copo_sample:copo_samples
+        |
+        8 | read                 | Reads                | dna          | orange
+        | fa fa-dna          | read_table          |
+        copo_read_submission:copo_reads                    |
+        #component_subtitle
+        9 | seqannotation        | Sequence Annotations | tag          | yellow
+        | fa fa-tag          | seqannotation_table |
+        copo_seq_annotation_submission:copo_seq_annotation |
 
 .. raw:: html
 
@@ -70,43 +97,51 @@ The PostgreSQL table **Component** consists of the following fields:
 
       <br>
 
-   * **profile**: Work Profiles component
-         The first step to getting work done in COPO is to create a work profile. A profile is a collection of
-         'research objects' or components that form part of your research project or study.
+   * **profile**: Work profiles component
+         The first step to getting work done in COPO is to create a work
+         profile. A profile is a collection of 'research objects' or
+         components that form part of your research project or study.
 
    * **accessions** and **accessions_dashboard**:
 
-         Both relate to the accessions component. The accessions component provides a platform for retrieving and
-         analysing biological samples that have biosample accession, SRA accession and submission accession associated
-         with them as part of a project after the samples have been accepted.
+         Both relate to the accessions component. The accessions component
+         provides a platform for retrieving and analysing biological samples
+         that have biosample accession, SRA accession and submission
+         accession associated with them as part of a project after the samples
+         have been accepted.
 
    * **assembly**: Assembly component
 
-         The assembly component provides a platform for aligning and merging fragments of a Deoxyribonucleic acid (DNA)
-         sequence to reconstruct the original structure of the DNA.
+         The assembly component provides a platform for aligning and merging
+         fragments of a Deoxyribonucleic acid (DNA) sequence to reconstruct
+         the original structure of the DNA.
 
    * **taggedseq**: Barcoding Manifests component
 
-         This component provides a platform for submitting assembled and annotated sequences
-         representing interesting features or gene regions.
+         This component provides a platform for submitting assembled and
+         annotated sequences representing interesting features or gene regions.
 
    * **files**: Files component
-         With this component, files can be uploaded from a cluster or from one's local (computer) system.
+         With this component, files can be uploaded from a cluster or from
+         one's local (computer) system.
 
    * **sample**: Samples component
 
-         Biological samples, obtained as part of a project, are described and managed in this component.
+         Biological samples, obtained as part of a project, are described and
+         managed in this component.
 
    * **read**: Reads component
 
-         This component is associated with assembled and annotated sequences representing interesting features or
-         gene regions.
+         This component is associated with assembled and annotated sequences
+         representing interesting features or gene regions.
 
    * **seqannotation**: Sequence Annotations component
 
-         Specific features, in this component, are marked in a Deoxyribonucleic acid (DNA), Ribonucleic acid (RNA) or
-         protein sequence with descriptive information about structure or function. Sequence annotations are usually
-         done after a genome is sequenced and assembled.
+         Specific features, in this component, are marked in a Deoxyribonucleic
+         acid (DNA), Ribonucleic acid (RNA) or protein sequence with
+         descriptive information about structure or function. Sequence
+         annotations are usually done after a genome is sequenced and
+         assembled.
 
 .. raw:: html
 
@@ -119,39 +154,45 @@ Creation of Component
 
 .. note::
 
-   * This section assumes that you have installed Django, Python and created a Django project.
+   * This section assumes that you have installed Django, Python and created a
+     Django project.
 
-   * The migrations folder is automatically created within your app directory when you create your app. It contains
-     database migration files.
+   * The migrations folder is automatically created within your app directory
+     when you create your app. It contains database migration files.
 
 .. seealso::
 
-   * :ref:`Django application structure <project-application-structure>`  for an snapshot of Django
-     application's structure
+   * :ref:`Django application structure <project-application-structure>`  for
+     an snapshot of Django application's structure
 
-To create a component in the project, a Django application has to be created for the component. Then, the component has
-to be associated with a profile type defined in the `ProfileType structure <profile-setup-profile-type>`_ section.
-This association will allow the component to be accessible and visible on the **Work Profiles** web page.
+To create a component in the project, a Django application has to be created
+for the component. Then, the component has to be associated with a profile
+type defined in the `ProfileType structure <profile-setup-profile-type>`_
+section. This association will allow the component to be accessible and
+visible on the **Work profiles** page.
 
-Explore the implementation details of each component of the Django application used in the COPO project through the
-links provided below:
+Explore the implementation details of each component of the Django application
+used in the COPO project through the links provided below:
 
-* |globe| `Accessions component Django application <https://github.com/TGAC/COPO-production/tree/main/src/apps/copo_accession>`__
+* |globe| `Accessions component Django application \
+  <copo-github-accession-app_>`__
 
-* |globe| `Assembly component Django application <https://github.com/TGAC/COPO-production/tree/main/src/apps/copo_assembly_submission>`__
+* |globe| `Assembly component Django application <copo-github-assembly-app_>`__
 
-* |globe| `Barcoding component Django application <https://github.com/TGAC/COPO-production/tree/main/src/apps/copo_barcoding_submission>`__
+* |globe| `Barcoding component Django application \
+  <copo-github-barcoding-app_>`__
 
-* |globe| `Files component Django application <https://github.com/TGAC/COPO-production/tree/main/src/apps/copo_file>`__
+* |globe| `Files component Django application <copo-github-files-app_>`__
 
-* |globe| `Reads component Django application <https://github.com/TGAC/COPO-production/tree/main/src/apps/copo_read_submission>`__
+* |globe| `Reads component Django application <copo-github-reads-app_>`__
 
-* |globe| `Samples component Django application <https://github.com/TGAC/COPO-production/tree/main/src/apps/copo_sample>`__
+* |globe| `Samples component Django application <copo-github-samples-app_>`__
 
-* |globe| `Sequence Annotations component Django application <https://github.com/TGAC/COPO-production/tree/main/src/apps/copo_seq_annotation_submission>`__
+* |globe| `Sequence Annotations component Django application \
+  <copo-github-sequence-annotation-app_>`__
 
-Other Django applications created in the COPO project can be found in the ``src/apps`` folder of the
-`COPO GitHub repository <https://github.com/TGAC/COPO-production/tree/main/src/apps>`__.
+Other Django applications created in the COPO project can be found in the
+``src/apps`` folder of the `COPO GitHub repository <copo-github-apps_>`__.
 
 .. raw:: html
 
@@ -168,7 +209,8 @@ Other Django applications created in the COPO project can be found in the ``src/
    python manage.py startapp myapp
 
 .. code-block:: python
-   :caption: Register app by adding it to the INSTALLED_APPS list in myproject/settings.py
+   :caption: Register app by adding it to the INSTALLED_APPS list in
+             myproject/settings.py
 
     INSTALLED_APPS = [
         # ... other installed apps,
@@ -176,31 +218,36 @@ Other Django applications created in the COPO project can be found in the ``src/
     ]
 
 .. code-block:: bash
-   :caption: Create a static folder inside the app directory to store static files like CSS, JavaScript and images:
+   :caption: Create a static folder inside the app directory to store static
+             files like CSS, JavaScript and images:
 
     mkdir myapp/static
 
 .. code-block:: bash
-   :caption: Create a css folder inside the static folder in the app directory to store  CSS files
+   :caption: Create a css folder inside the static folder in the app directory
+             to store  CSS files
 
     mkdir myapp/static/myapp/css
     cd myapp/static/myapp/css
     touch myapp.css
 
 .. code-block:: bash
-   :caption: Create a JavaScript (js) folder inside the static folder in the app directory to store JavaScript files
+   :caption: Create a JavaScript (js) folder inside the static folder in the
+             app directory to store JavaScript files
 
     mkdir myapp/static/myapp/js
     cd myapp/static/myapp/js
     touch myapp.js
 
 .. code-block:: bash
-   :caption: Create a templates folder inside the app directory to store HTML templates
+   :caption: Create a templates folder inside the app directory to store HTML
+             templates
 
     mkdir -p myapp/templates/myapp
 
 .. code-block:: python
-   :caption: Set up the configuration of the app in the an apps.py file inside the app directory
+   :caption: Set up the configuration of the app in the an apps.py file inside
+             the app directory
 
    from django.apps import AppConfig
 
@@ -220,7 +267,8 @@ Other Django applications created in the COPO project can be found in the ``src/
    ]
 
 .. code-block:: python
-   :caption: Define view functions in the views.py file inside the app directory
+   :caption: Define view functions in the views.py file inside the app
+             directory
 
    from django.shortcuts import render
    from .models import ProfileType, Component
@@ -229,7 +277,8 @@ Other Django applications created in the COPO project can be found in the ``src/
        profile_type_models = ProfileType.objects.all()
        component_models = Component.objects.all()
 
-       return render(request, 'myapp/index.html', {'profile_type_def': profile_type_models, 'component_def': component_models})
+       return render(request, 'myapp/index.html', {'profile_type_def':
+       profile_type_models, 'component_def': component_models})
 
 .. raw:: html
 
@@ -249,10 +298,11 @@ Other Django applications created in the COPO project can be found in the ``src/
 Create the following files in the application directory:
 
 * ``admin.py`` - to register models with the Django admin site. See the
-  :ref:`Registering Django models <profile-setup-register-django-model>` section for more information.
+  :ref:`Registering Django models <profile-setup-register-django-model>`
+  section for more information.
 
-* ``models.py`` - to define database models. See the :ref:`Defining Django models <django-model-definition>` section
-  for more information.
+* ``models.py`` - to define database models. See the :ref:`Defining Django
+  models <django-model-definition>` section    for more information.
 
 * ``tests.py`` - to write tests for the Django application.
 
@@ -266,13 +316,14 @@ Visualisation of Created Component
 -----------------------------------
 
 .. figure:: /assets/images/django_admin_interface/profile/component/visualisation_component_button_tol_profile_components.png
-   :alt: Viewing components associated with a profile on the 'Work Profiles' web page
+   :alt: Viewing components associated with a profile on the 'Work profiles'
+         page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/component/visualisation_component_button_tol_profile_components.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/django_admin_interface/profile/component/visualisation_component_button_tol_profile_components.png
    :class: with-shadow with-border
    :height: 400px
 
-   **Tree of Life Profile: Components**
+   **Tree of Life profile components**
 
 * The following components make up a :abbr:`ToL (Tree of Life)` [#f2]_ profile:
 
@@ -284,24 +335,26 @@ Visualisation of Created Component
   * |samples-component-button|
   * |sequence-annotations-component-button|
 
-Each profile will have a set of components that are associated with it. These components will be displayed on a profile
-on the **Work Profiles** web page.
+Each profile will have a set of components that are associated with it. These
+components will be displayed on a profile on the **Work profiles** page.
 
-Components will also appear to the top-right of web pages for easy navigation to them, depending on the component that
-is being viewed. For example,the **Reads** component leads to the **Reads** web page and the other components are
+Components will also appear to the top-right of pages for easy navigation to
+them, depending on the component that is being viewed. For example,the
+**Reads** component leads to the **Reads** page and the other components are
 displayed as indicated by the arrows in the image below:
 
 .. figure:: /assets/images/django_admin_interface/profile/component/visualisation_component_button_on_specific_web_page.png
-   :alt: Profile types web page
+   :alt: Profile types page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/component/vvisualisation_component_button_on_specific_web_page.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/django_admin_interface/profile/component/vvisualisation_component_button_on_specific_web_page.png
    :class: with-shadow with-border
    :height: 300px
 
-   **Reads web page: Other components are displayed at the top-right of the screen and can be clicked for easy navigation**
+   **Reads page: Other components are displayed at the top-right of the screen
+   and can be clicked for easy navigation**
 
-If the current web page is not the **Reads** web page, the **Reads** component, |reads-icon|, will be displayed at the
-top-right corner of the web page.
+If the current page is not the **Reads** page, the **Reads** component,
+|reads-icon|, will be displayed at the top-right corner of the page.
 
 .. raw:: html
 
@@ -312,9 +365,11 @@ top-right corner of the web page.
 .. [#f1] Also known as profile component. See term: :term:`Profile component`.
 
          Research objects refer to files, reads, assemblies, samples,
-         barcodes (also known as targeted sequences in European Nucleotide Archive (ENA)) and sequence annotations.
+         barcodes (also known as targeted sequences in European Nucleotide
+         Archive (ENA)) and sequence annotations.
 
-         Both Tree of Life (ToL) profile and Genomics profile are considered as *project* or *study* research objects.
+         Both Tree of Life (ToL) profile and Biodata profile are considered as
+         *project* or *study* research objects.
 
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
 
@@ -322,7 +377,7 @@ top-right corner of the web page.
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
    :height: 2ex
    :class: no-scaled-link
 
@@ -346,7 +401,7 @@ top-right corner of the web page.
    :height: 3ex
    :class: no-scaled-link
 
-.. |reads-icon| image:: /assets/images/reads/icons/reads-icon.png
+.. |reads-icon| image:: /assets/images/reads/icons/reads_icon.png
    :height: 3ex
    :class: no-scaled-link
 
@@ -365,3 +420,16 @@ top-right corner of the web page.
 .. |globe| unicode:: U+1F310
 
 .. |section| unicode:: U+1F4D6
+
+..
+    Link declaration
+..
+
+.. _copo-github-accession-app: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps/copo_accession
+.. _copo-github-assembly-app: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps/copo_assembly_submission
+.. _copo-github-barcoding-app: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps/copo_barcoding_submission
+.. _copo-github-files-app: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps/copo_file
+.. _copo-github-reads-app: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps/copo_read_submission
+.. _copo-github-samples-app: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps/copo_sample
+.. _copo-github-sequence-annotation-app: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps/copo_seq_annotation_submission
+.. _copo-github-apps: https://github.com/EarlhamInst/COPO-production/tree/main/src/apps

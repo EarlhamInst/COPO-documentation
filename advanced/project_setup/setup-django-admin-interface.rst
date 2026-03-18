@@ -1,34 +1,22 @@
 .. _setup-django-admin-interface:
 
-===================
-Using Django Admin
-===================
+Getting Started with COPO Admin Tools
+-------------------------------------
 
-The Django Admin interface is a powerful tool for managing a web application’s data and models through a
-user-friendly web-based interface.
+The Django administration interface ("admin") is used to manage data and models
+in the COPO web application. Once models are created and populated, the admin
+interface provides an easy way to view and manage them.
 
-After having created Django models and adding sample information using management
-commands, the Django Admin interface can be used to manage these models easily.
-
-.. seealso::
-
-  * `Official Django documentation <https://docs.djangoproject.com>`__ and the
-    `official Python documentation <https://docs.python.org>`__ for more information.
-
-  * :ref:`How to set up COPO project <project-application-structure>`
-
-  * :ref:`How to configure profiles on COPO <profile-setup-index>`
-
-.. raw:: html
-
-   <hr>
+Here are the steps to get started with it:
 
 1. Setting Up the Admin Interface
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Before you can use the Django Admin interface, you need to ensure that your project is configured correctly:
+Before you can use the Django admin interface, ensure that the project is
+configured correctly:
 
-**Admin App**: Ensure that ``django.contrib.admin`` is included in your **INSTALLED_APPS** setting in ``settings.py``.
+**Admin app**: Ensure that ``django.contrib.admin`` is included in the
+**INSTALLED_APPS** setting in ``settings.py``.
 
 .. code-block:: python
     :caption: Snippet of settings.py file
@@ -39,7 +27,8 @@ Before you can use the Django Admin interface, you need to ensure that your proj
         ...
     ]
 
-**URLs**: Ensure that the admin URLs are included in the project’s ``urls.py`` file.
+**URLs**: Ensure that the admin URLs are included in the project’s ``urls.py``
+file.
 
 .. code-block:: python
    :caption: Snippet of urls.py file
@@ -59,56 +48,80 @@ Before you can use the Django Admin interface, you need to ensure that your proj
 
     python manage.py createsuperuser
 
-Follow the prompts to create a username, email, and password.
+Follow the prompts to create a username, email and password.
 
 .. raw:: html
 
    <hr>
 
 2. Navigating to the Admin Interface
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Run the development server**: Ensure that the development server is running.
 
 .. code-block:: bash
 
-    python manage.py runserver
+   python manage.py runserver
 
-**Access the Admin Interface**: Open your web browser and navigate to http://copo-project.org/admin/. You will be
-presented with the Django admin login page.
+**Access the admin interface**: Open your web browser and navigate to
+http://127.0.0.1:8000/admin/. You will be presented with the Django admin login
+page.
+
+**Note**: ``127.0.0.1:8000`` refers to the machine running the COPO server.
+If COPO is hosted elsewhere, replace it with the appropriate server address
+(for example, https://your-server-name/admin/).
 
 .. raw:: html
 
    <hr>
 
 3. Logging into the Admin Interface
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Login**: Use the superuser credentials you created earlier to log in. Enter your username and password, then
-click the ``Log in`` button.
+**Login**: Use the superuser credentials you created earlier to log in. Enter
+your username and password then, click the ``Log in`` button.
 
 .. raw:: html
 
    <hr>
 
 4. Using the Admin Interface
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once logged in, you will be directed to the Django Admin dashboard, which provides an overview of all registered models
-and available actions.
+Once logged in, you will be directed to the Django Admin dashboard, which
+provides an overview of all registered models and available actions.
 
-**Admin Dashboard Overview**
+**Admin dashboard overview**
 
-   **Site Administration**: This section lists all the models registered in the admin site. For example, if you
-   registered the :ref:`ProfileType model <profile-setup-profile-type>`, it will appear here.
+   **Site administration**: This section lists all the models registered in the
+   admin site. For example, if you registered the
+   :ref:`profile type model <profile-setup-profile-type>`, it will appear here.
 
-   See the :ref:`Registering Django models <profile-setup-register-django-model>` section for more information on
-   registering models.
+   See the
+   :ref:`Registering Django models <profile-setup-register-django-model>`
+   section for more information on registering models.
 
-**Groups and Users**: By default, Django includes models for managing users and groups.
+**Groups and users**: By default, Django includes models for managing users
+and groups.
 
 
-**Managing Actions**
+**Managing actions**
 
-    **Bulk Actions**: Perform actions on multiple profiles simultaneously, such as deleting multiple profiles.
-    **Custom Actions**: Define custom actions for specific tasks.
+   **Bulk actions**: Perform actions on multiple profiles simultaneously, such
+   as deleting multiple profiles.
+
+   **Custom actions**: Define custom actions for specific tasks.
+
+.. raw:: html
+
+   <hr>
+
+Related Topics
+~~~~~~~~~~~~~~
+
+.. seealso::
+
+  * `Official Django documentation <https://docs.djangoproject.com>`__
+  *  `Official Python documentation <https://docs.python.org>`__
+  * :ref:`project-application-structure`
+  * :ref:`profile-setup-index`

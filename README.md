@@ -292,6 +292,32 @@ pip3 install -r requirements.txt
 
 ---
 
+### Issue #8: Java not installed
+
+   raise CalledProcessError(retcode, process.args, 
+   subprocess.CalledProcessError: Command '['/usr/bin/java', '-version']' 
+   returned non-zero exit status 1.
+
+**Fix**:
+
+Install Java (for Linux OS)
+
+```bash
+sudo apt update
+sudo apt install openjdk-17-jdk
+java -version
+```
+
+Install Java (for Mac)
+
+```bash
+brew install openjdk@17
+brew link --force --overwrite openjdk@17
+java -version
+```
+
+---
+
 ## Publishing to ReadTheDocs
 
 - [How to import a project](https://docs.readthedocs.io/en/stable/intro/import-guide.html)

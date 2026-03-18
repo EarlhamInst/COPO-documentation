@@ -26,7 +26,7 @@ import sys
 # Add the _ext directory to the path
 sys.path.insert(0, os.path.abspath('_ext'))
 
-# -- General configuration ------------------------------------------------
+# -- General configuration --
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
@@ -63,7 +63,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'COPO Project'
-copyright = '2014-2025, Collaborative OPen Omics (COPO), Earlham Institute. Licensed under Apache License 2.0'
+copyright = '2014-2026, Collaborative OPen Omics (COPO), Earlham Institute. Licensed under Apache License 2.0'
 author = 'The Collaborative OPen Omics (COPO) project team'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -93,12 +93,12 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-# -- Options for HTML copybutton ------------------------------------------
+# -- Options for HTML copybutton --
 # Strips $ from the beginning of the line when copying code blocks
 copybutton_prompt_text = r"\$ "
 copybutton_prompt_is_regexp = True
 
-# -- Options for HTML output ----------------------------------------------
+# -- Options for HTML output --
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -120,7 +120,7 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['_static', 'assets']
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
@@ -147,12 +147,21 @@ autosummary_generate = True
 # fav icon for web page
 html_favicon = 'favicon.ico'
 
-# -- Options for HTMLHelp output ------------------------------------------
+# Check for broken references
+nitpicky = True
+# nitpick_ignore = [('ref', 'some-ignored-target')]
+
+# -- Options for spelling extension --
+extensions.append('sphinxcontrib.spelling')
+spelling_show_suggestions = True
+spelling_lang = 'en_GB'
+
+# -- Options for HTMLHelp output --
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'copo-projectdoc'
 
-# -- Options for LaTeX output ---------------------------------------------
+# -- Options for LaTeX output --
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
@@ -184,7 +193,7 @@ latex_documents = [
      author, 'manual'),
 ]
 
-# -- Options for manual page output ---------------------------------------
+# -- Options for manual page output --
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
@@ -193,7 +202,7 @@ man_pages = [
      [author], 1)
 ]
 
-# -- Options for Texinfo output -------------------------------------------
+# -- Options for Texinfo output --
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
@@ -203,3 +212,12 @@ texinfo_documents = [
      author, 'copo-project', document_description,
      'Miscellaneous'),
 ]
+
+# Base path for images
+img_profiles = "_static/assets/images/profiles/"
+
+# Use rst_epilog to define reusable substitutions
+rst_epilog = f"""
+.. |img_profiles| replace:: _static/assets/images/profiles
+.. |img_accessions| replace:: _static/assets/images/accessions
+"""

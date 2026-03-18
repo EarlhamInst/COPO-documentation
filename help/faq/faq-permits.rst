@@ -1,19 +1,20 @@
 .. _faq-permits:
 
 Permits
---------------------
+-------
 
 .. tip::
 
-   To read the entire answer to a :abbr:`FAQ (Frequently Asked Question)`, click the arrow icon
-   (|collapsible-item-arrow|) below any question to expand or collapse it.
+   To read the entire answer to a :abbr:`FAQ (Frequently Asked Question)`,
+   click the arrow icon (|collapsible-item-arrow|) below any question to
+   expand or collapse it.
 
 .. raw:: html
 
   <hr>
 
-Can I view or download permits that I have uploaded in COPO?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can I view or download my uploaded permits?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::   Click to view answer
 
@@ -21,18 +22,19 @@ Can I view or download permits that I have uploaded in COPO?
 
       <br>
 
-  Yes, permits can be retrieved and downloaded by selecting the desired sample record(s) on the **Samples** web page
+  Yes, permits can be retrieved and downloaded by selecting the desired sample
+  record(s) on the **Samples** page
 
-  Then, clicking the |download-permits-button1| button on the web page.
+  Then, clicking the |download-permits-button1| button on the page.
 
 .. raw:: html
 
-  <br>
+   <br>
 
 .. _faq-permits-error-uploading-multiple-permits-separately:
 
-Why am I unable to upload permit one after the other?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why can’t I upload permits consecutively?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::   Click to view answer
 
@@ -42,20 +44,16 @@ Why am I unable to upload permit one after the other?
 
    .. warning::
 
-        * If you have more than one permit ﬁle to upload, they **must** be uploaded at the
-          same time i.e. after you have clicked the |upload-permits-button| button, navigate
-          to the directory where the permits are stored and ``CTRL + click`` all of the
-          permits so that all the permits are highlighted and uploaded at the same time.
-
-   * All permit ﬁles have to be selected/opened from the directory and uploaded
-     together not one after the other.
+      If uploading multiple permit files, select them all at once (e.g.
+      ``CTRL`` + click) and upload together using the |upload-permits-button|.
+      Individual uploads are not allowed.
 
 .. raw:: html
 
    <br>
 
-How can I resolve 'Conflicting data...' error when uploading permits in COPO after having uploaded a manifest?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to resolve "Conflicting data…" error when uploading permits?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::   Click to view answer
 
@@ -63,24 +61,29 @@ How can I resolve 'Conflicting data...' error when uploading permits in COPO aft
 
       <br>
 
-   The error message ``Conflicting data`` is displayed when at least one of the following occurs:
+   The error message ``Conflicting data`` is displayed when at least one of the
+   following occurs:
 
-   * The permit file name provided in the manifest does not end with the extension ``.pdf`` or ``.PDF``
+   * The permit file name provided in the manifest does not end with the
+     extension ``.pdf`` or ``.PDF``
 
-     **Resolution**: Rename the name of the permit file so that it ends with the extension, ``.pdf`` or ``.PDF`` then,
-     reupload the manifest
+     **Resolution**: Rename the name of the permit file so that it ends with
+     the extension, ``.pdf`` or ``.PDF`` then, reupload the manifest
 
-   * In the uploaded manifest, different permit file names are associated with the same **SPECIMEN_ID**
+   * In the uploaded manifest, different permit file names are associated with
+     the same **SPECIMEN_ID**
 
-     **Resolution**: Provide a unique permit file name for each **SPECIMEN_ID** or provide the same file name for
-     permit files that are associated with the same **SPECIMEN_ID** in the manifest. Then, reupload the manifest.
+     **Resolution**: Provide a unique permit file name for each
+     **SPECIMEN_ID** or provide the same file name for permit files that are
+     associated with the same **SPECIMEN_ID** in the manifest. Then, reupload
+     the manifest.
 
 .. raw:: html
 
    <br>
 
-Why do I encounter the error 'No xx permit found for xx 'SPECIMEN_ID'...Filename of permit must be named xx' after having uploading the permit files?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why does the “No xx permit found for SPECIMEN_ID” error appear?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::   Click to view answer
 
@@ -88,25 +91,33 @@ Why do I encounter the error 'No xx permit found for xx 'SPECIMEN_ID'...Filename
 
       <br>
 
-   This error message occurs when at least one of the following occurs:
+   The error,
+   ``No xx permit found for SPECIMEN_ID… Filename of permit must be named xx``,
+   occurs when at least one of the following occurs:
 
-   * The manifest uploaded requires multiple permit files but they were uploaded separately i.e. one after the other.
+   * The manifest uploaded requires multiple permit files but they were
+     uploaded separately i.e. one after the other.
 
-     **Resolution**: Please refer to :ref:`faq-permits-error-uploading-multiple-permits-separately`
+     **Resolution**: Please refer to
+     :ref:`faq-permits-error-uploading-multiple-permits-separately`
      :abbr:`FAQ (Frequently Asked Question)` for more information.
 
-   * The permit file name uploaded from your local system actually ends with ``.pdf.pdf`` (or ``.PDF.PDF``) and not
-     ``.pdf`` (or ``.PDF``)
+   * The permit file name uploaded from your local system actually ends with
+     ``.pdf.pdf`` (or ``.PDF.PDF``) and not ``.pdf`` (or ``.PDF``)
 
-     **Resolution**: Ensure that the name of the permit file ends with the ``.pdf`` or ``.PDF`` extension only.
+     **Resolution**: Ensure that the name of the permit file ends with the
+     ``.pdf`` or ``.PDF`` extension only.
 
-     If you are using a Windows operating system (OS) to upload permits, Windows OS by default, hides file extensions
+     If you are using a Windows operating system (OS) to upload permits,
+     Windows OS by default, hides file extensions
      which results in it not being visible to you.
 
-     If you would like to see the file extension, you can enable it by following these
-     `guidelines <https://support.microsoft.com/en-gb/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01>`__.
+     If you would like to see the file extension, you can enable it by
+     following these `guidelines
+     <https://support.microsoft.com/en-gb/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01>`__.
 
-   Reupload the manifest as well as the permit files after the resolutions have been made.
+   Reupload the manifest as well as the permit files after the resolutions
+   have been made.
 
 .. raw:: html
 
@@ -116,7 +127,7 @@ Why do I encounter the error 'No xx permit found for xx 'SPECIMEN_ID'...Filename
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
    :height: 2ex
    :class: no-scaled-link
 

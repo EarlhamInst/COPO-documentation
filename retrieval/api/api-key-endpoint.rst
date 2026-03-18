@@ -1,28 +1,29 @@
 .. _endpoints-api-key:
 
 API key Endpoint
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 .. note::
 
    The examples below use API endpoints from the live COPO website.
 
-   To use the demo website instead, replace ``https://copo-project.org/api/`` with
-   ``https://demo.copo-project.org/api/`` in the URLs.
+   To use the demo website instead, replace ``https://copo-project.org/api/``
+   with ``https://demo.copo-project.org/api/`` in the URLs.
 
 .. tip::
 
-   * To view details of the endpoint, click the |api-key-collapsible-item-arrow| *Show endpoint details* button.
+   * To view details of the endpoint, click the
+     |api-key-collapsible-item-arrow| *Show endpoint details* button.
 
-   * Then, inside that section, click the |api-key-collapsible-item-arrow| *Show API query parameters* button to see
-     input parameter details.
+   * Then, inside that section, click the |api-key-collapsible-item-arrow|
+     *Show API query parameters* button to see input parameter details.
 
 .. raw:: html
 
    <hr>
 
 Obtain an API key for authentication
-"""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""
 
 .. collapse:: Show endpoint details
 
@@ -38,20 +39,24 @@ Obtain an API key for authentication
 
       .. note::
 
-         This endpoint allows users to obtain an API key for authentication purposes. The API key is required for
-         accessing certain API methods that require user authentication.
+         This endpoint allows users to obtain an API key for authentication
+         purposes. The API key is required for accessing certain API methods
+         that require user authentication.
 
-      * **username** (required): The username of the individual for whom the API key is being requested.
-      * **password** (required): The password of the individual for whom the API key is being requested.
+      * **username** (required): The username of the individual for whom the
+        API key is being requested.
+      * **password** (required): The password of the individual for whom the
+        API key is being requested.
 
    .. raw:: html
 
-         <br>
+      <br>
 
    **Usage**
 
-    Please include at least the ``username`` and ``password`` parameter values in the API URL to obtain an API key for
-    authentication. Replace ``<username>`` and ``<password>`` with the desired values.
+    Please include at least the ``username`` and ``password`` parameter values
+    in the API URL to obtain an API key for authentication. Replace
+    ``<username>`` and ``<password>`` with the desired values.
 
     .. tab-set::
 
@@ -65,12 +70,15 @@ Obtain an API key for authentication
 
           .. code-block:: bash
 
-             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=<username>&password=<password>"
+             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept:
+             application/json" -H  "Content-Type: application/x-www-form-
+             urlencoded" -d "username=<username>&password=<password>"
 
 
    **Example**
 
-    To create an API key for the user with username ``janedoe`` and password ``password123``, use the following URL:
+    To create an API key for the user with username ``janedoe`` and password
+    ``password123``, use the following URL:
 
     .. tab-set::
 
@@ -78,7 +86,9 @@ Obtain an API key for authentication
 
           .. code-block:: bash
 
-             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=janedoe&password=password123"
+             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept:
+             application/json" -H  "Content-Type: application/x-www-form-
+             urlencoded" -d "username=janedoe&password=password123"
 
 .. raw:: html
 
@@ -88,6 +98,6 @@ Obtain an API key for authentication
     Images declaration
 ..
 
-.. |api-key-collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
+.. |api-key-collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
    :height: 2ex
    :class: no-scaled-link

@@ -1,15 +1,10 @@
 .. _faq:
 
 Frequently Asked Questions
-==============================
+==========================
 
-To view a specific FAQ section, click on one of the section titles below to be redirected.
-
-.. note::
-
-   After selecting a section title, you will be redirected to the corresponding :abbr:`FAQ (Frequently Asked Question)`
-   section where each question can be expanded or collapsed by clicking the arrow icon (|collapsible-item-arrow|)
-   below to it.
+Click a section title below to go to that
+:abbr:`FAQ (Frequently Asked Question)`.
 
 .. toctree::
    :maxdepth: 1
@@ -18,7 +13,7 @@ To view a specific FAQ section, click on one of the section titles below to be r
    faq/faq-errors-and-solutions
    faq/faq-assemblies
    faq/faq-dashboard
-   faq/faq-files
+   faq/faq-data-files
    faq/faq-images
    faq/faq-manifests
    faq/faq-permits
@@ -33,6 +28,6 @@ To view a specific FAQ section, click on one of the section titles below to be r
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
    :height: 2ex
    :class: no-scaled-link

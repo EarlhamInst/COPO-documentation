@@ -10,7 +10,7 @@ ProfileType
   4 | asg      | Aquatic Symbiosis Genomics (ASG)                    | #5829bb       | t               | t
   3 | dtolenv  | Darwin Tree of Life Environmental Samples (DTOLENV) | #fb7d0d       | t               | t
   2 | dtol     | Darwin Tree of Life (DTOL)                          | #16ab39       | t               | t
-  1 | genomics | Stand-alone                                         | #009c95       | f               | f
+  1 | biodata  | Biodata                                             | #009c95       | f               | f
   6 | test     | Test New Profile                                    | violet        | f               | t
 
 '''
@@ -310,14 +310,14 @@ class Command(BaseCommand):
         dtol = ProfileType().create_profile_type(type="dtol", description="Darwin Tree of Life (DTOL)",
                                                  widget_colour="#16ab39", is_dtol_profile=True,
                                                  is_permission_required=True)
-        genomics = ProfileType().create_profile_type(type="genomics", description="Genomics", widget_colour="#009c95",
+        biodata = ProfileType().create_profile_type(type="biodata", description="Biodata", widget_colour="#009c95",
                                                      is_dtol_profile=False, is_permission_required=False)
 
         erga.components.set([assembly, taggedseq, files, seqannotation, read, sample, accessions])
         asg.components.set([assembly, taggedseq, files, seqannotation, read, sample, accessions])
         dtolenv.components.set([assembly, taggedseq, files, seqannotation, read, sample, accessions])
         dtol.components.set([assembly, taggedseq, files, seqannotation, read, sample, accessions])
-        genomics.components.set([assembly, files, seqannotation, read, sample, accessions])
+        biodata.components.set([assembly, files, seqannotation, read, sample, accessions])
 
         self.stdout.write("Profile Types Added")
         records = ProfileType.objects.all()

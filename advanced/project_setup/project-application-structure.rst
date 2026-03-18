@@ -1,18 +1,21 @@
 .. _project-application-structure:
 
-======================
-Application Structure
-======================
+======================================
+Understanding COPO's Project Structure
+======================================
 
-Before setting up the project, it is essential to understand the structure of a Django project and application. This
-knowledge will help you navigate the project and locate the necessary files for setting up the project.
+Before setting up the project, it is essential to understand the structure of
+a Django project and application. This knowledge will help you navigate the
+project and locate the necessary files for setting up the project.
 
-COPO uses the Django framework to build the application, which follows the Model-View-Template (MVT) architecture. In
-this architecture, the model represents the data structure, the view handles the logic and the template manages the
-presentation.
+COPO uses the Django framework to build the application, which follows the
+Model-View-Template (MVT) architecture. In this architecture, the model
+represents the data structure, the view handles the logic and the template
+manages the presentation.
 
-A Django project consists of one or more applications, each of which contains models, views, templates, and other
-components that define the functionality of the application.
+A Django project consists of one or more applications, each of which contains
+models, views, templates and other components that define the functionality
+of the application.
 
 A typical structure of a Django project looks like this:
 
@@ -55,33 +58,42 @@ A typical structure of a Django project looks like this:
 Project Root Directory (myproject/)
 -----------------------------------
 
-**manage.py**: A command-line utility that lets you interact with your Django project. You use this to run commands
-like runserver, makemigrations, migrate etc.
+**manage.py**: A command-line utility that lets you interact with your Django
+project. You use this to run commands like runserver, makemigrations, migrate
+etc.
 
 Project Directory (myproject/myproject/)
 ----------------------------------------
 
-**__init__.py**: An empty file that tells Python that this directory should be considered a Python package.
+**__init__.py**: An empty file that tells Python that this directory should be
+considered a Python package.
 
-**settings.py**: Contains all the settings and configuration for your Django project (database settings, installed apps, middleware, etc.).
+**settings.py**: Contains all the settings and configuration for your Django
+project (database settings, installed apps, middleware, etc.).
 
-**urls.py**: The URL declarations for this Django project; a "table of contents" of your Django-powered site.
+**urls.py**: The URL declarations for this Django project; a "table of
+contents" of your Django-powered site.
 
-**wsgi.py**: An entry-point for WSGI-compatible web servers to serve your project. Used for deployment.
+**wsgi.py**: An entry-point for WSGI-compatible web servers to serve your
+project. Used for deployment.
 
-**asgi.py**: An entry-point for ASGI-compatible web servers to serve your project. Used for deployment with asynchronous support.
+**asgi.py**: An entry-point for ASGI-compatible web servers to serve your
+project. Used for deployment with asynchronous support.
 
 Application Directory (myproject/myapp/)
------------------------------------------
+----------------------------------------
 
 .. seealso::
 
-   Refer to the :ref:`profile-setup-component-creation` section for insights into creating Django applications for each
-   component used in the COPO project
+   Refer to the :ref:`profile-setup-component-creation` section for insights
+   into creating Django applications for each component used in the COPO
+   project
 
-**__init__.py**: An empty file that tells Python that this directory should be considered a Python package.
+**__init__.py**: An empty file that tells Python that this directory should be
+considered a Python package.
 
-**admin.py**: Register your models here to make them accessible via the Django admin interface.
+**admin.py**: Register your models here to make them accessible via the Django
+admin interface.
 
 **apps.py**: Contains the application configuration class.
 
@@ -93,11 +105,13 @@ Application Directory (myproject/myapp/)
 
 **migrations/**: This directory contains database migration files.
 
-        **__init__.py**: An empty file that tells Python that this directory should be considered a Python package.
+   **__init__.py**: An empty file that tells Python that this directory
+   should be considered a Python package.
 
 **templates/**: Contains HTML templates for your application.
 
-**static/**: Contains static files (:abbr:`CSS (Cascading Style Sheets)`, :abbr:`JS (JavaScript)`, images) for your application.
+**static/**: Contains static files (:abbr:`CSS (Cascading Style Sheets)`,
+:abbr:`JS (JavaScript)`, images) for your application.
 
 **forms.py**: Define your form classes here.
 
