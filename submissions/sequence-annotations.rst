@@ -29,14 +29,14 @@ Using the Components Button
 Click the |sequence-annotations-component-button| component button in the
 **Components** column as shown below:
 
-.. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_button_pointer_biodata.png
+.. figure:: /assets/images/sequence-annotations/ui/sequence-annotations-button-pointer-biodata.png
    :alt: Sequence Annotations profile component button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_button_pointer_biodata.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/ui/sequence-annotations-button-pointer-biodata.png
    :class: with-shadow with-border
    :height: 300px
 
-  **Sequence Annotations component button**
+   **Sequence Annotations component button**
 
 .. raw:: html
 
@@ -47,10 +47,10 @@ Using the Components Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/sequence_annotations/icons/sequence_annotations_icon_pointer.png
+.. figure:: /assets/images/sequence-annotations/icons/sequence-annotations-icon-pointer.png
    :alt: Samples profile component icon
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/sequence_annotations/icons/samples_icon_pointer.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/icons/sequence-annotations-icon-pointer.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -68,10 +68,10 @@ Submit Sequence Annotations
 #. Click |add-sequence-annotations-button| button to add
    **Sequence Annotations** as shown below:
 
- .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_add_annotations_button.png
+ .. figure:: /assets/images/sequence-annotations/ui/sequence-annotations-pointer-to-add-annotations-button.png
     :alt: Pointer to 'Add Record' button
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_add_annotations_button.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/ui/sequence-annotations-pointer-to-add-annotations-button.png
     :class: with-shadow with-border
 
     **Sequence Annotations submission: Click 'Add Record' button**
@@ -80,36 +80,36 @@ Submit Sequence Annotations
 
     <br>
 
-#. An **Add Sequence Annotation** dialog is displayed. Provide the details
+#. An **Add Sequence Annotation** dialogue is displayed. Provide the details
    then, click the **Submit Annotation** button.
 
    Select a sample accession from the **SAMPLE** dropdown field menu. The
    dropdown menu will display the reads that were previously uploaded.
 
-   .. figure:: /assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog1.png
-      :alt: Add Sequence Annotation dialog with no sample accession chosen
+   .. figure:: /assets/images/sequence-annotations/modals/sequence-annotations-add-sequence-annotation-dialogue1.png
+      :alt: Add Sequence Annotation dialogue with no sample accession chosen
             from SAMPLE dropdown menu
       :align: center
       :height: 70ex
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/modals/sequence-annotations-add-sequence-annotation-dialogue1.png
       :class: with-shadow with-border
 
-      **Sequence Annotations submission: 'Submit Annotation' dialog with no
+      **Sequence Annotations submission: 'Submit Annotation' dialogue with no
       sample accession chosen from SAMPLE dropdown menu**
 
    .. raw:: html
 
       <br>
 
-   .. figure:: /assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog2.png
-      :alt: Add Sequence Annotation dialog with sample accession chosen from
+   .. figure:: /assets/images/sequence-annotations/modals/sequence-annotations-add-sequence-annotation-dialogue2.png
+      :alt: Add Sequence Annotation dialogue with sample accession chosen from
             SAMPLE dropdown menu
       :align: center
       :height: 70ex
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog2.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/modals/sequence-annotations-add-sequence-annotation-dialogue2.png
       :class: with-shadow with-border
 
-      **Sequence Annotations submission: 'Submit Annotation' dialog with
+      **Sequence Annotations submission: 'Submit Annotation' dialogue with
       sample accession chosen from SAMPLE dropdown menu**
 
    .. raw:: html
@@ -119,10 +119,10 @@ Submit Sequence Annotations
 #. The new sequence annotation(s) will be displayed on the
    **Sequence Annotations** page after a successful submission.
 
-    .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_uploaded1.png
+    .. figure:: /assets/images/sequence-annotations/ui/sequence-annotations-uploaded1.png
        :alt: Sequence Annotation(s) pending submission
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_uploaded1.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/ui/sequence-annotations-uploaded1.png
        :class: with-shadow with-border
 
        **Sequence Annotations submission: Sequence Annotations page displaying
@@ -132,10 +132,10 @@ Submit Sequence Annotations
 
        <br>
 
-    .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_uploaded2.png
+    .. figure:: /assets/images/sequence-annotations/ui/sequence-annotations-uploaded2.png
        :alt: Sequence Annotation(s) submitted
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_uploaded2.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/ui/sequence-annotations-uploaded2.png
        :class: with-shadow with-border
 
     **Sequence Annotations submission: Sequence Annotations page displaying
@@ -170,10 +170,10 @@ Related Topics
     Images declaration
 ..
 
-.. |add-sequence-annotations-button| image:: /assets/images/buttons/add_button.png
+.. |add-sequence-annotations-button| image:: /assets/images/buttons/add-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |sequence-annotations-component-button| image:: /assets/images/sequence_annotations/buttons/components_sequence_annotations_button.png
+.. |sequence-annotations-component-button| image:: /assets/images/sequence-annotations/buttons/components-sequence-annotations-button.png
    :height: 4ex
    :class: no-scaled-link

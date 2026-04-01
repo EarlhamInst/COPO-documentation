@@ -56,7 +56,7 @@ Seminar presentations
 
 
    - :download:`Download seminar presentation
-     <../assets/files/presentations/EI_Seminar_01072025_New_COPO_Tools_for_Brokering_Single_cell_and_Spatial_Omics_Metadata.pptx>`
+     <../assets/files/presentations/ei-seminar-01072025-new-copo-tools-for-brokering-single-cell-and-spatial-omics-metadata.pptx>`
 
    .. raw:: html
 
@@ -75,7 +75,7 @@ Seminar presentations
       published
 
    - :download:`Download seminar presentation
-     <../assets/files/presentations/EI_Seminar_14052024_Leveraging_COPO_to_submit_READ_Assembly_Sequencing_Annotation_data_to_ENA_and_get_data_published.pptx>`
+     <../assets/files/presentations/ei-seminar-14052024-leveraging-copo-to-submit-read-assembly-sequencing-annotation-data-to-ena-and-get-data-published.pptx>`
 
    .. raw:: html
 
@@ -106,7 +106,7 @@ Seminar presentations
       continuous evolution, COPO continues to drive innovation and
       collaboration in the field of bioscience research.
 
-   - :download:`Download seminar presentation <../assets/files/presentations/EI_Seminar_23042024_Advancing_Biodiversity_Research_The_Evolution_of_COPO.pptx>`
+   - :download:`Download seminar presentation <../assets/files/presentations/ei-seminar-23042024-advancing-biodiversity-research-the-evolution-of-copo.pptx>`
 
 .. raw:: html
 
@@ -147,7 +147,7 @@ Poster presentations
       data in compliance with recognised standards, COPO fosters open science
       and advances research in the life sciences.
 
-   - :download:`Download poster presentation <../assets/files/presentations/copo_poster_enhancing_metadata_interoperability_with_standards_formats_and_apis.pdf>`
+   - :download:`Download poster presentation <../assets/files/presentations/copo-poster-enhancing-metadata-interoperability-with-standards-formats-and-apis.pdf>`
 
    .. raw:: html
 
@@ -173,7 +173,7 @@ Poster presentations
       facilitate collaborative research efforts and promote scientific
       advancement.
 
-   - :download:`Download poster presentation <../assets/files/presentations/copo_poster_building_testing_and_deployment.pdf>`
+   - :download:`Download poster presentation <../assets/files/presentations/copo-poster-building-testing-and-deployment.pdf>`
 
    .. raw:: html
 
@@ -210,6 +210,6 @@ Related Topics
 
    * :ref:`COPO FAIR webinar presentations <presentations-webinars-fair>`
    * :download:`Download general Tree of Life visual submission documentation
-     <../assets/files/COPO_visual_user_documentation.pdf>`
+     <../assets/files/copo-visual-user-documentation.pdf>`
    * :download:`Download an illustration of samples submission and validation
-     process in COPO <../assets/files/presentations/copo_sample_submission_process_illustration.gif>`
+     process in COPO <../assets/files/presentations/copo-sample-submission-process-illustration.gif>`

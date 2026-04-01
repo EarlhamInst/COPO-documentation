@@ -4,16 +4,17 @@
 Updating Submitted Data
 =======================
 
-Updates follow the same process as initial submission. Data is updated by
-**reuploading** the amended manifest or updated spreadsheet file to the
-**same profile** that was initially used to upload the manifest (before any
-modifications were done).
+Updates follow the same process as the initial submission. The process is described in the **Data Submissions**
+section (in the sidebar on the left-hand side of the page). Click the desired submission type for instructions.
+
+Data is updated by **uploading an amended manifest** or **updated spreadsheet file** to the **same profile** that was
+initially used to upload the manifest (before any modifications were done).
 
 In essence, the uploaded manifest must include amendments for the change or
 update to occur. The system will detect any changes, process the updated data
 and highlight errors if they occur.
 
-After a successfully validation, the |confirm-button| button will appear.
+After a successful validation, the |confirm-button| button will appear.
 Click it to apply the changes.
 
 .. important::
@@ -21,9 +22,11 @@ Click it to apply the changes.
    An error will occur if you perform any of the following actions:
 
    * Upload the amended manifest to a different profile [#f1]_ (other than the
-     one used to upload the manifest to initially)
+     one used to initially upload the manifest)
    * Upload the amended manifest to a new profile
    * Delete a profile that already has data associated with it
+   * Include new data on an amended manifest and then upload it. New data cannot
+     be combined with existing data on a manifest, they must be be on separate spreadsheets.
 
 Refer to the relevant sections below for restrictions and guidelines regarding
 updating specific types of submitted data. Click |collapsible-item-arrow| to
@@ -119,10 +122,10 @@ below. This method can also be applied to other types of submitted data.
 
    <br>
 
-.. figure:: /assets/images/files/ui/files_pointer_to_delete_file_button.png
+.. figure:: /assets/images/files/ui/files-pointer-to-delete-file-button.png
    :alt: Delete files button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files_pointer_to_delete_file_button.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files-pointer-to-delete-file-button.png
    :class: with-shadow with-border
 
    **Click the** ``Delete`` **button to remove the selected record.**
@@ -164,22 +167,22 @@ Related Topics
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |confirm-button| image:: /assets/images/buttons/confirm_button.png
+.. |confirm-button| image:: /assets/images/buttons/confirm-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |delete-button| image:: /assets/images/buttons/delete_record_button.png
+.. |delete-button| image:: /assets/images/buttons/delete-record-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-images-button| image:: /assets/images/buttons/images_upload_button.png
+.. |upload-images-button| image:: /assets/images/buttons/images-upload-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-permits-button| image:: /assets/images/buttons/permits_upload_button.png
+.. |upload-permits-button| image:: /assets/images/buttons/permits-upload-button.png
    :height: 4ex
    :class: no-scaled-link

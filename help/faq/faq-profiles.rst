@@ -42,10 +42,10 @@ How do I create a profile?
    * Click the |add-profile-button| button then, fill in and save the form
      displayed.
 
-   ..  figure:: /assets/images/profiles/ui/profile_add_form.png
+   ..  figure:: /assets/images/profiles/ui/profile-add-form.png
        :alt: Profile types dropdown menu
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_form.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-form.png
        :class: with-shadow with-border
        :width: 400px
        :height: 400px
@@ -82,10 +82,10 @@ How do I know what type of profile I am using?
      the right side of the page and hover over the info icon to view the full
      name of the profile type.
 
-     ..  figure:: /assets/images/profiles/ui/profile_pointer_to_profile_type.png
+     ..  figure:: /assets/images/profiles/ui/profile-pointer-to-profile-type.png
          :alt: Profile types legend with info icon hovered
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_pointer_to_profile_type.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-pointer-to-profile-type.png
          :class: with-shadow with-border
 
          **Profile type shown in brackets on the profile card**
@@ -98,10 +98,10 @@ How do I know what type of profile I am using?
      editing the profile. Refer to the :ref:`profile-update` section for more
      information.
 
-     .. figure:: /assets/images/profiles/ui/profile_options_edit_record_details_pointer_to_profile_type.png
+     .. figure:: /assets/images/profiles/ui/profile-options-edit-record-details-pointer-to-profile-type.png
         :alt: Profile type field in profile edit form
         :align: center
-        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_options_edit_record_details_pointer_to_profile_type.png
+        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-options-edit-record-details-pointer-to-profile-type.png
         :class: with-shadow with-border
         :height: 400px
 
@@ -233,7 +233,7 @@ How do I view details of a profile I created?
    * Click the |view-more-details-profile-button| button associated with the
      profile.
 
-   * After the button is clicked, a popup dialog will show at least one of the
+   * After the button is clicked, a popup dialogue will show at least one of the
      following information if it is available:
 
       * **Release Status** (if applicable)
@@ -241,15 +241,15 @@ How do I view details of a profile I created?
       * **Associated Profile Type(s)**
       * **Sequencing Centre**
 
-   ..  figure:: /assets/images/profiles/ui/profile_view_more_details_button_with_popup_displayed.png
-       :alt: Profile view more information popup dialog
+   ..  figure:: /assets/images/profiles/ui/profile-view-more-details-button-with-popup-displayed.png
+       :alt: Profile view more information popup dialogue
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_view_more_details_button_with_popup_displayed.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-view-more-details-button-with-popup-displayed.png
        :class: with-shadow with-border
        :width: 400px
        :height: 400px
 
-       **Profile: View more information popup dialog**
+       **Profile: View more information popup dialogue**
 
 
 .. raw:: html
@@ -481,22 +481,22 @@ What happens when a profile is updated?
     Images declaration
 ..
 
-.. |add-profile-button| image:: /assets/images/buttons/add_button.png
+.. |add-profile-button| image:: /assets/images/buttons/add-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |navigate-to-top-button| image:: /assets/images/buttons/navigate_to_top_button.png
+.. |navigate-to-top-button| image:: /assets/images/buttons/navigate-to-top-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |view-more-details-profile-button| image:: /assets/images/profiles/buttons/profile_view_more_button.png
+.. |view-more-details-profile-button| image:: /assets/images/profiles/buttons/profile-view-more-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |vertical-ellipsis-icon| image:: /assets/images/profiles/icons/profile_vertical_ellipsis_icon.png
+.. |vertical-ellipsis-icon| image:: /assets/images/profiles/icons/profile-vertical-ellipsis-icon.png
    :height: 4ex
    :class: no-scaled-link

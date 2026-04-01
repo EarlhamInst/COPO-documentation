@@ -64,7 +64,7 @@ Information collected
 * Browser
 * First name, last name and username after you sign into the service with your
 * ORCid credentials
-* Email address (after you input it in the dialog shown after a first-time
+* Email address (after you input it in the dialogue shown after a first-time
 * access to the service)
 * Date and time when a profile record and manifests are created or updated
 * Metadata submitted. Metadata is the essential information about when, where,

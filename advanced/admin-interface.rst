@@ -7,6 +7,6 @@ Managing COPO Using Admin Tools
 .. toctree::
    :maxdepth: 2
 
-   project_setup/setup-django-admin-interface
-   profile_setup/profile-setup-index
-   profile_setup/profile-management-on-django-admin-interface
+   project-setup/setup-django-admin-interface
+   profile-setup/profile-setup-index
+   profile-setup/profile-management-on-django-admin-interface

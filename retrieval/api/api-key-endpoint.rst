@@ -62,17 +62,15 @@ Obtain an API key for authentication
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
-            https://copo-project.org/api/apiKey
+             https://copo-project.org/api/apiKey
 
        .. tab-item:: Command Line (curl)
 
           .. code-block:: bash
 
-             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept:
-             application/json" -H  "Content-Type: application/x-www-form-
-             urlencoded" -d "username=<username>&password=<password>"
+             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=<username>&password=<password>"
 
 
    **Example**
@@ -86,9 +84,16 @@ Obtain an API key for authentication
 
           .. code-block:: bash
 
-             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept:
-             application/json" -H  "Content-Type: application/x-www-form-
-             urlencoded" -d "username=janedoe&password=password123"
+             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=janedoe&password=password123"
+
+   .. note::
+
+      * To use the API token key, click the |api-authorise-button| button at
+        the top right of the page.
+
+      * Enter the token value as ``token <token>`` when prompted for it.
+        Replace ``<token>`` with the actual token value obtained from the
+        API response. Note the ``token`` text before the value.
 
 .. raw:: html
 
@@ -98,6 +103,10 @@ Obtain an API key for authentication
     Images declaration
 ..
 
-.. |api-key-collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |api-key-collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
+
+.. |api-authorise-button| image:: /assets/images/buttons/api-authorise-button.png
+   :height: 3.5ex
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/buttons/api-authorise-button.png

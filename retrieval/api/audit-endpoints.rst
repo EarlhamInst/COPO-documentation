@@ -77,7 +77,7 @@ Fetch Sample Updates
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/audit/samples
 
@@ -85,8 +85,7 @@ Fetch Sample Updates
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-project.org/api/audit/samples" -H
-             "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/audit/samples" -H "accept: application/json"
 
    **Example**
 
@@ -107,7 +106,7 @@ Fetch Sample Updates
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/audit/samples?copo_id=
              67d461e318e6e19d10b37901&project=DTOL&updatable_field=SCIENTIFIC_N
@@ -166,7 +165,7 @@ Fetch Sample Updates Between Dates
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/audit/sample/{from}/{to}" -H  "accept:
@@ -188,7 +187,7 @@ Fetch Sample Updates Between Dates
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/audit/sample/2025-01-
              01T00:00:00+00:0/2025-05-01T00:00:00+00:0?return_type=csv" -H
@@ -256,7 +255,7 @@ Fetch Sample Updates by Manifest ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/audit/sample/manifest_id/{manifest_id}" -H
@@ -284,7 +283,7 @@ Fetch Sample Updates by Manifest ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/sample/manifest_id/f8e
              5c23d-f735-439f-bfaf-a6886e31741e%2C046632f0-0869-4a3b-b3c3-
@@ -351,7 +350,7 @@ Fetch Sample Updates by Update Type
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/audit/sample/update_type/{update_type}" -H
@@ -374,7 +373,7 @@ Fetch Sample Updates by Update Type
 
         .. tab-item:: Command Line (curl)
 
-            .. code-block:: bash
+            .. code-block:: console
 
                $ curl -X GET "https://copo-project.org/api/audit/sample/update_
                type/user?project=ASG&project=DTOL&project=ERGA" -H  "accept:
@@ -440,7 +439,7 @@ Fetch Sample Updates by Field and Field Value
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/audit/sample/{field}/{field_value}" -H  "accept:
@@ -463,7 +462,7 @@ Fetch Sample Updates by Field and Field Value
 
         .. tab-item:: Command Line (curl)
 
-           .. code-block:: bash
+           .. code-block:: console
 
               $ curl -X GET "https://copo-
               project.org/api/audit/sample/SPECIMEN_ID/ERGA_JB_4431_00001" -H
@@ -485,6 +484,6 @@ Fetch Sample Updates by Field and Field Value
     Images declaration
 ..
 
-.. |audit-collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |audit-collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link

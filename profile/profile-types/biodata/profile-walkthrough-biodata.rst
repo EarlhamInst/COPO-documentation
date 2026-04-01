@@ -22,10 +22,10 @@ Steps to Create a Biodata Profile
    dropdown menu, as shown below. By default, only the Biodata profile option
    is displayed.
 
-   .. figure:: /assets/images/profiles/ui/profile_add_profile_with_profile_types_dropdown_menu_displayed_biodata.png
+   .. figure:: /assets/images/profiles/ui/profile-add-profile-with-profile-types-dropdown-menu-displayed-biodata.png
       :alt: Biodata profile type option
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_with_profile_types_dropdown_menu_displayed_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-profile-with-profile-types-dropdown-menu-displayed-biodata.png
       :class: with-shadow with-border
 
       **Profile type dropdown menu displaying Biodata option**
@@ -37,10 +37,10 @@ Steps to Create a Biodata Profile
 #. Click the |add-profile-button| **Add new record** button to view the
    **Add Profile** form
 
-    .. figure:: /assets/images/profiles/ui/profile_add_record_button_web_page_biodata.png
+    .. figure:: /assets/images/profiles/ui/profile-add-record-button-web-page-biodata.png
        :alt: Add new profile button
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_record_button_web_page_biodata.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-record-button-web-page-biodata.png
        :class: with-shadow with-border
 
        **Click this button to add a new Biodata profile**
@@ -60,10 +60,10 @@ Steps to Create a Biodata Profile
       information will appear in submissions of the research objects
       associated with the profile, in public remote repositories.
 
-    .. figure:: /assets/images/profiles/modals/profile_add_profile_form_dialog_biodata.png
+    .. figure:: /assets/images/profiles/modals/profile-add-profile-form-dialogue-biodata.png
       :alt: Add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile_add_profile_form_dialog_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile-add-profile-form-dialogue-biodata.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -75,10 +75,10 @@ Steps to Create a Biodata Profile
 
 #. The new profile will be displayed on the **Work profiles** page.
 
-    .. figure:: /assets/images/profiles/ui/profile_biodata_profile_created.png
+    .. figure:: /assets/images/profiles/ui/profile-biodata-profile-created.png
       :alt: Biodata profile created
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/profiles/ui/profile_biodata_profile_created.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-biodata-profile-created.png
       :class: with-shadow with-border
 
       **Work profiles page displaying the created profile**
@@ -125,10 +125,10 @@ The following component types are available:
    .. grid-item::
       :columns: 4
 
-      .. figure:: /assets/images/profiles/buttons/profile_component_buttons_biodata.png
+      .. figure:: /assets/images/profiles/buttons/profile-component-buttons-biodata.png
          :alt: Biodata profile components
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/buttons/profile_component_buttons_biodata.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/buttons/profile-component-buttons-biodata.png
          :class: with-shadow with-border
          :height: 400px
 
@@ -163,10 +163,10 @@ Related Topics
     Images declaration
 ..
 
-.. |add-profile-button| image:: /assets/images/buttons/add_button.png
+.. |add-profile-button| image:: /assets/images/buttons/add-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |view-more-details-profile-button| image:: /assets/images/profiles/buttons/profile_view_more_button.png
+.. |view-more-details-profile-button| image:: /assets/images/profiles/buttons/profile-view-more-button.png
    :height: 4ex
    :class: no-scaled-link

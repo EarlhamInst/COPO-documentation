@@ -48,10 +48,10 @@ Submitting Permits
 
       Permits can only be submitted after
       :abbr:`ERGA (European Reference Genome Atlas)` [#f2]_ samples have been
-      uploaded in the **Upload sample spreadsheet** dialog.
+      uploaded in the **Upload sample spreadsheet** dialogue.
 
 #. The uploaded samples are shown in a table in the **Upload sample
-   spreadsheet** dialog as shown below.
+   spreadsheet** dialogue as shown below.
 
    .. important::
 
@@ -68,10 +68,10 @@ Submitting Permits
         the sample manifest metadata. Therefore, ensure that step 1 is
         completed in the same session.
 
-   .. figure:: /assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
-      :alt: Upload sample spreadsheet dialog with uploaded samples
+   .. figure:: /assets/images/samples/erga/modals/samples-erga-upload-spreadsheet-dialogue-with-uploaded-samples-permits-required.png
+      :alt: Upload sample spreadsheet dialogue with uploaded samples
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/erga/modals/samples-erga-upload-spreadsheet-dialogue-with-uploaded-samples-permits-required.png
       :class: with-shadow with-border
 
       **Sample upload preview**
@@ -80,17 +80,17 @@ Submitting Permits
 
       <br>
 
-#. In the sample spreadsheet dialog, click the **Sample Permits** tab then,
+#. In the sample spreadsheet dialogue, click the **Sample Permits** tab then,
    click the |upload-permits-button| button to browse your local (computer)
    system for ``.pdf`` permit files to upload.
 
-   .. figure:: /assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
-      :alt: Upload Sample Spreadsheet dialog with no permits uploaded
+   .. figure:: /assets/images/samples/erga/modals/samples-erga-upload-spreadsheet-dialogue-with-no-permits-uploaded.png
+      :alt: Upload Sample Spreadsheet dialogue with no permits uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/erga/modals/samples-erga-upload-spreadsheet-dialogue-with-no-permits-uploaded.png
       :class: with-shadow with-border
 
-      **Dialog with no permits uploaded**
+      **Dialogue with no permits uploaded**
 
    .. raw:: html
 
@@ -99,13 +99,13 @@ Submitting Permits
 #. After uploading permits, the table under the **Sample Permits** tab is
    populated with them.
 
-   .. figure:: /assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
-      :alt: Upload Sample Spreadsheet dialog with permits uploaded
+   .. figure:: /assets/images/samples/erga/modals/samples-erga-upload-spreadsheet-dialogue-with-permits-uploaded.png
+      :alt: Upload Sample Spreadsheet dialogue with permits uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/erga/modals/samples-erga-upload-spreadsheet-dialogue-with-permits-uploaded.png
       :class: with-shadow with-border
 
-      **Dialog with permits uploaded**
+      **Dialogue with permits uploaded**
 
    .. raw:: html
 
@@ -113,13 +113,13 @@ Submitting Permits
 
 #. Click the |finish-button| button to submit the permits and samples.
 
-   A **Submit samples** confirmation dialog is displayed. If you decide to
+   A **Submit samples** confirmation dialogue is displayed. If you decide to
    confirm the samples submission, click the **Confirm** button.
 
-   .. figure:: /assets/images/samples/modals/samples_submit_samples_dialog.png
-      :alt: 'Submit samples' confirmation dialog
+   .. figure:: /assets/images/samples/modals/samples-submit-samples-dialogue.png
+      :alt: 'Submit samples' confirmation dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_submit_samples_dialog.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-submit-samples-dialogue.png
       :class: with-shadow with-border
       :height: 250px
 
@@ -175,11 +175,11 @@ On Samples page
 
       <br>
 
-   .. figure:: /assets/images/samples/ui/samples_pointer_to_download_permits_button.png
+   .. figure:: /assets/images/samples/ui/samples-pointer-to-download-permits-button.png
       :alt: Samples page with sample record(s) selected and a pointer to the
             'Download permits' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples_pointer_to_download_permits_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples-pointer-to-download-permits-button.png
       :class: with-shadow with-border
 
       **Click** ``Download permits`` **button**
@@ -197,17 +197,17 @@ On Samples page
       Permits will be downloaded as a ``.zip`` file
 
    If no permits were submitted for the selected sample records, a message
-   is displayed in the popup dialog indicating such as shown below:
+   is displayed in the popup dialogue indicating such as shown below:
 
-   .. figure:: /assets/images/samples/modals/samples_download_permits_dialog_with_no_permits_exist_message.png
-      :alt: No permits exist message in popup dialog for selected sample
+   .. figure:: /assets/images/samples/modals/samples-download-permits-dialogue-with-no-permits-exist-message.png
+      :alt: No permits exist message in popup dialogue for selected sample
              records
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_download_permits_dialog_with_no_permits_exist_message.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-download-permits-dialogue-with-no-permits-exist-message.png
       :class: with-shadow with-border
       :height: 250px
 
-      **Dialog indicating no permits exist for selected sample records**
+      **Dialogue indicating no permits exist for selected sample records**
 
 .. raw:: html
 
@@ -245,31 +245,31 @@ Related Topics
     Images declaration
 ..
 
-.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept-reject-samples/buttons/samples-accept-reject-navigation-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |clear-selection-button| image:: /assets/images/buttons/clear_selection_button.png
+.. |clear-selection-button| image:: /assets/images/buttons/clear-selection-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |download-permits-button1| image:: /assets/images/buttons/permits_download_button1.png
+.. |download-permits-button1| image:: /assets/images/buttons/permits-download-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button1.png
+.. |finish-button| image:: /assets/images/buttons/finish-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |select-all-button| image:: /assets/images/buttons/select_all_button.png
+.. |select-all-button| image:: /assets/images/buttons/select-all-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |select-filtered-button| image:: /assets/images/buttons/select_filtered_button.png
+.. |select-filtered-button| image:: /assets/images/buttons/select-filtered-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-permits-button| image:: /assets/images/buttons/permits_upload_button.png
+.. |upload-permits-button| image:: /assets/images/buttons/permits-upload-button.png
    :height: 4ex
    :class: no-scaled-link
 

@@ -31,10 +31,10 @@ How do I complete the reads manifest for paired-read submission?
 
       See below for a snapshot of a **Reads** manifest for paired reads:
 
-      .. figure:: /assets/images/reads/ui/reads_manifest_paired.png
+      .. figure:: /assets/images/reads/ui/reads-manifest-paired.png
          :alt: Reads manifest for paired reads
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/ui/reads_manifest_paired.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/ui/reads-manifest-paired.png
          :class: with-shadow with-border
 
          **Reads manifest for paired reads**
@@ -154,7 +154,7 @@ Are read accessions assigned only after a study is published?
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 

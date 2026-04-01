@@ -83,7 +83,7 @@ Fetch Sample Records by Project
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/sample/{project}
 
@@ -91,8 +91,7 @@ Fetch Sample Records by Project
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-project.org/api/sample/{project}" -H
-             "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/{project}" -H "accept: application/json"
 
    **Example**
 
@@ -110,7 +109,7 @@ Fetch Sample Records by Project
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
               $ curl -X GET "https://copo-
               project.org/api/sample/asg%2Cdtol%2Cerga" -H  "accept:
@@ -171,7 +170,7 @@ Fetch Sample Records by Associated Project Type
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/sample/associated_tol_project" -H  "accept:
@@ -200,7 +199,7 @@ Fetch Sample Records by Associated Project Type
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/?profile_type=ASG&asso
              ciated_profile_type=ERGA_COMMUNITY&d_from=2025-01-
@@ -252,7 +251,7 @@ Fetch Sample Project Fields by Manifest Version
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/manifest/current_version" -H  "accept:
@@ -277,7 +276,7 @@ Fetch Sample Project Fields by Manifest Version
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/manifest/current_versi
              on?manifest_type=ASG&return_type=csv" -H  "accept: */*"
@@ -343,15 +342,13 @@ Fetch Profile Titles & Associated Tube or Well IDs
 
           .. code-block:: bash
 
-             https://copo-project.org/api/profile/tube_or_well_ids?profile_type
-             =<profile_type>
+             https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
-             $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_
-             ids?profile_type=<profile_type>" -H  "accept: */*" -d ""
+             $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>" -H  "accept: */*" -d ""
 
    **Example**
 
@@ -375,7 +372,7 @@ Fetch Profile Titles & Associated Tube or Well IDs
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_
              ids?profile_type=ERGA&associated_profile_type=ERGA_COMMUNITY&d_fro
@@ -436,10 +433,9 @@ Fetch Sample Records between Dates
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
-             $ curl -X GET "https://copo-project.org/api/sample/{from}/{to}" -H
-             "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/{from}/{to}" -H "accept: application/json"
 
    **Example**
 
@@ -452,12 +448,11 @@ Fetch Sample Records between Dates
 
           .. code-block:: bash
 
-             https://copo-project.org/api/sample/2025-01-01T00:00:00+00:0/2025-
-             05-01T00:00:00+00:0
+             https://copo-project.org/api/sample/2025-01-01T00:00:00+00:0/2025-05-01T00:00:00+00:0
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/sample/2025-01-
              01T00:00:00+00:0/2025-05-01T00:00:00+00:0" -H  "accept:
@@ -522,16 +517,13 @@ Fetch Updatable Fields by Project
 
           .. code-block:: bash
 
-             https://copo-
-             project.org/api/sample/updatable_fields?project=<project>
+             https://copo-project.org/api/sample/updatable_fields?project=<project>
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
-             $ curl -X GET "https://copo-
-             project.org/api/sample/updatable_fields?project=<project>" -H
-             "accept: */*"
+             $ curl -X GET "https://copo-project.org/api/sample/updatable_fields?project=<project>" -H "accept: */*"
 
    **Example**
 
@@ -552,7 +544,7 @@ Fetch Updatable Fields by Project
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
               $ curl -X GET "https://copo-project.org/api/sample/updatable_fiel
               ds?project=DTOL&standard=dwc&return_type=csv" -H  "accept: */*"
@@ -613,7 +605,7 @@ Fetch Sample Records by COPO ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/sample/copo_id/{copo_ids}" -H  "accept:
@@ -640,7 +632,7 @@ Fetch Sample Records by COPO ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/sample/copo_id/67e14bb
              f5b9e8a38259f95eb%2C67e14bbf5b9e8a38259f95ec%2C67e14bbf5b9e8a38259
@@ -714,7 +706,7 @@ Fetch Sample Records by Biosample Accession
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/sample/biosampleAccessions/{biosampleAccessions}"
@@ -739,7 +731,7 @@ Fetch Sample Records by Biosample Accession
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/sample/biosampleAccess
              ions/SAMEA12816320%2CSAMEA115502883%2CSAMEA112168601%2CSAMEA112168
@@ -817,7 +809,7 @@ Fetch Sample Records by Field and Values
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/sample/sample_field/{field}/{values}" -H  "accept:
@@ -845,7 +837,7 @@ Fetch Sample Records by Field and Values
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/sample/sample_field/SC
              IENTIFIC_NAME/Marifugia%20cavatica%2CGraellsia%20isabellae%2CValen
@@ -904,7 +896,7 @@ Fetch Sample Records by Sequencing Centre
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/sample/sequencing_cent
              re?sequencing_centre=<sequencing-centre>" -H  "accept:
@@ -926,7 +918,7 @@ Fetch Sample Records by Sequencing Centre
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
             $ curl -X GET "https://copo-project.org/api/sample/sequencing_centr
             e?sequencing_centre=EARLHAM%20INSTITUTE" -H  "accept:
@@ -993,7 +985,7 @@ Fetch Sample Records by Taxon ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
             $ curl -X GET "https://copo-
             project.org/api/sample/taxon_id/{taxon_ids}" -H  "accept:
@@ -1020,7 +1012,7 @@ Fetch Sample Records by Taxon ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/sample/taxon_id/6344%2
              C199168%2C2614811?standard=mixs" -H  "accept: application/json"
@@ -1091,7 +1083,7 @@ Fetch Sample Records that have Image Submissions
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
             $ curl -X GET "https://copo-
             project.org/api/sample/with_submitted_bioimages?project=<project>"
@@ -1119,7 +1111,7 @@ Fetch Sample Records that have Image Submissions
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
               $ curl -X GET "https://copo-project.org/api/sample/with_submitted
               _bioimages?project=erga&from=2025-01-01T00:00:00+00:0&to=2025-05-
@@ -1158,7 +1150,7 @@ Fetch Sample Records that have Image Submissions
     Images declaration
 ..
 
-.. |sample-collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |sample-collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 

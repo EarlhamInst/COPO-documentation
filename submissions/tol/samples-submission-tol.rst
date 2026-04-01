@@ -21,16 +21,16 @@ Sample types include:
 
 Use the steps below to submit samples for any of the sample types mentioned or
 :download:`download a visual step-by-step guide
-</assets/files/COPO_visual_user_documentation.pdf>`.
+</assets/files/copo-visual-user-documentation.pdf>`.
 
 .. raw:: html
 
    <br>
 
-.. figure:: /assets/files/presentations/copo_sample_submission_process_illustration.gif
+.. figure:: /assets/files/presentations/copo-sample-submission-process-illustration.gif
    :alt: Samples submission and validation process in COPO
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/files/presentations/copo_sample_submission_process_illustration.gif
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/files/presentations/copo-sample-submission-process-illustration.gif
    :class: with-shadow with-border
    :scale: 60%
 
@@ -51,10 +51,10 @@ Using the Components Button
 Click the |samples-component-button| component button in the **Components**
 column as shown below:
 
-.. figure:: /assets/images/samples/buttons/samples_button_pointer_tol.png
+.. figure:: /assets/images/samples/buttons/samples-button-pointer-tol.png
    :alt: Samples profile component
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/samples/buttons/samples_button_pointer_tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/buttons/samples-button-pointer-tol.png
    :class: with-shadow with-border
    :height: 400px
 
@@ -69,10 +69,10 @@ Using the Components Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/samples/icons/samples_icon_pointer_tol.png
+.. figure:: /assets/images/samples/icons/samples-icon-pointer-tol.png
    :alt: Samples profile component icon
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/samples/icons/samples_icon_pointer_tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/icons/samples-icon-pointer-tol.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -112,10 +112,10 @@ Submit Samples
         based on the type of profile that you are making a submission to. See
         the :ref:`profile-types-legend` section regarding the colour codes.
 
-   .. figure:: /assets/images/samples/ui/samples_pointer_to_add_manifest_button.png
+   .. figure:: /assets/images/samples/ui/samples-pointer-to-add-manifest-button.png
       :alt: Pointer to add or update samples button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples_pointer_to_add_manifest_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples-pointer-to-add-manifest-button.png
       :class: with-shadow with-border
 
       **Click the highlighted button to add or update samples**
@@ -124,16 +124,16 @@ Submit Samples
 
       <br>
 
-#. Click the |upload-sample-manifest-button| button in the dialog displayed to
+#. Click the |upload-sample-manifest-button| button in the dialogue displayed to
    choose a file from your local system.
 
-    .. figure:: /assets/images/samples/modals/samples_upload_spreadsheet_dialog.png
-       :alt: Upload Sample Spreadsheet dialog
+    .. figure:: /assets/images/samples/modals/samples-upload-spreadsheet-dialogue.png
+       :alt: Upload Sample Spreadsheet dialogue
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_upload_spreadsheet_dialog.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-upload-spreadsheet-dialogue.png
        :class: with-shadow with-border
 
-       **Upload sample spreadsheet dialog**
+       **Upload sample spreadsheet dialogue**
 
    .. raw:: html
 
@@ -156,10 +156,10 @@ Submit Samples
 #. The uploaded samples are shown in a preview before final submission. Click
    the |finish-button| button to finalise the upload.
 
-    .. figure:: /assets/images/samples/modals/samples_upload_spreadsheet_dialog_with_samples_uploaded.png
-      :alt: Upload Sample Spreadsheet dialog with samples
+    .. figure:: /assets/images/samples/modals/samples-upload-spreadsheet-dialogue-with-samples-uploaded.png
+      :alt: Upload Sample Spreadsheet dialogue with samples
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_upload_spreadsheet_dialog_with_samples_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-upload-spreadsheet-dialogue-with-samples-uploaded.png
       :height: 600px
       :class: with-shadow with-border
 
@@ -169,13 +169,13 @@ Submit Samples
 
       <br>
 
-   A confirmation dialog appears (if applicable). Click **Confirm** to submit
+   A confirmation dialogue appears (if applicable). Click **Confirm** to submit
    the samples.
 
-   .. figure:: /assets/images/samples/modals/samples_submit_samples_dialog.png
-      :alt: 'Submit Samples' confirmation dialog
+   .. figure:: /assets/images/samples/modals/samples-submit-samples-dialogue.png
+      :alt: 'Submit Samples' confirmation dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_submit_samples_dialog.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-submit-samples-dialogue.png
       :class: with-shadow with-border
       :height: 300px
 
@@ -188,10 +188,10 @@ Submit Samples
 #. The new samples will be displayed on the **Samples** page after a
    successful validation.
 
-    .. figure:: /assets/images/samples/ui/samples_submitted.png
+    .. figure:: /assets/images/samples/ui/samples-submitted.png
        :alt: Sample(s) uploaded
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples_submitted.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples-submitted.png
        :class: with-shadow with-border
 
        **Samples page showing the uploaded samples**
@@ -250,11 +250,11 @@ of the submitted samples.
 * **Sample Same As**
 * **Sample Symbiont Of**
 
-.. figure:: /assets/images/samples/ui/samples_pointer_to_accession_column.png
+.. figure:: /assets/images/samples/ui/samples-pointer-to-accession-column.png
    :alt: Samples table highlighting columns that display accession for
          submitted samples
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples_pointer_to_accession_column.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples-pointer-to-accession-column.png
    :class: with-shadow with-border
 
    **Columns displaying accession identifiers for submitted sample data**
@@ -300,34 +300,34 @@ Related Topics
     Images declaration
 ..
 
-.. |add-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
+.. |add-manifest-button| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-asg-manifest-button| image:: /assets/images/samples/asg/buttons/add_asg_manifest_button.png
+.. |add-asg-manifest-button| image:: /assets/images/samples/asg/buttons/add-asg-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
+.. |blank-manifest-download-button| image:: /assets/images/buttons/download-button-blank-manifest.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |confirm-button| image:: /assets/images/buttons/confirm_button.png
+.. |confirm-button| image:: /assets/images/buttons/confirm-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples_download_manifest_button.png
+.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples-download-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button1.png
+.. |finish-button| image:: /assets/images/buttons/finish-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |samples-component-button| image:: /assets/images/samples/buttons/components_samples_button.png
+.. |samples-component-button| image:: /assets/images/samples/buttons/components-samples-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-sample-manifest-button| image:: /assets/images/samples/buttons/samples_upload_manifest_button.png
+.. |upload-sample-manifest-button| image:: /assets/images/samples/buttons/samples-upload-manifest-button.png
    :height: 4ex
    :class: no-scaled-link

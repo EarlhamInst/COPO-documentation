@@ -11,7 +11,7 @@ Standard Citation
 
 **APA-style**
 
-    COPO Project Team. (2025). *Collaborative OPen Omics (COPO) Project
+    COPO Project Team. (2026). *Collaborative OPen Omics (COPO) Project
     Documentation*. Earlham Institute.
     https://copo-docs.readthedocs.io
 
@@ -22,7 +22,7 @@ Standard Citation
    @manual{copo-docs,
      title        = {Collaborative OPen Omics (COPO) Project Documentation},
      author       = {Collaborative OPen Omics (COPO)},
-     year         = {2025},
+     year         = {2026},
      address      = {Norwich, UK},
      organization = {Earlham Institute},
      note         = {\url{https://copo-docs.readthedocs.io}}
@@ -31,7 +31,7 @@ Standard Citation
 **IEEE**
 
    COPO Project Team, *Collaborative OPen Omics (COPO) Project Documentation*,
-   Earlham Institute, 2025. [Online].
+   Earlham Institute, 2026. [Online].
    Available: https://copo-docs.readthedocs.io
 
 Referencing a Specific Page or Section
@@ -40,7 +40,7 @@ Referencing a Specific Page or Section
 If you reference a particular page or section, please include the page title
 and URL. For example:
 
-    COPO Project Team. (2025). *Submitting Reads*. Collaborative OPen Omics
+    COPO Project Team. (2026). *Submitting Reads*. Collaborative OPen Omics
     (COPO) Project Documentation.
     https://copo-docs.readthedocs.io/en/latest/submissions/reads.html
 

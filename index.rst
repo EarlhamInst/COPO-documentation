@@ -66,8 +66,8 @@ Please use the links to find instructions specific to your needs.
    :caption: Advanced
    :name: advanced-section
 
-   advanced/project_setup/project-local-setup-index
-   advanced/project_setup/project-application-structure.rst
+   advanced/project-setup/project-local-setup-index
+   advanced/project-setup/project-application-structure.rst
    advanced/admin-interface
 
 .. toctree::

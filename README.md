@@ -6,7 +6,7 @@ The Collaborative OPen Omics (COPO) documentation is created using the Sphinx re
 
 The documentation is available at http://copo-docs.rtfd.io or http://copo-docs.readthedocs.io.
 
-You can access the COPO website at https://copo-project.org and its GitHub repository at https://github.com/TGAC/COPO-production.
+You can access the COPO website at https://copo-project.org and its GitHub repository at https://github.com/EarlhamInst/COPO-production.
 
 For more information about Sphinx, see the [Don’t Be Afraid to Commit guide](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html).
 
@@ -39,7 +39,7 @@ For more information about Sphinx, see the [Don’t Be Afraid to Commit guide](h
 ### 1. Clone the GitHub repository
 
 ```bash
-git clone https://github.com/TGAC/COPO-documentation.git
+git clone https://github.com/EarlhamInst/COPO-documentation.git
 cd COPO-documentation
 ```
 
@@ -115,7 +115,7 @@ make clean html
 ```bash
 sphinx-autobuild --open-browser ./ _build/html
 # or
-make htmllive
+make html-live
 # or with a port
 sphinx-autobuild --port=8002 --open-browser ./ _build/html
 ```
@@ -137,30 +137,30 @@ sphinx-build -b spelling html/_source _build
 **To build internal docs**
 
 ```bash
-make htmlinternal
+make html-internal
 # or
-sphinx-build -b html . _buildinternal/
+sphinx-build -b html . _build-internal/
 ```
 
 **Clean and build**
 
 ```bash
-make clean htmlinternal
+make clean html-internal
 ```
 
 **Auto-build and serve**
 
 ```bash
-sphinx-autobuild --port=8002 --open-browser ./ _buildinternal/html
+sphinx-autobuild --port=8002 --open-browser ./ _build-internal/html
 ```
 
 **View browser**
 
 - To view the web browser, locate and manually open the `index.html` file
-  located at `_buildinternal/html/index.html`
+  located at `_build-internal/html/index.html`
 
 - To view the web browser (local) full path will be:
-  `http://localhost:63342/documentation/_buildinternal/html/index.html`
+  `http://localhost:63342/documentation/_build-internal/html/index.html`
 
 ---
 

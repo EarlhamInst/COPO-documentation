@@ -26,10 +26,10 @@ Using the Component Button
 Click |assembly-component-button| under the **Components** column for a
 profile as shown below:
 
-.. figure:: /assets/images/assemblies/ui/assembly_button_pointer_tol.png
+.. figure:: /assets/images/assemblies/ui/assembly-button-pointer-tol.png
    :alt: Assembly profile component button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assembly_button_pointer_tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assembly-button-pointer-tol.png
    :class: with-shadow with-border
    :height: 400px
 
@@ -44,10 +44,10 @@ Using the Component Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/assemblies/icons/assembly_icon_pointer.png
+.. figure:: /assets/images/assemblies/icons/assembly-icon-pointer.png
    :alt: Assembly profile component icon
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/assemblies/icons/assembly_icon_pointer.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/icons/assembly-icon-pointer.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -65,10 +65,10 @@ Submit Assemblies
 #. Click |add-assemblies-record-button| button to add an **assembly** as shown
    below:
 
-    .. figure:: /assets/images/assemblies/ui/assemblies_pointer_to_add_record_button.png
+    .. figure:: /assets/images/assemblies/ui/assemblies-pointer-to-add-record-button.png
       :alt: Pointer to 'Add record' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assemblies_pointer_to_add_record_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assemblies-pointer-to-add-record-button.png
       :class: with-shadow with-border
 
       **Assembly submission: Click the 'Add record' button**
@@ -77,7 +77,7 @@ Submit Assemblies
 
       <br>
 
-#. An **Add assembly** dialog is displayed. Provide the details then, click
+#. An **Add assembly** dialogue is displayed. Provide the details then, click
    the **Submit assembly** button.
 
    .. hint::
@@ -85,53 +85,53 @@ Submit Assemblies
       An asterisk (*) next to a form field label indicates that the field is
       mandatory.
 
-   .. figure:: /assets/images/assemblies/modals/assemblies_add_assembly_dialog1.png
-      :alt: Top section of 'Add Assembly' dialog
+   .. figure:: /assets/images/assemblies/modals/assemblies-add-assembly-dialogue1.png
+      :alt: Top section of 'Add Assembly' dialogue
       :align: center
       :height: 60ex
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies_add_assembly_dialog1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies-add-assembly-dialogue1.png
       :class: with-shadow with-border
 
-      **Add Assembly dialog (top section)**
+      **Add Assembly dialogue (top section)**
 
    .. raw:: html
 
       <br>
 
-   .. figure:: /assets/images/assemblies/modals/assemblies_add_assembly_dialog2.png
-      :alt: Upper-middle section of 'Add Assembly' dialog
+   .. figure:: /assets/images/assemblies/modals/assemblies-add-assembly-dialogue2.png
+      :alt: Upper-middle section of 'Add Assembly' dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies_add_assembly_dialog2.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies-add-assembly-dialogue2.png
       :class: with-shadow with-border
       :height: 60ex
 
-      **Add Assembly dialog (upper-middle section)**
+      **Add Assembly dialogue (upper-middle section)**
 
    .. raw:: html
 
       <br>
 
-   .. figure:: /assets/images/assemblies/modals/assemblies_add_assembly_dialog3.png
-      :alt: Lower-middle section of 'Add Assembly' dialog
+   .. figure:: /assets/images/assemblies/modals/assemblies-add-assembly-dialogue3.png
+      :alt: Lower-middle section of 'Add Assembly' dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies_add_assembly_dialog3.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies-add-assembly-dialogue3.png
       :class: with-shadow with-border
       :height: 60ex
 
-      **Add Assembly dialog (lower-middle section)**
+      **Add Assembly dialogue (lower-middle section)**
 
    .. raw:: html
 
       <br>
 
-   .. figure:: /assets/images/assemblies/modals/assemblies_add_assembly_dialog4.png
-      :alt: Bottom section of 'Add Assembly' dialog
+   .. figure:: /assets/images/assemblies/modals/assemblies-add-assembly-dialogue4.png
+      :alt: Bottom section of 'Add Assembly' dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies_add_assembly_dialog4.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/modals/assemblies-add-assembly-dialogue4.png
       :class: with-shadow with-border
       :height: 60ex
 
-      **Add Assembly dialog (bottom section)**
+      **Add Assembly dialogue (bottom section)**
 
    .. raw:: html
 
@@ -140,10 +140,10 @@ Submit Assemblies
 #. The new assembly will be displayed on the **Assembly** page after a
    successful submission.
 
-    .. figure:: /assets/images/assemblies/ui/assemblies_uploaded.png
+    .. figure:: /assets/images/assemblies/ui/assemblies-uploaded.png
       :alt: Assemblies uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assemblies_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assemblies-uploaded.png
       :class: with-shadow with-border
 
       **Assembly submission: Page showing uploaded assemblies**
@@ -160,10 +160,10 @@ Submit Assemblies
    :ref:`assemblies-submission-accessions` section below for more information
    about the submission.
 
-   .. figure:: /assets/images/assemblies/ui/assemblies_pointer_to_submit_assembly_button.png
+   .. figure:: /assets/images/assemblies/ui/assemblies-pointer-to-submit-assembly-button.png
       :alt: Assemblies submit button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assemblies_pointer_to_submit_assembly_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/assemblies/ui/assemblies-pointer-to-submit-assembly-button.png
       :class: with-shadow with-border
 
       **Submitting an assembly by clicking the “Submit” button**
@@ -260,26 +260,26 @@ Related Topics
     Images declaration
 ..
 
-.. |accessions-component-icon| image:: /assets/images/accessions/icons/components_accessions_icon.png
+.. |accessions-component-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-assemblies-record-button| image:: /assets/images/buttons/add_button.png
+.. |add-assemblies-record-button| image:: /assets/images/buttons/add-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components_assembly_button.png
+.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components-assembly-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |delete-record-button| image:: /assets/images/buttons/delete_record_button.png
+.. |delete-record-button| image:: /assets/images/buttons/delete-record-button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |submit-record-button| image:: /assets/images/buttons/submit_record_button.png
+.. |submit-record-button| image:: /assets/images/buttons/submit-record-button.png
    :height: 3.5ex
    :class: no-scaled-link

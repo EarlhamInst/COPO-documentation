@@ -75,7 +75,7 @@ Fetch Mapped fields for the latest manifest version
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/mapping?project=<project>
 
@@ -83,9 +83,7 @@ Fetch Mapped fields for the latest manifest version
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-
-             project.org/api/mapping?project=<project>" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/mapping?project=<project>" -H  "accept: application/json"
 
    **Example**
 
@@ -96,7 +94,7 @@ Fetch Mapped fields for the latest manifest version
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/mapping?project=dtol&standard=dwc
 
@@ -104,9 +102,7 @@ Fetch Mapped fields for the latest manifest version
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-
-             project.org/api/mapping?project=dtol&standard=dwc" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/mapping?project=dtol&standard=dwc" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -121,6 +117,6 @@ Fetch Mapped fields for the latest manifest version
     Images declaration
 ..
 
-.. |mapping-collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |mapping-collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link

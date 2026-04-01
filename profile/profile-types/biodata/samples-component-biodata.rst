@@ -65,6 +65,6 @@ Related Topics
     Images declaration
 ..
 
-.. |samples-component-button| image:: /assets/images/samples/buttons/components_samples_button.png
+.. |samples-component-button| image:: /assets/images/samples/buttons/components-samples-button.png
    :height: 4ex
    :class: no-scaled-link

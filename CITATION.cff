@@ -38,6 +38,6 @@ authors:
 date-released: 2025-06-05
 version: "1.0.0"
 url: "https://copo-docs.readthedocs.io"
-repository-code: "https://github.com/TGAC/COPO-documentation"
+repository-code: "https://github.com/EarlhamInst/COPO-documentation"
 license: "Apache-2.0"
 type: software

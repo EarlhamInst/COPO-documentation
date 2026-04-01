@@ -142,10 +142,10 @@ Alternatively, click ``Try Demo`` button to access the demo mode.
 
    <br>
 
-.. figure:: /assets/images/ui/orcid_sign_in_form_web_page.png
+.. figure:: /assets/images/ui/orcid-sign-in-form-web-page.png
    :alt: ORCID sign-in form
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/ui/orcid_sign_in_form_web_page.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/ui/orcid-sign-in-form-web-page.png
    :class: with-shadow with-border
 
    **Enter your Orcid login credentials or click** ``Register now`` **to sign-
@@ -173,9 +173,9 @@ external repositories.
 
 Refer to the :ref:`profile-types` section for the next steps.
 
-.. figure:: /assets/images/profiles/modals/profile_new_user_add_email_address_dialog.png
-   :alt: Add email address dialog
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile_new_user_add_email_address_dialog.png
+.. figure:: /assets/images/profiles/modals/profile-new-user-add-email-address-dialogue.png
+   :alt: Add email address dialogue
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile-new-user-add-email-address-dialogue.png
    :align: center
    :class: with-shadow with-border
 

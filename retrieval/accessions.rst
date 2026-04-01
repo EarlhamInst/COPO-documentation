@@ -52,10 +52,10 @@ Within the data table
 After submissions have been successfully made, the accessions can be found
 within the data table on the respective submission page. For example:
 
-.. figure:: /assets/images/accessions/ui/accessions_data_table_after_submission_reads.png
+.. figure:: /assets/images/accessions/ui/accessions-data-table-after-submission-reads.png
    :alt: Accessions in data table after reads submission for a Biodata profile
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions_data_table_after_submission_reads.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-data-table-after-submission-reads.png
    :class: with-shadow with-border
 
    **Reads page displaying accessions in the data table after submission**
@@ -64,11 +64,11 @@ within the data table on the respective submission page. For example:
 
    <br>
 
-.. figure:: /assets/images/accessions/ui/accessions_data_table_after_submission_samples.png
+.. figure:: /assets/images/accessions/ui/accessions-data-table-after-submission-samples.png
    :alt: Accessions in data table after Samples submission for a Tree of Life
          profile
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions_data_table_after_submission_samples.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-data-table-after-submission-samples.png
    :class: with-shadow with-border
 
    **Samples (under a Tree of Life profile) page displaying accessions in the
@@ -78,10 +78,10 @@ within the data table on the respective submission page. For example:
 
    <br>
 
-.. figure:: /assets/images/accessions/ui/accessions_data_table_after_submission_reads.png
+.. figure:: /assets/images/accessions/ui/accessions-data-table-after-submission-reads.png
    :alt: Accessions in data table after reads submission
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions_data_table_after_submission_reads.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-data-table-after-submission-reads.png
    :class: with-shadow with-border
 
    **Reads page displaying accessions in the data table after submission**
@@ -103,18 +103,18 @@ instructions.
 
    <br>
 
-.. figure:: /assets/images/accessions/ui/accessions_biodata_profile_without_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions-biodata-profile-without-accessions.png
    :alt: Accessions page with no Biodata profile accessions
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions_biodata_profile_without_accessions.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-biodata-profile-without-accessions.png
    :class: with-shadow with-border
 
    **Empty Accessions page (no submissions yet) under a Biodata profile**
 
-.. figure:: /assets/images/accessions/ui/accessions_biodata_profile_with_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions-biodata-profile-with-accessions.png
    :alt: Accessions page with Biodata profile accessions
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions_biodata_profile_with_accessions.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-biodata-profile-with-accessions.png
    :class: with-shadow with-border
 
    **Accessions page after data submissions for a Biodata profile**
@@ -123,18 +123,18 @@ instructions.
 
    <br>
 
-.. figure:: /assets/images/accessions/ui/accessions_tol_profile_without_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions-tol-profile-without-accessions.png
    :alt: Accessions page with no Tree of Life profile accessions
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions_tol_profile_without_accessions.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-tol-profile-without-accessions.png
    :class: with-shadow with-border
 
    **Empty Accessions page (no submissions yet) under a Tree of Life profile**
 
-.. figure:: /assets/images/accessions/ui/accessions_tol_profile_with_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions-tol-profile-with-accessions.png
    :alt: Accessions page with Tree of Life profile accessions
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions_tol_profile_with_accessions.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-tol-profile-with-accessions.png
    :class: with-shadow with-border
 
    **Accessions page after data submissions for a Tree of Life profile**
@@ -148,10 +148,10 @@ On Accessions Dashboard
 
 Visit the `Accessions dashboard <accessions-dashboard_>`__ |globe|
 
-.. figure:: /assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
+.. figure:: /assets/images/dashboard/ui/dashboard-accessions-other-accessions.png
    :alt: Other accessions on Accessions dashboard
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard-accessions-other-accessions.png
    :class: with-shadow with-border
 
    **Other submission accessions on Accessions dashboard**
@@ -160,10 +160,10 @@ Visit the `Accessions dashboard <accessions-dashboard_>`__ |globe|
 
    <br>
 
-.. figure:: /assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
+.. figure:: /assets/images/dashboard/ui/dashboard-accessions-sample-accessions.png
    :alt: Sample accessions on Accessions dashboard
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard-accessions-sample-accessions.png
    :class: with-shadow with-border
 
    **Sample accessions on Accessions dashboard**
@@ -185,7 +185,7 @@ Related Topics
     Images declaration
 ..
 
-.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept-reject-samples/buttons/samples-accept-reject-navigation-button.png
    :height: 4ex
    :class: no-scaled-link
 

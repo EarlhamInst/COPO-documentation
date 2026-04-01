@@ -49,10 +49,10 @@ Using the Components Button
 Click the |reads-component-button| component button in the **Components**
 column as shown below:
 
-.. figure:: /assets/images/reads/tol/buttons/reads_button_pointer_tol.png
+.. figure:: /assets/images/reads/tol/buttons/reads-button-pointer-tol.png
    :alt: Reads profile component button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/buttons/reads_button_pointer_tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/buttons/reads-button-pointer-tol.png
    :class: with-shadow with-border
    :height: 300px
 
@@ -67,10 +67,10 @@ Using the Components Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/reads/tol/icons/reads_icon_pointer_tol.png
+.. figure:: /assets/images/reads/tol/icons/reads-icon-pointer-tol.png
    :alt: Reads profile component icon
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/reads/tol/icons/reads_icon_pointer_tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/icons/reads-icon-pointer-tol.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -89,10 +89,10 @@ Upload Reads
 
    Currently, only one option is available.
 
-   .. figure:: /assets/images/reads/tol/ui/reads_pointer_to_dropdown_menu_tol.png
+   .. figure:: /assets/images/reads/tol/ui/reads-pointer-to-dropdown-menu-tol.png
       :alt: Pointer to Reads checklist dropdown menu
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads_pointer_to_dropdown_menu_tol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads-pointer-to-dropdown-menu-tol.png
       :class: with-shadow with-border
 
       **Pointer to dropdown menu for reads**
@@ -107,10 +107,10 @@ Upload Reads
 
       <br>
 
-   .. figure:: /assets/images/reads/tol/ui/reads_with_checklist_dropdown_list_tol.png
+   .. figure:: /assets/images/reads/tol/ui/reads-with-checklist-dropdown-list-tol.png
       :alt: Available reads checklist options within a Tree of Life profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads_with_checklist_dropdown_list_tol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads-with-checklist-dropdown-list-tol.png
       :class: with-shadow with-border
 
       **Checklist options for read submissions**
@@ -157,25 +157,25 @@ Upload Reads
       :abbr:`FAQ (Frequently Asked Question)`.
 
 
-   .. figure:: /assets/images/reads/tol/ui/reads_pointer_to_add_manifest_button_tol.png
+   .. figure:: /assets/images/reads/tol/ui/reads-pointer-to-add-manifest-button-tol.png
       :alt: Pointer to 'Add study from spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads_pointer_to_add_manifest_button_tol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads-pointer-to-add-manifest-button-tol.png
       :class: with-shadow with-border
 
-      **Click "Add study from spreadsheet" button to open an upload dialog**
+      **Click "Add study from spreadsheet" button to open an upload dialogue**
 
    .. raw:: html
 
       <br>
 
-4. A dialog is displayed. Click the |reads-upload-button-tol|
-   button in the dialog to choose the spreadsheet file from your local system.
+4. A dialogue is displayed. Click the |reads-upload-button-tol|
+   button in the dialogue to choose the spreadsheet file from your local system.
 
-   .. figure:: /assets/images/reads/tol/modals/reads_upload_spreadsheet_dialog_tol.png
-      :alt: Upload Reads spreadsheet dialog
+   .. figure:: /assets/images/reads/tol/modals/reads-upload-spreadsheet-dialogue-tol.png
+      :alt: Upload Reads spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/modals/reads_upload_spreadsheet_dialog_tol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/modals/reads-upload-spreadsheet-dialogue-tol.png
       :class: with-shadow with-border
       :height: 300px
 
@@ -188,10 +188,10 @@ Upload Reads
 5. The uploaded data is shown in a preview before final submission. Click
    the |finish-button| button to finalise the upload.
 
-   .. figure:: /assets/images/reads/tol/modals/reads_dialog_with_uploaded_data_tol.png
-      :alt: Dialog with uploaded Reads data
+   .. figure:: /assets/images/reads/tol/modals/reads-dialogue-with-uploaded-data-tol.png
+      :alt: Dialogue with uploaded Reads data
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/modals/reads_dialog_with_uploaded_data_tol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/modals/reads-dialogue-with-uploaded-data-tol.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -204,10 +204,10 @@ Upload Reads
 6. The new reads data will be displayed on the **Reads** page
    after a successful validation.
 
-   .. figure:: /assets/images/reads/tol/ui/reads_page_with_uploaded_data_tol.png
+   .. figure:: /assets/images/reads/tol/ui/reads-page-with-uploaded-data-tol.png
       :alt: Reads data uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads_page_with_uploaded_data_tol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads-page-with-uploaded-data-tol.png
       :class: with-shadow with-border
 
       **Reads page showing the uploaded data**
@@ -239,10 +239,10 @@ Submit Reads
       option. If not, choose another option from the dropdown menu, then
       select a row in the data table.
 
-   .. figure:: /assets/images/reads/tol/ui/reads_pointer_to_submit_reads_button_tol.png
+   .. figure:: /assets/images/reads/tol/ui/reads-pointer-to-submit-reads-button-tol.png
       :alt: Reads data uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads_pointer_to_submit_reads_button_tol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/tol/ui/reads-pointer-to-submit-reads-button-tol.png
       :class: with-shadow with-border
 
       **Click** ``Submit`` **buton**
@@ -367,34 +367,34 @@ Related Topics
     Images declaration
 ..
 
-.. |accessions-component-icon| image:: /assets/images/accessions/icons/components_accessions_icon.png
+.. |accessions-component-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-reads-manifest-button-tol| image:: /assets/images/buttons/add_manifest_button_for_tol_profile.png
+.. |add-reads-manifest-button-tol| image:: /assets/images/buttons/add-manifest-button-for-tol-profile.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button2.png
+.. |finish-button| image:: /assets/images/buttons/finish-button2.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |reads-blank-manifest-download-button-tol| image:: /assets/images/buttons/download_button_blank_manifest.png
+.. |reads-blank-manifest-download-button-tol| image:: /assets/images/buttons/download-button-blank-manifest.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-component-button| image:: /assets/images/reads/buttons/components_reads_button.png
+.. |reads-component-button| image:: /assets/images/reads/buttons/components-reads-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-upload-button-tol| image:: /assets/images/reads/tol/buttons/reads_upload_button_tol.png
+.. |reads-upload-button-tol| image:: /assets/images/reads/tol/buttons/reads-upload-button-tol.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |submit-record-button| image:: /assets/images/buttons/submit_record_button.png
+.. |submit-record-button| image:: /assets/images/buttons/submit-record-button.png
    :height: 3.5ex
    :class: no-scaled-link

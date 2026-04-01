@@ -12,11 +12,11 @@ profile type colour for each profile that has been created.
    the **Profile types** legend, the backronym for the profile type will be
    displayed.
 
-..  figure:: /assets/images/profiles/ui/profile_types_legend.png
+..  figure:: /assets/images/profiles/ui/profile-types-legend.png
     :alt: Profile Types Legend
     :align: center
     :height: 50ex
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_types_legend.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-types-legend.png
     :class: with-shadow with-border
 
     **Profile Types Legend: Various profiles types that can be created in COPO
@@ -69,30 +69,30 @@ profile type colour for each profile that has been created.
     Images declaration
 ..
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |blue-circle| image:: /assets/images/icons/circle_blue.png
+.. |blue-circle| image:: /assets/images/icons/circle-blue.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |green-circle| image:: /assets/images/icons/circle_green.png
+.. |green-circle| image:: /assets/images/icons/circle-green.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |orange-circle| image:: /assets/images/icons/circle_orange.png
+.. |orange-circle| image:: /assets/images/icons/circle-orange.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |pink-circle| image:: /assets/images/icons/circle_pink.png
+.. |pink-circle| image:: /assets/images/icons/circle-pink.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |purple-circle| image:: /assets/images/icons/circle_purple.png
+.. |purple-circle| image:: /assets/images/icons/circle-purple.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |teal-circle| image:: /assets/images/icons/circle_teal.png
+.. |teal-circle| image:: /assets/images/icons/circle-teal.png
    :height: 4ex
    :class: no-scaled-link

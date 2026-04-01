@@ -23,10 +23,10 @@ following research object elements over time:
 * Profiles
 * Users
 
-..  figure:: /assets/images/statistics/ui/statistics_over_time_web_page.png
+..  figure:: /assets/images/statistics/ui/statistics-over-time-web-page.png
     :alt: COPO Statistics over time page
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics_over_time_web_page.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics-over-time-web-page.png
     :class: with-shadow with-border
 
     **COPO Statistics: Line graph illustrating the number of samples recorded
@@ -36,10 +36,10 @@ following research object elements over time:
 
    <br>
 
-.. figure:: /assets/images/statistics/ui/statistics_over_time_with_dropdown_menu_web_page.png
+.. figure:: /assets/images/statistics/ui/statistics-over-time-with-dropdown-menu-web-page.png
    :alt: COPO Statistics over time page with dropdown menu
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics_over_time_with_dropdown_menu_web_page.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics-over-time-with-dropdown-menu-web-page.png
    :class: with-shadow with-border
 
    **COPO Statistics: Dropdown menu of research object elements that can be
@@ -61,10 +61,10 @@ as -
 * Hazard Group
 * Organism Part
 
-.. figure:: /assets/images/statistics/ui/statistics_by_variable_web_page.png
+.. figure:: /assets/images/statistics/ui/statistics-by-variable-web-page.png
    :alt: COPO Statistics over time page
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics_by_variable_web_page.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics-by-variable-web-page.png
    :class: with-shadow with-border
 
    **COPO Statistics: Bar graph illustrating total number of samples recorded
@@ -74,10 +74,10 @@ as -
 
    <br>
 
-.. figure:: /assets/images/statistics/ui/statistics_by_variable_with_dropdown_menu_web_page.png
+.. figure:: /assets/images/statistics/ui/statistics-by-variable-with-dropdown-menu-web-page.png
    :alt: COPO Statistics over time page with dropdown menu
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics_by_variable_with_dropdown_menu_web_page.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/statistics/ui/statistics-by-variable-with-dropdown-menu-web-page.png
    :class: with-shadow with-border
 
    **COPO Statistics: Dropdown menu of elements/variables that can be queried

@@ -40,10 +40,10 @@ Using the Components Button
 Click the |barcoding-manifest-component-button| component button in the
 **Components** column as shown below:
 
-.. figure:: /assets/images/barcoding/ui/barcoding_button_pointer_tol.png
+.. figure:: /assets/images/barcoding/ui/barcoding-button-pointer-tol.png
    :alt: Tree of Life Barcoding Manifest profile component
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_button_pointer_tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-button-pointer-tol.png
    :class: with-shadow with-border
    :height: 300px
 
@@ -58,9 +58,9 @@ Using the Components Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/barcoding/icons/barcoding_manifest_icon_pointer.png
+.. figure:: /assets/images/barcoding/icons/barcoding-manifest-icon-pointer.png
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/icons/barcoding_manifest_icon_pointer.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/icons/barcoding-manifest-icon-pointer.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -87,10 +87,10 @@ Upload Data
 1. On the **Barcoding manifests** page, click the dropdown menu to choose a
    checklist [#f3]_. Hover over each option to view its description.
 
-   .. figure:: /assets/images/barcoding/ui/barcoding_manifests_with_checklist_dropdown_list.png
+   .. figure:: /assets/images/barcoding/ui/barcoding-manifests-with-checklist-dropdown-list.png
       :alt: Available checklist options
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_manifests_with_checklist_dropdown_list.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-manifests-with-checklist-dropdown-list.png
       :class: with-shadow with-border
 
       **Checklist options for Barcoding manifest submissions**
@@ -123,25 +123,25 @@ Upload Data
 
       *Tagged sequence* is another term for barcoding data.
 
-   .. figure:: /assets/images/barcoding/ui/barcoding_manifests_pointer_to_add_barcoding_manifest_button.png
+   .. figure:: /assets/images/barcoding/ui/barcoding-manifests-pointer-to-add-barcoding-manifest-button.png
       :alt: Pointer to 'Add tagged sequences from spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_manifests_pointer_to_add_barcoding_manifest_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-manifests-pointer-to-add-barcoding-manifest-button.png
       :class: with-shadow with-border
 
-      **Click "Add tagged sequences from spreadsheet" button to open an upload dialog**
+      **Click "Add tagged sequences from spreadsheet" button to open an upload dialogue**
 
    .. raw:: html
 
       <br>
 
-4. A dialog is displayed. Click the |barcoding-manifests-upload-button| button
+4. A dialogue is displayed. Click the |barcoding-manifests-upload-button| button
    to choose a spreadsheet file from your local system.
 
-    .. figure:: /assets/images/barcoding/modals/barcoding_manifest_upload_barcoding_manifest_dialog.png
-       :alt: Upload Barcoding Manifest dialog
+    .. figure:: /assets/images/barcoding/modals/barcoding-manifest-upload-barcoding-manifest-dialogue.png
+       :alt: Upload Barcoding Manifest dialogue
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/modals/barcoding_manifest_upload_barcoding_manifest_dialoge.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/modals/barcoding-manifest-upload-barcoding-manifest-dialogue.png
        :class: with-shadow with-border
        :height: 200px
 
@@ -154,10 +154,10 @@ Upload Data
 5. The uploaded data is shown in a preview before final submission. Click
    |barcoding-manifests-finish-button| button to finalise the upload.
 
-   .. figure:: /assets/images/barcoding/modals/barcoding_manifests_dialog_with_uploaded_data.png
-      :alt: Upload Barcoding Manifest dialog with data
+   .. figure:: /assets/images/barcoding/modals/barcoding-manifests-dialogue-with-uploaded-data.png
+      :alt: Upload Barcoding Manifest dialogue with data
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/modals/barcoding_manifests_dialog_with_uploaded_data.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/modals/barcoding-manifests-dialogue-with-uploaded-data.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -170,10 +170,10 @@ Upload Data
 6. The new barcoding data will be displayed on the **Barcoding manifests**
    page after a successful submission.
 
-   .. figure:: /assets/images/barcoding/ui/barcoding_manifests_uploaded.png
+   .. figure:: /assets/images/barcoding/ui/barcoding-manifests-uploaded.png
       :alt: Barcoding manifest(s) submitted
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_manifests_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-manifests-uploaded.png
       :class: with-shadow with-border
 
       **Barcoding manifest page showing the uploaded data**
@@ -211,10 +211,10 @@ Submit Data
       option. If not, choose another option from the dropdown menu, then
       select a row in the data table.
 
-   .. figure:: /assets/images/barcoding/ui/barcoding_manifests_pointer_to_submit_barcoding_manifest_button.png
+   .. figure:: /assets/images/barcoding/ui/barcoding-manifests-pointer-to-submit-barcoding-manifest-button.png
       :alt: Submit Barcoding manifest button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_manifests_pointer_to_submit_barcoding_manifest_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-manifests-pointer-to-submit-barcoding-manifest-button.png
       :class: with-shadow with-border
 
       **Click “Submit” to submit the data for the highlighted row**
@@ -227,10 +227,10 @@ Submit Data
    of the submitted records can be viewed in the data table. See the sections
    below for details.
 
-   .. figure:: /assets/images/barcoding/ui/barcoding_manifests_submitted.png
+   .. figure:: /assets/images/barcoding/ui/barcoding-manifests-submitted.png
       :alt: Barcoding manifest has been successfully submitted
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_manifests_submitted.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-manifests-submitted.png
       :class: with-shadow with-border
 
       **Barcoding manifest has been submitted**
@@ -328,18 +328,18 @@ Click a row in the data table on the **Barcoding manifests** page then, click
 the **Delete** button (located in the top-right corner of the table) as
 shown below:
 
-.. figure:: /assets/images/barcoding/ui/barcoding_manifests_pointer_to_delete_barcoding_manifest_button.png
+.. figure:: /assets/images/barcoding/ui/barcoding-manifests-pointer-to-delete-barcoding-manifest-button.png
    :alt: Delete barcoding manifest button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_manifests_pointer_to_delete_barcoding_manifest_button.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-manifests-pointer-to-delete-barcoding-manifest-button.png
    :class: with-shadow with-border
 
    **Click the Delete button to remove the highlighted data record**
 
-.. figure:: /assets/images/barcoding/ui/barcoding_manifests_deleted.png
+.. figure:: /assets/images/barcoding/ui/barcoding-manifests-deleted.png
    :alt: Barcoding manifests deleted successfully
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding_manifests_deleted.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-manifests-deleted.png
    :class: with-shadow with-border
 
    **Barcoding manifest page showing that the data has been deleted**
@@ -375,35 +375,35 @@ Related Topics
     Images declaration
 ..
 
-.. |accessions-component-icon| image:: /assets/images/accessions/icons/components_accessions_icon.png
+.. |accessions-component-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-barcoding-manifest-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
+.. |add-barcoding-manifest-manifest-button| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |barcoding-manifest-blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
+.. |barcoding-manifest-blank-manifest-download-button| image:: /assets/images/buttons/download-button-blank-manifest.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |barcoding-manifest-component-button| image:: /assets/images/barcoding/buttons/components_barcoding_manifest_button.png
+.. |barcoding-manifest-component-button| image:: /assets/images/barcoding/buttons/components-barcoding-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |barcoding-manifests-finish-button| image:: /assets/images/buttons/finish_button2.png
+.. |barcoding-manifests-finish-button| image:: /assets/images/buttons/finish-button2.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |barcoding-manifests-upload-button| image:: /assets/images/barcoding/buttons/barcoding_manifest_upload_button.png
+.. |barcoding-manifests-upload-button| image:: /assets/images/barcoding/buttons/barcoding-manifest-upload-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |submit-record-button| image:: /assets/images/buttons/submit_record_button.png
+.. |submit-record-button| image:: /assets/images/buttons/submit-record-button.png
    :height: 3.5ex
    :class: no-scaled-link
 

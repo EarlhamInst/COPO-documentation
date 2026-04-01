@@ -127,14 +127,14 @@ Why does the “No xx permit found for SPECIMEN_ID” error appear?
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |download-permits-button1| image:: /assets/images/buttons/permits_download_button1.png
+.. |download-permits-button1| image:: /assets/images/buttons/permits-download-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-permits-button| image:: /assets/images/buttons/permits_upload_button.png
+.. |upload-permits-button| image:: /assets/images/buttons/permits-upload-button.png
    :height: 4ex
    :class: no-scaled-link

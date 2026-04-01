@@ -30,10 +30,10 @@ Using the Components Button
 Click the |single-cell-component-button| component button in the
 **Components** [#f3]_ column as shown below:
 
-.. figure:: /assets/images/single_cell/buttons/single_cell_button_pointer_biodata.png
+.. figure:: /assets/images/single-cell/buttons/single-cell-button-pointer-biodata.png
    :alt: Single-cell profile component button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/buttons/single_cell_button_pointer_biodata.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/buttons/single-cell-button-pointer-biodata.png
    :class: with-shadow with-border
    :height: 400px
 
@@ -48,9 +48,9 @@ Using the Components Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/single_cell/icons/single_cell_icon_pointer.png
+.. figure:: /assets/images/single-cell/icons/single-cell-icon-pointer.png
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/icons/single_cell_icon_pointer.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/icons/single-cell-icon-pointer.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -110,10 +110,10 @@ Upload Data
            - scRNA-Seq ToL
            - version_tol_sc_rnaseq
 
-   .. figure:: /assets/images/single_cell/ui/single_cell_with_checklist_dropdown_list.png
+   .. figure:: /assets/images/single-cell/ui/single-cell-with-checklist-dropdown-list.png
       :alt: Available sample checklist options within a Biodata profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/ui/single_cell_with_checklist_dropdown_list.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/ui/single-cell-with-checklist-dropdown-list.png
       :class: with-shadow with-border
 
       **Checklist options for Single-cell submissions**
@@ -138,25 +138,25 @@ Upload Data
       uploaded manifest does not correspond with the selected dropdown menu
       checklist option.
 
-   .. figure:: /assets/images/single_cell/ui/single_cell_pointer_to_add_manifest_button.png
+   .. figure:: /assets/images/single-cell/ui/single-cell-pointer-to-add-manifest-button.png
       :alt: Pointer to 'Add Study from Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/ui/single_cell_pointer_to_add_manifest_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/ui/single-cell-pointer-to-add-manifest-button.png
       :class: with-shadow with-border
 
-      **Click "Add study from spreadsheet" button to open an upload dialog**
+      **Click "Add study from spreadsheet" button to open an upload dialogue**
 
    .. raw:: html
 
       <br>
 
-4. A dialog is displayed. Click the |upload-single-cell-manifest-button|
-   button in the dialog to choose a spreadsheet file from your local system.
+4. A dialogue is displayed. Click the |upload-single-cell-manifest-button|
+   button in the dialogue to choose a spreadsheet file from your local system.
 
-   .. figure:: /assets/images/single_cell/modals/single_cell_upload_spreadsheet_dialog.png
-      :alt: Upload Single-cell Spreadsheet dialog
+   .. figure:: /assets/images/single-cell/modals/single-cell-upload-spreadsheet-dialogue.png
+      :alt: Upload Single-cell Spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/modals/single_cell_upload_spreadsheet_dialog.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/modals/single-cell-upload-spreadsheet-dialogue.png
       :class: with-shadow with-border
 
       **Click 'Upload manifest' button**
@@ -168,10 +168,10 @@ Upload Data
 5. The uploaded data is shown in a preview before final submission. Click
    the |finish-button| button to finalise the upload.
 
-   .. figure:: /assets/images/single_cell/modals/single_cell_dialog_with_uploaded_data.png
-      :alt: Dialog with uploaded Single-cell data
+   .. figure:: /assets/images/single-cell/modals/single-cell-dialogue-with-uploaded-data.png
+      :alt: Dialogue with uploaded Single-cell data
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/modals/single_cell_dialog_with_uploaded_data.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/modals/single-cell-dialogue-with-uploaded-data.png
       :height: 600px
       :class: with-shadow with-border
 
@@ -191,10 +191,10 @@ Upload Data
       * Each tab represents a worksheet in the manifest. Only worksheets
         with data appear as tabs.
 
-   .. figure:: /assets/images/single_cell/ui/single_cell_page_with_uploaded_data.png
+   .. figure:: /assets/images/single-cell/ui/single-cell-page-with-uploaded-data.png
       :alt: Single-cell data uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/ui/single_cell_page_with_uploaded_data.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/ui/single-cell-page-with-uploaded-data.png
       :class: with-shadow with-border
 
       **Single-cell page showing the uploaded data**
@@ -349,42 +349,42 @@ Related Topics
     Images declaration
 ..
 
-.. |accessions-component-icon| image:: /assets/images/accessions/icons/components_accessions_icon.png
+.. |accessions-component-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-single-cell-manifest-button| image:: /assets/images/buttons/add_manifest_button_for_biodata_profile.png
+.. |add-single-cell-manifest-button| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |single-cell-blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
+.. |single-cell-blank-manifest-download-button| image:: /assets/images/buttons/download-button-blank-manifest.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button2.png
+.. |finish-button| image:: /assets/images/buttons/finish-button2.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |single-cell-component-button| image:: /assets/images/single_cell/buttons/components_single_cell_button.png
+.. |single-cell-component-button| image:: /assets/images/single-cell/buttons/components-single-cell-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |submit-record-button-ena| image:: /assets/images/buttons/submit_record_button_ena.png
+.. |submit-record-button-ena| image:: /assets/images/buttons/submit-record-button-ena.png
    :height: 3.5ex
    :class: no-scaled-link
 
-.. |submit-record-button-zenodo| image:: /assets/images/buttons/submit_record_button_zenodo.png
+.. |submit-record-button-zenodo| image:: /assets/images/buttons/submit-record-button-zenodo.png
    :height: 3.5ex
    :class: no-scaled-link
 
-.. |upload-single-cell-manifest-button| image:: /assets/images/single_cell/buttons/upload_single_cell_manifest_button.png
+.. |upload-single-cell-manifest-button| image:: /assets/images/single-cell/buttons/upload-single-cell-manifest-button.png
    :height: 4ex
    :class: no-scaled-link

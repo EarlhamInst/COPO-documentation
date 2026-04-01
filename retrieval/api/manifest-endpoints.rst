@@ -65,7 +65,7 @@ Fetch Manifests
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/manifest
 
@@ -73,8 +73,7 @@ Fetch Manifests
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-project.org/api/manifest" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -123,18 +122,15 @@ Fetch Manifests Filtered by Sequencing Centre
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
-             https://copo-project.org/api/manifest/sequencing_centre?sequencing
-             _centre=<sequencing-centre>
+             https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>
 
        .. tab-item:: Command Line (curl)
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-project.org/api/manifest/sequencing_ce
-             ntre?sequencing_centre=<sequencing-centre>" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>" -H  "accept: application/json"
 
    **Example**
 
@@ -145,18 +141,15 @@ Fetch Manifests Filtered by Sequencing Centre
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
-             https://copo-project.org/api/manifest/sequencing_centre?sequencing
-             _centre=EARLHAM%20INSTITUTE
+             https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE
 
        .. tab-item:: Command Line (curl)
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-project.org/api/manifest/sequencing_ce
-             ntre?sequencing_centre=EARLHAM%20INSTITUTE" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -198,7 +191,7 @@ Fetch Current Manifest Versions
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/manifest/current_version
 
@@ -206,9 +199,7 @@ Fetch Current Manifest Versions
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-
-             project.org/api/manifest/current_version" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/current_version" -H  "accept: application/json"
 
    **Example**
 
@@ -219,18 +210,15 @@ Fetch Current Manifest Versions
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
-             https://copo-
-             project.org/api/manifest/current_version?manifest_type=DTOL
+             https://copo-project.org/api/manifest/current_version?manifest_type=DTOL
 
        .. tab-item:: Command Line (curl)
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-
-             project.org/api/manifest/current_version?manifest_type=DTOL" -H
-             "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/current_version?manifest_type=DTOL" -H "accept: application/json"
 
 .. raw:: html
 
@@ -280,7 +268,7 @@ Fetch Sample in Manifest by Manifest ID
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/manifest/{manifest_id}
 
@@ -288,9 +276,7 @@ Fetch Sample in Manifest by Manifest ID
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-
-             project.org/api/manifest/{manifest_id}" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/{manifest_id}" -H  "accept: application/json"
 
    **Example**
 
@@ -304,16 +290,13 @@ Fetch Sample in Manifest by Manifest ID
 
           .. code-block:: bash
 
-              https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-
-              a6886e31741e?return_type=rocrate
+             https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e?return_type=rocrate
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
-            $ curl -X GET "https://copo-project.org/api/manifest/f8e5c23d-f735-
-            439f-bfaf-a6886e31741e?return_type=rocrate" -H  "accept:
-            application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e?return_type=rocrate" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -367,7 +350,7 @@ Fetch Manifests between Dates
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/manifest/{from}/{to}"
              -H  "accept: application/json"
@@ -388,7 +371,7 @@ Fetch Manifests between Dates
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/manifest/2025-01-
              01T00:00:00+00:00/2025-05-01T00:00:00+00:00" -H  "accept:
@@ -448,7 +431,7 @@ Fetch Manifests between Dates for a Project
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/manifest/{project}/{from}/{to}" -H  "accept:
@@ -471,7 +454,7 @@ Fetch Manifests between Dates for a Project
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/manifest/erga/2025-01-
              01T00:00:00+00:00/2025-05-01T00:00:00+00:00" -H  "accept:
@@ -526,7 +509,7 @@ Fetch Sample Status in a Manifest
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-
              project.org/api/manifest/{manifest_id}/sample_status" -H  "accept:
@@ -552,7 +535,7 @@ Fetch Sample Status in a Manifest
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X GET "https://copo-project.org/api/manifest/f8e5c23d-
              f735-439f-bfaf-a6886e31741e/sample_status?return_type=csv" -H
@@ -612,7 +595,7 @@ Validate Manifest by Profile ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X POST "https://copo-project.org/api/manifest/validate" -H
              "accept: */*" -d "title=<title>&description=<description>&profile_
@@ -667,7 +650,7 @@ Validate Manifest by Report ID
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X POST "https://copo-
              project.org/api/manifest/validate/report" -H  "accept: */*" -d "ti
@@ -700,7 +683,7 @@ Validate Manifest
 
        .. tab-item:: Command Line (curl)
 
-          .. code-block:: bash
+          .. code-block:: console
 
              $ curl -X POST "https://copo-
              project.org/api/manifest/validations/" -H  "accept: */*" -d ""
@@ -718,7 +701,7 @@ Validate Manifest
     Images declaration
 ..
 
-.. |manifest-collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |manifest-collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 

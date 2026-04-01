@@ -179,10 +179,10 @@ How can I view or accept samples from multiple sample manager manifest groups?
    * Click the |accept-reject-samples-navigation-button| button to accept or
      reject samples.
 
-     .. figure:: /assets/images/profiles/modals/profile_new_user_add_email_address_dialog.png
-        :alt: Add email address dialog
+     .. figure:: /assets/images/profiles/modals/profile-new-user-add-email-address-dialogue.png
+        :alt: Add email address dialogue
         :align: center
-        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile_new_user_add_email_address_dialog.png
+        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile-new-user-add-email-address-dialogue.png
         :class: with-shadow with-border
 
         **Accept or Reject samples: Email address prompt shown when a user
@@ -222,10 +222,10 @@ How can I check if sample records are awaiting review by another manager?
    associated project(s) that the sample record belongs to. See the image
    below for an illustration.
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_awaiting_another_acceptance1.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-awaiting-another-acceptance1.png
       :alt: Sample record awaiting another acceptance
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_awaiting_another_acceptance1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-awaiting-another-acceptance1.png
       :class: with-shadow with-border
 
       **Sample record highlighted in yellow awaiting another acceptance**
@@ -234,10 +234,10 @@ How can I check if sample records are awaiting review by another manager?
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_awaiting_another_acceptance2.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-awaiting-another-acceptance2.png
       :alt: Sample record awaiting another acceptance
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_awaiting_another_acceptance2.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-awaiting-another-acceptance2.png
       :class: with-shadow with-border
 
       **Approval date displayed in the 'Approval Date' column of the samples
@@ -269,10 +269,10 @@ How can I check if sample records are awaiting review by another manager?
    sample record will be displayed in the **Accepted Samples** tab as shown
    in the image below.
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_after_all_accepted1.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-after-all-accepted1.png
       :alt: Sample record after all sample managers have accepted it
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_after_all_accepted1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-after-all-accepted1.png
       :class: with-shadow with-border
 
       **Sample record after all sample managers have accepted it**
@@ -281,11 +281,11 @@ How can I check if sample records are awaiting review by another manager?
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_after_all_accepted2.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-after-all-accepted2.png
       :alt: Updated approval date in the 'Approval Date' column of the
             samples data table
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_after_all_accepted2.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-after-all-accepted2.png
       :class: with-shadow with-border
 
       **Approval date updated in the 'Approval Date' column of the samples
@@ -327,10 +327,10 @@ How can a sample manager check the status of accepted or rejected samples?
    the right of the **Accept or Reject Samples** page below the top navigation
    bar.
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_status_log_collapsed.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-status-log-collapsed.png
       :alt: Sample record status log collapsed
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_status_log_collapsed.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-status-log-collapsed.png
       :class: with-shadow with-border
       :height: 200px
 
@@ -340,10 +340,10 @@ How can a sample manager check the status of accepted or rejected samples?
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_status_log_expanded.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-status-log-expanded.png
       :alt: Sample record status log expanded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_status_log_expanded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-status-log-expanded.png
       :class: with-shadow with-border
       :height: 600px
 
@@ -380,22 +380,22 @@ How to view sample details clearer on the Accept or Reject Samples page?
     Images declaration
 ..
 
-.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept-reject-samples/buttons/samples-accept-reject-navigation-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |download-permits-button2| image:: /assets/images/buttons/permits_download_button2.png
+.. |download-permits-button2| image:: /assets/images/buttons/permits-download-button2.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |show-profile-panel-button| image:: /assets/images/samples/accept_reject_samples/buttons/show_profile_panel_button.png
+.. |show-profile-panel-button| image:: /assets/images/samples/accept-reject-samples/buttons/show-profile-panel-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |view-images-button2| image:: /assets/images/buttons/images_view_button2.png
+.. |view-images-button2| image:: /assets/images/buttons/images-view-button2.png
    :height: 4ex
    :class: no-scaled-link

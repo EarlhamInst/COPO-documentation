@@ -57,8 +57,12 @@ All results contain metadata submitted by the original data providers.
      - Audit, Sample, Manifest
    * - json
      - Audit, Sample, Manifest
+   * - json-ld
+     - Profile
    * - ro-crate
      - Sample
+   * - xlsx
+     - Profile
 
 .. _mapping-api-standards:
 
@@ -114,9 +118,9 @@ See the following sections for details on each category of API endpoints:
     Images declaration
 ..
 
-.. |copo-api-live-server-button| image:: /assets/images/buttons/copo-api-live-server-button-option.png
+.. |copo-api-live-server-button| image:: /assets/images/buttons/api-button-live-server-option.png
    :height: 6ex
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/buttons/copo-api-live-server-button-option.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/buttons/api-button-live-server-option.png
 
 ..
     Link declaration

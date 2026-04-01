@@ -43,10 +43,10 @@ Using the Components Button
 Click the |samples-component-button| component button in the **Components**
 column as shown below:
 
-.. figure:: /assets/images/samples/buttons/samples_button_pointer_biodata.png
+.. figure:: /assets/images/samples/buttons/samples-button-pointer-biodata.png
    :alt: Samples profile component button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/buttons/samples_button_pointer_biodata.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/buttons/samples-button-pointer-biodata.png
    :class: with-shadow with-border
    :height: 300px
 
@@ -61,10 +61,10 @@ Using the Components Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/samples/icons/samples_icon_pointer_biodata.png
+.. figure:: /assets/images/samples/icons/samples-icon-pointer-biodata.png
    :alt: Samples profile component icon
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/samples/icons/samples_icon_pointer_biodata.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/icons/samples-icon-pointer-biodata.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -81,10 +81,10 @@ Upload Samples
 
 1. Click the dropdown menu to choose a checklist [#f3]_.
 
-   .. figure:: /assets/images/samples/biodata/ui/samples_pointer_to_dropdown_menu_biodata.png
+   .. figure:: /assets/images/samples/biodata/ui/samples-pointer-to-dropdown-menu-biodata.png
       :alt: Pointer to Samples checklist dropdown menu
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples_pointer_to_dropdown_menu_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples-pointer-to-dropdown-menu-biodata.png
       :class: with-shadow with-border
 
       **Pointer to dropdown menu for samples**
@@ -101,10 +101,10 @@ Upload Samples
 
       <br>
 
-   .. figure:: /assets/images/samples/biodata/ui/samples_with_checklist_dropdown_list_biodata.png
+   .. figure:: /assets/images/samples/biodata/ui/samples-with-checklist-dropdown-list-biodata.png
       :alt: Available samples checklist options within a Biodata profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples_with_checklist_dropdown_list_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples-with-checklist-dropdown-list-biodata.png
       :class: with-shadow with-border
 
       **Checklist options for sample submissions**
@@ -129,25 +129,25 @@ Upload Samples
       uploaded manifest does not correspond with the selected dropdown menu
       checklist option.
 
-   .. figure:: /assets/images/samples/biodata/ui/samples_pointer_to_add_manifest_button_biodata.png
+   .. figure:: /assets/images/samples/biodata/ui/samples-pointer-to-add-manifest-button-biodata.png
       :alt: Pointer to 'Add or update samples from spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples_pointer_to_add_manifest_button_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples-pointer-to-add-manifest-button-biodata.png
       :class: with-shadow with-border
 
-      **Click "Add or update samples from spreadsheet" button to open an upload dialog**
+      **Click "Add or update samples from spreadsheet" button to open an upload dialogue**
 
    .. raw:: html
 
       <br>
 
-4. A dialog is displayed. Click the |samples-upload-button-biodata|
-   button in the dialog to choose the spreadsheet file from your local system.
+4. A dialogue is displayed. Click the |samples-upload-button-biodata|
+   button in the dialogue to choose the spreadsheet file from your local system.
 
-   .. figure:: /assets/images/samples/biodata/modals/samples_upload_spreadsheet_dialog_biodata.png
-      :alt: Upload Samples spreadsheet dialog
+   .. figure:: /assets/images/samples/biodata/modals/samples-upload-spreadsheet-dialogue-biodata.png
+      :alt: Upload Samples spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/modals/samples_upload_spreadsheet_dialog_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/modals/samples-upload-spreadsheet-dialogue-biodata.png
       :class: with-shadow with-border
 
       **Click 'Upload sample manifest' button**
@@ -159,10 +159,10 @@ Upload Samples
 5. The uploaded data is shown in a preview before final submission. Click
    the |samples-finish-button| button to finalise the upload.
 
-   .. figure:: /assets/images/samples/biodata/modals/samples_dialog_with_uploaded_data_biodata.png
-      :alt: Dialog with uploaded Samples data
+   .. figure:: /assets/images/samples/biodata/modals/samples-dialogue-with-uploaded-data-biodata.png
+      :alt: Dialogue with uploaded Samples data
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/modals/samples_dialog_with_uploaded_data_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/modals/samples-dialogue-with-uploaded-data-biodata.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -175,10 +175,10 @@ Upload Samples
 6. The new samples data will be displayed on the **Samples** page
    after a successful validation.
 
-   .. figure:: /assets/images/samples/biodata/ui/samples_page_with_uploaded_data_biodata.png
+   .. figure:: /assets/images/samples/biodata/ui/samples-page-with-uploaded-data-biodata.png
       :alt: Samples data uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples_page_with_uploaded_data_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/biodata/ui/samples-page-with-uploaded-data-biodata.png
       :class: with-shadow with-border
 
       **Samples page showing the uploaded data**
@@ -330,34 +330,34 @@ Related Topics
     Images declaration
 ..
 
-.. |accessions-component-icon| image:: /assets/images/accessions/icons/components_accessions_icon.png
+.. |accessions-component-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-samples-manifest-button-biodata| image:: /assets/images/buttons/add_manifest_button_for_biodata_profile.png
+.. |add-samples-manifest-button-biodata| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |samples-blank-manifest-download-button-biodata| image:: /assets/images/buttons/download_button_blank_manifest.png
+.. |samples-blank-manifest-download-button-biodata| image:: /assets/images/buttons/download-button-blank-manifest.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |samples-component-button| image:: /assets/images/samples/buttons/components_samples_button.png
+.. |samples-component-button| image:: /assets/images/samples/buttons/components-samples-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |samples-finish-button| image:: /assets/images/buttons/finish_button2.png
+.. |samples-finish-button| image:: /assets/images/buttons/finish-button2.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |samples-upload-button-biodata| image:: /assets/images/samples/biodata/buttons/samples_upload_manifest_button.png
+.. |samples-upload-button-biodata| image:: /assets/images/samples/biodata/buttons/samples-upload-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |submit-record-button-ena| image:: /assets/images/buttons/submit_record_button_ena.png
+.. |submit-record-button-ena| image:: /assets/images/buttons/submit-record-button-ena.png
    :height: 3.5ex
    :class: no-scaled-link

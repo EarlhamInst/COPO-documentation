@@ -28,7 +28,7 @@ Uploading Sample Images
       manifest as you will need to upload the images before submitting the
       samples.
 
-#. In the sample spreadsheet dialog, click the **Sample Images** tab then,
+#. In the sample spreadsheet dialogue, click the **Sample Images** tab then,
    click the |upload-images-button| button to upload sample images.
 
    .. important::
@@ -38,28 +38,28 @@ Uploading Sample Images
       depend on the sample manifest metadata so ensure that step 1 is
       completed in the same session.
 
-   .. figure:: /assets/images/samples/modals/samples_upload_spreadsheet_dialog_with_no_images_uploaded.png
-      :alt: Upload sample spreadsheet dialog with no images uploaded
+   .. figure:: /assets/images/samples/modals/samples-upload-spreadsheet-dialogue-with-no-images-uploaded.png
+      :alt: Upload sample spreadsheet dialogue with no images uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_upload_spreadsheet_dialog_with_no_images_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-upload-spreadsheet-dialogue-with-no-images-uploaded.png
       :class: with-shadow with-border
 
-      **Upload sample spreadsheet dialog with no images**
+      **Upload sample spreadsheet dialogue with no images**
 
    .. raw:: html
 
       <br>
 
 #. After uploading images, the table is populated with them under the
-   **Sample Images** tab in the dialog.
+   **Sample Images** tab in the dialogue.
 
-   .. figure:: /assets/images/samples/modals/samples_upload_spreadsheet_dialog_with_images_uploaded.png
-      :alt: Upload sample spreadsheet dialog with image(s) uploaded
+   .. figure:: /assets/images/samples/modals/samples-upload-spreadsheet-dialogue-with-images-uploaded.png
+      :alt: Upload sample spreadsheet dialogue with image(s) uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_upload_spreadsheet_dialog_with_images_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-upload-spreadsheet-dialogue-with-images-uploaded.png
       :class: with-shadow with-border
 
-      **Upload sample spreadsheet dialog with images uploaded**
+      **Upload sample spreadsheet dialogue with images uploaded**
 
    .. raw:: html
 
@@ -67,13 +67,13 @@ Uploading Sample Images
 
 #. Click the |finish-button| button to submit the images and samples.
 
-   A **Submit samples** confirmation dialog is displayed. If you decide to
+   A **Submit samples** confirmation dialogue is displayed. If you decide to
    confirm the sample submission, click the **Confirm** button.
 
-   .. figure:: /assets/images/samples/modals/samples_submit_samples_dialog.png
-      :alt: 'Submit samples' confirmation dialog
+   .. figure:: /assets/images/samples/modals/samples-submit-samples-dialogue.png
+      :alt: 'Submit samples' confirmation dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_submit_samples_dialog.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-submit-samples-dialogue.png
       :class: with-shadow with-border
       :height: 250px
 
@@ -124,11 +124,11 @@ On Samples page
 
       <br>
 
-   .. figure:: /assets/images/samples/ui/samples_pointer_to_view_images_button.png
+   .. figure:: /assets/images/samples/ui/samples-pointer-to-view-images-button.png
       :alt: Samples page with sample record(s) selected and a pointer to the
             'View images' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples_pointer_to_view_images_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/ui/samples-pointer-to-view-images-button.png
       :class: with-shadow with-border
 
       **Click** ``View images`` **button**
@@ -144,11 +144,11 @@ On Samples page
 
       Click the image to view a larger version.
 
-   .. figure:: /assets/images/samples/modals/samples_view_images_dialog_with_images_displayed.png
-      :alt: View images popup dialog with images displayed for selected sample
+   .. figure:: /assets/images/samples/modals/samples-view-images-dialogue-with-images-displayed.png
+      :alt: View images popup dialogue with images displayed for selected sample
             record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_view_images_dialog_with_images_displayed.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-view-images-dialogue-with-images-displayed.png
       :class: with-shadow with-border
       :height: 350px
 
@@ -162,11 +162,11 @@ On Samples page
 
    If no images exist, a popup displays a message indicating this.
 
-   .. figure:: /assets/images/samples/modals/samples_view_images_dialog_with_no_images_exist_message.png
-      :alt: No images exists message in popup dialog for selected sample
+   .. figure:: /assets/images/samples/modals/samples-view-images-dialogue-with-no-images-exist-message.png
+      :alt: No images exist message in popup dialogue for selected sample
             record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples_view_images_dialog_with_no_images_exist_message.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/modals/samples-view-images-dialogue-with-no-images-exist-message.png
       :class: with-shadow with-border
       :height: 250px
 
@@ -209,30 +209,30 @@ Related Topics
     Images declaration
 ..
 
-.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept-reject-samples/buttons/samples-accept-reject-navigation-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |clear-selection-button| image:: /assets/images/buttons/clear_selection_button.png
+.. |clear-selection-button| image:: /assets/images/buttons/clear-selection-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button1.png
+.. |finish-button| image:: /assets/images/buttons/finish-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |select-all-button| image:: /assets/images/buttons/select_all_button.png
+.. |select-all-button| image:: /assets/images/buttons/select-all-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |select-filtered-button| image:: /assets/images/buttons/select_filtered_button.png
+.. |select-filtered-button| image:: /assets/images/buttons/select-filtered-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-images-button| image:: /assets/images/buttons/images_upload_button.png
+.. |upload-images-button| image:: /assets/images/buttons/images-upload-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |view-images-button1| image:: /assets/images/buttons/images_view_button1.png
+.. |view-images-button1| image:: /assets/images/buttons/images-view-button1.png
    :height: 4ex
    :class: no-scaled-link

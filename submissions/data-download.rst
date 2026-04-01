@@ -63,11 +63,11 @@ The following steps describe how to download a submitted sample manifest:
 
       The manifest will be automatically downloaded as a ``.xlsx`` file
 
-   .. figure:: /assets/images/samples/ui/samples_pointer_to_download_sample_manifest_button.png
+   .. figure:: /assets/images/samples/ui/samples-pointer-to-download-sample-manifest-button.png
       :alt: Samples page with one sample record selected and a pointer to the
             'Download sample manifest' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/buttons/files_button_pointer_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/buttons/files-button-pointer-biodata.png
       :class: with-shadow with-border
 
       **Samples page: Pointer to 'Download sample manifest' button**
@@ -76,10 +76,10 @@ The following steps describe how to download a submitted sample manifest:
     Images declaration
 ..
 
-.. |add-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
+.. |add-manifest-button| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples_download_manifest_button.png
+.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples-download-manifest-button.png
    :height: 4ex
    :class: no-scaled-link

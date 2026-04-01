@@ -250,10 +250,10 @@ Related Topics
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |confirm-button| image:: /assets/images/buttons/confirm_button.png
+.. |confirm-button| image:: /assets/images/buttons/confirm-button.png
    :height: 4ex
    :class: no-scaled-link

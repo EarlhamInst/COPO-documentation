@@ -50,6 +50,6 @@ in as shown below.
     Images declaration
 ..
 
-.. |help-icon| image:: /assets/images/icons/help_icon.png
+.. |help-icon| image:: /assets/images/icons/help-icon.png
    :height: 2ex
    :class: no-scaled-link

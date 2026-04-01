@@ -112,7 +112,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000013
@@ -120,7 +120,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000014
@@ -128,7 +128,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000015
@@ -136,7 +136,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000016
@@ -144,7 +144,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000017
@@ -152,7 +152,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000018
@@ -160,7 +160,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000019
@@ -168,7 +168,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000020
@@ -176,7 +176,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000021
@@ -184,7 +184,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000022
@@ -192,7 +192,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000023
@@ -200,7 +200,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000024
@@ -208,7 +208,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000025
@@ -216,7 +216,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000026
@@ -237,7 +237,7 @@ Sample Manifest Checklists
              North Sea and the Arctic are listed at
              http://www.seadatanet.org/Overview/Partners. For the Ocean
              Sampling Day campaign, non-genomics data shall be reported to the
-             PANGAEA (https://www.pangaea.de/submit/).
+             PANGAEA (http://www.pangaea.de/submit/).
            - --
          * - ERC000028
            - ENA prokaryotic pathogen minimal sample checklist
@@ -245,8 +245,8 @@ Sample Manifest Checklists
            - --
          * - ERC000029
            - ENA Global Microbial Identifier reporting standard checklist
-           - GMI_MDM:1.1
-             Minimum Data for Matching (MDM). A checklist for reporting
+             GMI_MDM:1.1
+           - Minimum Data for Matching (MDM). A checklist for reporting
              metadata of pathogen samples for the Global Microbial Identifier
              (GMI) reporting system. More about GMI can be found here
              http://www.g-m-i.org/
@@ -262,7 +262,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000032
@@ -383,7 +383,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000048
@@ -391,7 +391,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000049
@@ -399,7 +399,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000050
@@ -429,7 +429,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000056
@@ -437,7 +437,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms. This package is a combination of the four food extensions
              (MIxS-food-animal and animal feed, MIxS-food-farm environment,
              MIxS-food-food production facility, MIxS-food-human foods).
@@ -447,7 +447,7 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
          * - ERC000058
@@ -455,15 +455,89 @@ Sample Manifest Checklists
            - Genomic Standards Consortium package extension for reporting of
              measurements and observations obtained from the environment where
              the sample was obtained. By choosing the environmental package, a
-             selection of fields can be made from a relevant subsets of the GSC
+             selection of fields can be made from relevant subsets of the GSC
              terms.
            - --
+
+.. raw:: html
+
+   <hr>
+
+.. _image-manifest-checklists:
+
+Image Manifest Checklists
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. tab-set::
+
+   .. tab-item:: Sample images
+
+     Sample images are based on samples submitted under the
+     Tree of Life (ToL) [#f1]_ programme. They relate to the following
+     :abbr:`ToL (Tree of Life)` projects:
+
+     * Aquatic Symbiosis Genomics (ASG) [#f2]_
+     * Darwin Tree of Life (DToL) [#f3]_
+     * Darwin Tree of Life Environmental (DToL_ENV)
+     * European Reference Genome Atlas (ERGA) [#f4]_
+
+     Refer to :ref:`image-submission-tol-samples` for more information.
+
+   .. tab-item:: Image metadata
+
+      .. list-table:: Available image manifest types
+         :width: 100%
+         :align: center
+         :header-rows: 1
+
+         * - Checklist identifier
+           - Manifest/Checklist
+           - Description
+           - Current version
+         * - version_rembi
+           - REMBI images
+           - REcommended Metadata for Biological Images (REMBI) provides a
+             way to explain how images have been generated, providing enough
+             context to allow others to interpret them without reference
+             to external sources.
+           - --
+         * - version_dwc_stx_fish
+           - Darwin Core metadata
+           - Spatial transcriptomics using Fluorescence In Situ Hybridisation
+             (FISH), adhering to Darwin Core (DwC) standards for describing
+             biodiversity related features.
+           - --
+         * - version_mixs_stx_fish
+           - Minimum Information about any Sequence metadata
+           - Spatial transcriptomics using Fluorescence In Situ Hybridisation
+             (FISH), Minimum Information about any (x) Sequence (MIxS)
+             standard for contextual data about sequencing and sampling.
+           - --
+         * - version_tol_stx_fish
+           - Tree of Life metadata
+           - Spatial transcriptomics via Fluorescence In Situ Hybridisation
+             (FISH), with metadata based on the Tree of Life (ToL)
+             initiative’s goals to explore the origins and diversity of life
+             through advanced genomic technologies.
+           - --
+
+.. raw:: html
+
+   <br>
+
+.. rubric:: Footnotes
+
+.. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
+.. [#f2] See term: :term:`ASG`.
+.. [#f3] See term: :term:`DToL`. *DToL* may sometimes be referred to as *DTOL*.
+.. [#f4] See term: :term:`ERGA`.
+
 
 ..
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 

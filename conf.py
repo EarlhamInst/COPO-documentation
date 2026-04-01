@@ -85,7 +85,7 @@ language = 'en'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', '_buildinternal' 'Thumbs.db', '.DS_Store', 'venv', '_templates']
+exclude_patterns = ['_build', '_build-internal' 'Thumbs.db', '.DS_Store', 'venv', '_templates']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -108,7 +108,7 @@ copybutton_prompt_is_regexp = True
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_logo = "copo_logo.png"
+html_logo = "copo-logo.png"
 
 html_theme = 'sphinx_rtd_theme'
 
@@ -132,7 +132,7 @@ html_js_files = ['js/custom.js']
 # Change "Edit on GitHub" to "View page source" which is displayed on each web page
 html_context = {
     'display_github': False,
-    'github_user': 'TGAC',
+    'github_user': 'EarlhamInst',
     'github_repo': 'COPO-documentation',
     'github_version': 'main',
     'conf_py_path': '/'

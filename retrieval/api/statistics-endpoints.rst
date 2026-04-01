@@ -33,7 +33,7 @@ Retrieve Total Number of COPO Users
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/stats/number_of_users
 
@@ -41,9 +41,7 @@ Retrieve Total Number of COPO Users
 
           .. code-block:: bash
 
-              $ curl -X GET "https://copo-
-              project.org/api/stats/number_of_users" -H  "accept:
-              application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/number_of_users" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -93,7 +91,7 @@ Retrieve Number of Sample Records by Type and Date
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/stats/number_of_samples/{sample_type}
 
@@ -101,9 +99,7 @@ Retrieve Number of Sample Records by Type and Date
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-
-             project.org/api/stats/number_of_samples/{sample_type}" -H
-             "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/number_of_samples/{sample_type}" -H "accept: application/json"
 
    **Example**
 
@@ -114,18 +110,15 @@ Retrieve Number of Sample Records by Type and Date
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
-             https://copo-project.org/api/stats/number_of_samples/asg?d_from=20
-             25-01-01T00:00:00+00:00&d_to=2025-05-01T00:00:00+00:00
+             https://copo-project.org/api/stats/number_of_samples/asg?d_from=2025-01-01T00:00:00+00:00&d_to=2025-05-01T00:00:00+00:00
 
        .. tab-item:: Command Line (curl)
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-project.org/api/stats/number_of_sample
-             s/asg?d_from=2025-01-01T00:00:00+00:00&d_to=2025-05-
-             01T00:00:00+00:00" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/number_of_samples/asg?d_from=2025-01-01T00:00:00+00:00&d_to=2025-05-01T00:00:00+00:00" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -148,7 +141,7 @@ Fetch Tree of Life (ToL) Projects Submitted via COPO
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/stats/tol_projects
 
@@ -156,8 +149,7 @@ Fetch Tree of Life (ToL) Projects Submitted via COPO
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-project.org/api/stats/tol_projects" -H
-             "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/tol_projects" -H "accept: application/json"
 
 .. raw:: html
 
@@ -181,7 +173,7 @@ Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
 
        .. tab-item:: Web Browser
 
-          .. code-block:: bash
+          .. code-block:: console
 
              https://copo-project.org/api/stats/associated_tol_projects
 
@@ -189,9 +181,7 @@ Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
 
           .. code-block:: bash
 
-             $ curl -X GET "https://copo-
-             project.org/api/stats/associated_tol_projects" -H  "accept:
-             application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/associated_tol_projects" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -205,6 +195,6 @@ Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
     Images declaration
 ..
 
-.. |statistics-collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |statistics-collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link

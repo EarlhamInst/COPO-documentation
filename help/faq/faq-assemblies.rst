@@ -59,10 +59,10 @@ How do I assign locus tags to assemblies?
   You can assign a custom locus tag when creating a profile in COPO. See the
   image below for guidance.
 
-  .. figure:: /assets/images/profiles/ui/profile_add_form_profile_form_locus_tag.png
+  .. figure:: /assets/images/profiles/ui/profile-add-form-profile-form-locus-tag.png
      :alt: Adding locus tag to a profile
      :align: center
-     :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_form_profile_form_locus_tag.png
+     :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-form-profile-form-locus-tag.png
      :class: with-shadow with-border
      :height: 400px
 
@@ -182,11 +182,15 @@ Are accessions assigned to assembly submissions after studies are published?
 
    See the :ref:`accessions` section for more information.
 
+.. raw:: html
+
+   <br>
+
 ..
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 

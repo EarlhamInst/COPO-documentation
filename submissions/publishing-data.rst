@@ -77,10 +77,10 @@ Follow the steps below to make the data public at the profile level:
       processing. If it is still not public after a week, please
       contact the :email:`COPO team <ei.copo@earlham.ac.uk>` to investigate.
 
-   .. figure:: /assets/images/profiles/ui/profile_options_publish_study.png
+   .. figure:: /assets/images/profiles/ui/profile-options-publish-study.png
       :alt: Profile options indicating "Publish study" buton
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_options_publish_study.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-options-publish-study.png
       :class: with-shadow with-border
       :height: 100px
 
@@ -166,10 +166,10 @@ Follow the steps below to make the data public at the data level:
       processing. If it is still not public after a week, please
       contact the :email:`COPO team <ei.copo@earlham.ac.uk>` to investigate.
 
-   .. figure:: /assets/images/single_cell/ui/single_cell_pointer_to_publish_button.png
+   .. figure:: /assets/images/single-cell/ui/single-cell-pointer-to-publish-button.png
       :alt: Publish button on Single-cell page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single_cell/ui/single_cell_pointer_to_publish_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/single-cell/ui/single-cell-pointer-to-publish-button.png
       :class: with-shadow with-border
 
       **Make data public by clicking the “Publish” button on the Single-cell page**
@@ -214,22 +214,22 @@ Related Topics
     Images declaration
 ..
 
-.. |view-more-details-profile-button| image:: /assets/images/profiles/buttons/profile_view_more_button.png
+.. |view-more-details-profile-button| image:: /assets/images/profiles/buttons/profile-view-more-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |publish-profile-button| image:: /assets/images/profiles/buttons/publish_study_button.png
+.. |publish-profile-button| image:: /assets/images/profiles/buttons/publish-study-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |publish-record-button-ena| image:: /assets/images/buttons/publish_record_button_ena.png
+.. |publish-record-button-ena| image:: /assets/images/buttons/publish-record-button-ena.png
    :height: 3.5ex
    :class: no-scaled-link
 
-.. |publish-record-button-zenodo| image:: /assets/images/buttons/publish_record_button_zenodo.png
+.. |publish-record-button-zenodo| image:: /assets/images/buttons/publish-record-button-zenodo.png
    :height: 3.5ex
    :class: no-scaled-link
 
-.. |vertical-ellipsis-icon| image:: /assets/images/profiles/icons/profile_vertical_ellipsis_icon.png
+.. |vertical-ellipsis-icon| image:: /assets/images/profiles/icons/profile-vertical-ellipsis-icon.png
    :height: 4ex
    :class: no-scaled-link

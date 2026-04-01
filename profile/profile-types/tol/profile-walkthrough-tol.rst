@@ -57,20 +57,20 @@ type.
    When creating a new profile, please ensure that you select the correct
    profile type from the dropdown menu.
 
-.. figure:: /assets/images/profiles/ui/profile_add_profile_with_profile_types_dropdown_menu_displayed.png
+.. figure:: /assets/images/profiles/ui/profile-add-profile-with-profile-types-dropdown-menu-displayed-tol.png
    :alt: Profile types dropdown menu when adding a new profile
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/blob/main/assets/images/profiles/ui/profile_add_profile_with_profile_types_dropdown_menu_displayed.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/blob/main/assets/images/profiles/ui/profile-add-profile-with-profile-types-dropdown-menu-displayed-tol.png
    :class: with-shadow with-border
    :height: 300px
 
    **Dropdown menu showing all projects you have access to, including the
    default "Biodata" profile**
 
-.. figure:: /assets/images/profiles/ui/profile_add_record_button_web_page_tol.png
+.. figure:: /assets/images/profiles/ui/profile-add-record-button-web-page-tol.png
    :alt: Add new profile button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/blob/main/assets/images/profiles/ui/profile_add_record_button_web_page_tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/blob/main/assets/images/profiles/ui/profile-add-record-button-web-page-tol.png
    :class: with-shadow with-border
 
    **Click this button to add a new profile**
@@ -100,10 +100,10 @@ Meaningful field values are recommended in the form boxes because the
 information will appear in submissions of the research objects associated with
 the profile, in public remote repositories.
 
-.. figure:: /assets/images/profiles/ui/profile_add_profile_form_title_description.png
+.. figure:: /assets/images/profiles/ui/profile-add-profile-form-title-description.png
    :alt: Provide profile title and description on add profile form
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_title_description.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-profile-form-title-description.png
    :class: with-shadow with-border
    :height: 300px
 
@@ -130,11 +130,11 @@ Select Associated Profile Type (if applicable)
    An associated profile type [#f4]_ is also known as a subproject or child
    project. More than one can be selected.
 
-   .. figure:: /assets/images/profiles/ui/profile_add_profile_form_associated_type.png
+   .. figure:: /assets/images/profiles/ui/profile-add-profile-form-associated-type.png
       :alt: Choose associated profile type or subproject on add profile
             form for ERGA profile type
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_associated_type.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-profile-form-associated-type.png
       :class: with-shadow with-border
       :height: 380px
 
@@ -164,10 +164,10 @@ Select Sequencing Centre (if applicable)
       <faq-profiles-sequencing-centres-list>`
       :abbr:`FAQ (Frequently Asked Question)` for additional information.
 
-   .. figure:: /assets/images/profiles/ui/profile_add_profile_form_sequencing_centre.png
+   .. figure:: /assets/images/profiles/ui/profile-add-profile-form-sequencing-centre.png
       :alt: Choose sequencing centre on 'Add Profile' form
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_sequencing_centre.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-profile-form-sequencing-centre.png
       :class: with-shadow with-border
       :height: 380px
 
@@ -187,10 +187,10 @@ Input Locus Tag (if applicable)
    <faq-assemblies-submission-locus-tag-assignment>`
    :abbr:`FAQ (Frequently Asked Question)` for guidelines.
 
-   .. figure:: /assets/images/profiles/ui/profile_add_profile_form_locus_tag.png
+   .. figure:: /assets/images/profiles/ui/profile-add-profile-form-locus-tag.png
       :alt: Choose locus tag on add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_locus_tag.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-profile-form-locus-tag.png
       :class: with-shadow with-border
       :height: 250px
 
@@ -203,10 +203,10 @@ Input Locus Tag (if applicable)
    **Add Profile** form. The new profile will be displayed on the
    **Work profiles** page.
 
-   .. figure:: /assets/images/profiles/ui/profile_tol_profile_created.png
+   .. figure:: /assets/images/profiles/ui/profile-tol-profile-created.png
       :alt: Tree of Life profile created
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_tol_profile_created.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-tol-profile-created.png
       :class: with-shadow with-border
 
       **Work profiles page displaying the created profile**
@@ -254,10 +254,10 @@ The following component types are available:
    .. grid-item::
       :columns: 4
 
-      .. figure:: /assets/images/profiles/buttons/profile_component_buttons_tol.png
+      .. figure:: /assets/images/profiles/buttons/profile-component-buttons-tol.png
          :alt: Tree of Life profile components
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/buttons/profile_component_buttons_tol.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/buttons/profile-component-buttons-tol.png
          :class: with-shadow with-border
          :height: 400px
 
@@ -301,6 +301,6 @@ Related Topics
 ..
     Images declaration
 ..
-.. |add-profile-button| image:: /assets/images/buttons/add_button.png
+.. |add-profile-button| image:: /assets/images/buttons/add-button.png
    :height: 4ex
    :class: no-scaled-link

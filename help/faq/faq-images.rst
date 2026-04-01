@@ -34,7 +34,7 @@ Which types of image data can be submitted?
 
    * If submitting images under a :abbr:`ToL (Tree of Life)` profile, only
      sample images are supported and they must be uploaded in the
-     **Upload Sample Spreadsheet** dialog after the sample manifest has been
+     **Upload Sample Spreadsheet** dialogue after the sample manifest has been
      uploaded.
 
    The table below summarises the types of image submissions that can be made
@@ -61,7 +61,7 @@ Which types of image data can be submitted?
         - |st-fish-image-component-button|
         - :ref:`Biodata <profile-walkthrough-biodata>`
       * - :ref:`Sample images <image-submission-tol-samples>`
-        - |upload-images-button| on the **Upload Sample Spreadsheet** dialog
+        - |upload-images-button| on the **Upload Sample Spreadsheet** dialogue
         - :ref:`Tree of Life <profile-walkthrough-tol>`
 
 .. raw:: html
@@ -98,7 +98,7 @@ What factors can cause errors when uploading images?
    .. note::
 
       * Images can only be submitted after samples have been uploaded in the
-        **Upload Sample Spreadsheet** dialog. The
+        **Upload Sample Spreadsheet** dialogue. The
         max total image size should be no more than 2GB.
 
       * Images can only be submitted via a ToL [#f1]_ profile. Please see:
@@ -113,8 +113,8 @@ What factors can cause errors when uploading images?
    .. important::
 
       The |upload-images-button| button will only be enabled after you upload a
-      manifest in the **Upload Sample Spreadsheet** dialog. This process must
-      be completed in one go; you cannot close the dialog and return later to
+      manifest in the **Upload Sample Spreadsheet** dialogue. This process must
+      be completed in one go; you cannot close the dialogue and return later to
       upload images. The images rely on metadata from the sample manifest, so
       the |upload-images-button| button becomes active immediately after the
       manifest is uploaded, allowing you to add images in the same session.
@@ -152,18 +152,18 @@ What factors can cause errors when uploading images?
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |rembi-image-component-button| image:: /assets/images/images_comp/buttons/components_images_button_rembi.png
+.. |rembi-image-component-button| image:: /assets/images/images-comp/buttons/components-images-button-rembi.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |st-fish-image-component-button| image:: /assets/images/images_comp/buttons/components_images_button_st_fish.png
+.. |st-fish-image-component-button| image:: /assets/images/images-comp/buttons/components-images-button-st-fish.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-images-button| image:: /assets/images/buttons/images_upload_button.png
+.. |upload-images-button| image:: /assets/images/buttons/images-upload-button.png
    :height: 4ex
    :class: no-scaled-link

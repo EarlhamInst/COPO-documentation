@@ -32,9 +32,9 @@ How can I view accessions after submitting metadata?
      `National Centre for Biotechnology Information (NCBI)
      <https://www.ncbi.nlm.nih.gov>`__ website using the link:
      ``https://www.ncbi.nlm.nih.gov/datasets/genome/?bioproject=<project-id>``
-     where ``<project-id>`` is the project :abbr:`ID (identifier)` (also known
-     as study :abbr:`ID (identifier)` or profile :abbr:`ID (identifier)`
-     associated with the profile used to submit the files in COPO.
+     where ``<project-id>`` is the project :abbr:`ID (identifier)` or study
+     :abbr:`ID (identifier)` associated with the profile used to submit the
+     files in COPO.
 
   **Option 1**: View accessions in the data table
      Scroll to any column that ends with ``accession`` as depicted in the
@@ -46,10 +46,10 @@ How can I view accessions after submitting metadata?
         files associated with the record are either still being processed or
         have encountered issues during processing.
 
-     .. figure:: /assets/images/reads/ui/reads_table_showing_accessions.png
+     .. figure:: /assets/images/reads/ui/reads-table-showing-accessions.png
         :alt: Accessions column in the data table
         :align: center
-        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/ui/reads_table_showing_accessions.png
+        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/ui/reads-table-showing-accessions.png
         :class: with-shadow with-border
         :height: 300px
 
@@ -80,7 +80,7 @@ Can submissions be analysed?
 
    #. `Tree of Life dashboard <https://copo-project.org/copo/tol_dashboard/tol>`__
       * Alternatively, click the |tol-dashboard-button| button.
-   #. `Tree of Life inspection page <https://copo-project.org/copo/tol_dashboard/tol_inspectt>`__
+   #. `Tree of Life inspection page <https://copo-project.org/copo/tol_dashboard/tol_inspect>`__
       * Alternatively, click the |tol-inspect-button| button.
    #. `Tree of Life inspection by Genome Acquisition Lab page <https://copo-project.org/copo/tol_dashboard/tol_inspect/gal>`__
       * Alternatively, click the |tol-inspect-by-gal-button| button.
@@ -94,22 +94,22 @@ Can submissions be analysed?
     Images declaration
 ..
 
-.. |accessions-icon| image:: /assets/images/accessions/icons/components_accessions_icon.png
+.. |accessions-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |tol-dashboard-button| image:: /assets/images/dashboard/buttons/dashboard_tol_button.png
+.. |tol-dashboard-button| image:: /assets/images/dashboard/buttons/dashboard-tol-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |tol-inspect-button| image:: /assets/images/tol_inspection/buttons/tol_inspect_button.png
+.. |tol-inspect-button| image:: /assets/images/tol-inspection/buttons/tol-inspect-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |tol-inspect-by-gal-button| image:: /assets/images/tol_inspection/buttons/tol_inspect_by_gal_button.png
+.. |tol-inspect-by-gal-button| image:: /assets/images/tol-inspection/buttons/tol-inspect-by-gal-button.png
    :height: 4ex
    :class: no-scaled-link

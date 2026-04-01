@@ -49,10 +49,10 @@ Using the Components Button
 Click the |reads-component-button| component button in the **Components**
 column as shown below:
 
-.. figure:: /assets/images/reads/biodata/buttons/reads_button_pointer_biodata.png
+.. figure:: /assets/images/reads/biodata/buttons/reads-button-pointer-biodata.png
    :alt: Reads profile component button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/buttons/reads_button_pointer_biodata.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/buttons/reads-button-pointer-biodata.png
    :class: with-shadow with-border
    :height: 300px
 
@@ -67,10 +67,10 @@ Using the Components Icon Navigation Pane
 
 .. include:: /profile/components/navigation-pane-overview.rst
 
-.. figure:: /assets/images/reads/biodata/icons/reads_icon_pointer_biodata.png
+.. figure:: /assets/images/reads/biodata/icons/reads-icon-pointer-biodata.png
    :alt: Reads profile component icon
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/reads/biodata/icons/reads_icon_pointer_biodata.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/icons/reads-icon-pointer-biodata.png
    :class: with-shadow with-border
    :height: 120px
 
@@ -87,10 +87,10 @@ Upload Reads
 
 1. Click the dropdown menu to choose a checklist [#f4]_.
 
-   .. figure:: /assets/images/reads/biodata/ui/reads_pointer_to_dropdown_menu_biodata.png
+   .. figure:: /assets/images/reads/biodata/ui/reads-pointer-to-dropdown-menu-biodata.png
       :alt: Pointer to Reads checklist dropdown menu
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads_pointer_to_dropdown_menu_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads-pointer-to-dropdown-menu-biodata.png
       :class: with-shadow with-border
 
       **Pointer to dropdown menu for reads**
@@ -105,10 +105,10 @@ Upload Reads
 
       <br>
 
-   .. figure:: /assets/images/reads/biodata/ui/reads_with_checklist_dropdown_list_biodata.png
+   .. figure:: /assets/images/reads/biodata/ui/reads-with-checklist-dropdown-list-biodata.png
       :alt: Available reads checklist options within a Biodata profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads_with_checklist_dropdown_list_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads-with-checklist-dropdown-list-biodata.png
       :class: with-shadow with-border
 
       **Checklist options for read submissions**
@@ -133,25 +133,25 @@ Upload Reads
       uploaded manifest does not correspond with the selected dropdown menu
       checklist option.
 
-   .. figure:: /assets/images/reads/biodata/ui/reads_pointer_to_add_manifest_button_biodata.png
+   .. figure:: /assets/images/reads/biodata/ui/reads-pointer-to-add-manifest-button-biodata.png
       :alt: Pointer to 'Add study from spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads_pointer_to_add_manifest_button_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads-pointer-to-add-manifest-button-biodata.png
       :class: with-shadow with-border
 
-      **Click "Add study from spreadsheet" button to open an upload dialog**
+      **Click "Add study from spreadsheet" button to open an upload dialogue**
 
    .. raw:: html
 
       <br>
 
-4. A dialog is displayed. Click the |reads-upload-button-biodata|
-   button in the dialog to choose the spreadsheet file from your local system.
+4. A dialogue is displayed. Click the |reads-upload-button-biodata|
+   button in the dialogue to choose the spreadsheet file from your local system.
 
-   .. figure:: /assets/images/reads/biodata/modals/reads_upload_spreadsheet_dialog_biodata.png
-      :alt: Upload Reads spreadsheet dialog
+   .. figure:: /assets/images/reads/biodata/modals/reads-upload-spreadsheet-dialogue-biodata.png
+      :alt: Upload Reads spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/modals/reads_upload_spreadsheet_dialog_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/modals/reads-upload-spreadsheet-dialogue-biodata.png
       :class: with-shadow with-border
 
       **Click 'Upload manifest' button**
@@ -163,10 +163,10 @@ Upload Reads
 5. The uploaded data is shown in a preview before final submission. Click
    the |finish-button| button to finalise the upload.
 
-   .. figure:: /assets/images/reads/biodata/modals/reads_dialog_with_uploaded_data_study_tab_biodata.png
-      :alt: Dialog with uploaded Reads data under the "STUDY" tab
+   .. figure:: /assets/images/reads/biodata/modals/reads-dialogue-with-uploaded-data-study-tab-biodata.png
+      :alt: Dialogue with uploaded Reads data under the "STUDY" tab
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/modals/reads_dialog_with_uploaded_data_study_tab_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/modals/reads-dialogue-with-uploaded-data-study-tab-biodata.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -176,10 +176,10 @@ Upload Reads
 
       <br>
 
-   .. figure:: /assets/images/reads/biodata/modals/reads_dialog_with_uploaded_data_reads_file_tab_biodata.png
-      :alt: Dialog with uploaded Reads data under the "READ FILE" tab
+   .. figure:: /assets/images/reads/biodata/modals/reads-dialogue-with-uploaded-data-reads-file-tab-biodata.png
+      :alt: Dialogue with uploaded Reads data under the "READ FILE" tab
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/modals/reads_dialog_with_uploaded_data_reads_file_tab_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/modals/reads-dialogue-with-uploaded-data-reads-file-tab-biodata.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -199,10 +199,10 @@ Upload Reads
       * Each tab represents a worksheet in the manifest. Only worksheets
         with data appear as tabs.
 
-   .. figure:: /assets/images/reads/biodata/ui/reads_page_with_uploaded_data_biodata.png
+   .. figure:: /assets/images/reads/biodata/ui/reads-page-with-uploaded-data-biodata.png
       :alt: Reads data uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads_page_with_uploaded_data_biodata.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/reads/biodata/ui/reads-page-with-uploaded-data-biodata.png
       :class: with-shadow with-border
 
       **Reads page showing the uploaded data**
@@ -350,38 +350,38 @@ Related Topics
     Images declaration
 ..
 
-.. |accessions-component-icon| image:: /assets/images/accessions/icons/components_accessions_icon.png
+.. |accessions-component-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-reads-manifest-button-biodata| image:: /assets/images/buttons/add_manifest_button_for_biodata_profile.png
+.. |add-reads-manifest-button-biodata| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button2.png
+.. |finish-button| image:: /assets/images/buttons/finish-button2.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |reads-blank-manifest-download-button-biodata| image:: /assets/images/buttons/download_button_blank_manifest.png
+.. |reads-blank-manifest-download-button-biodata| image:: /assets/images/buttons/download-button-blank-manifest.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-component-button| image:: /assets/images/reads/buttons/components_reads_button.png
+.. |reads-component-button| image:: /assets/images/reads/buttons/components-reads-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-upload-button-biodata| image:: /assets/images/reads/biodata/buttons/reads_upload_button_biodata.png
+.. |reads-upload-button-biodata| image:: /assets/images/reads/biodata/buttons/reads-upload-button-biodata.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |submit-record-button-ena| image:: /assets/images/buttons/submit_record_button_ena.png
+.. |submit-record-button-ena| image:: /assets/images/buttons/submit-record-button-ena.png
    :height: 3.5ex
    :class: no-scaled-link
 
-.. |submit-record-button-zenodo| image:: /assets/images/buttons/submit_record_button_zenodo.png
+.. |submit-record-button-zenodo| image:: /assets/images/buttons/submit-record-button-zenodo.png
    :height: 3.5ex
    :class: no-scaled-link

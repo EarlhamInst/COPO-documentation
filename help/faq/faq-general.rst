@@ -111,11 +111,11 @@ How can I check the status of my data submissions?
 
       <br>
 
-   ..  figure:: /assets/images/ui/data_submission_status_legend.png
+   ..  figure:: /assets/images/ui/data-submission-status-legend.png
        :alt: Data status and progress legend
        :align: center
        :height: 40ex
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/ui/data_submission_status_legend.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/ui/data-submission-status-legend.png
        :class: with-shadow with-border
 
        **Data submission status and progress legend their corresponding label
@@ -178,23 +178,23 @@ When was the COPO  project launched?
 
       * - 2014 - 2022
         - 2023 - PRESENT
-      * - .. figure:: /assets/logos/copo_logo_old.png
+      * - .. figure:: /assets/logos/copo-logo-old.png
              :height: 10ex
              :alt: COPO logo during the years 2014 - 2022
              :align: center
-             :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/logos/copo_logo_old.png
+             :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/logos/copo-logo-old.png
              :class: with-shadow with-border
-        - .. figure:: /assets/logos/copo_logo_new.png
+        - .. figure:: /assets/logos/copo-logo-new.png
              :height: 12ex
              :alt: COPO logo during the years 2023 - PRESENT
              :align: center
-             :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/logos/copo_logo_new.png
+             :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/logos/copo-logo-new.png
              :class: with-shadow with-border
 
    .. seealso::
 
      * :download:`Download a seminar presentation
-       </assets/files/presentations/EI_Seminar_23042024_Advancing_Biodiversity_Research_The_Evolution_of_COPO.pptx>`
+       </assets/files/presentations/ei-seminar-23042024-advancing-biodiversity-research-the-evolution-of-copo.pptx>`
        which gives an overview of the evolution of the COPO project since its
        inception in 2014 to the present day
 
@@ -299,22 +299,22 @@ Which public repositories does COPO use for data submission?
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/icons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info-icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |lime-green-circle| image:: /assets/images/icons/circle_lime_green.png
+.. |lime-green-circle| image:: /assets/images/icons/circle-lime-green.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |red-circle| image:: /assets/images/icons/circle_rose_red.png
+.. |red-circle| image:: /assets/images/icons/circle-rose-red.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |yellow-circle| image:: /assets/images/icons/circle_yellow.png
+.. |yellow-circle| image:: /assets/images/icons/circle-yellow.png
    :height: 4ex
    :class: no-scaled-link

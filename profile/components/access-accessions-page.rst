@@ -20,10 +20,10 @@ Click the |accessions-component-button| component button in the **Components**
    .. grid-item::
       :columns: 6
 
-      .. figure::  /assets/images/accessions/buttons/accessions_button_pointer_tol.png
+      .. figure::  /assets/images/accessions/buttons/accessions-button-pointer-tol.png
          :alt: Accession profile component button for Tree of Life profiles
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/buttons/accessions_button_pointer_tol.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/buttons/accessions-button-pointer-tol.png
          :class: with-shadow with-border
          :height: 400px
 
@@ -33,10 +33,10 @@ Click the |accessions-component-button| component button in the **Components**
    .. grid-item::
       :columns: 6
 
-      .. figure::  /assets/images/accessions/buttons/accessions_button_pointer_biodata.png
+      .. figure::  /assets/images/accessions/buttons/accessions-button-pointer-biodata.png
          :alt: AAccession profile component button for Biodata profiles
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/buttons/accessions_button_pointer_biodata.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/buttons/accessions-button-pointer-biodata.png
          :class: with-shadow with-border
          :height: 380px
 
@@ -58,10 +58,10 @@ Using the Components Icon Navigation Pane
    .. grid-item::
       :columns: 6
 
-      .. figure:: /assets/images/accessions/icons/accessions_icon_pointer_tol.png
+      .. figure:: /assets/images/accessions/icons/accessions-icon-pointer-tol.png
          :alt: Accessions profile component icon for Tree of Life profiles
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/icons/accessions_icon_pointer_tol.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/icons/accessions-icon-pointer-tol.png
          :class: with-shadow with-border
          :height: 110px
 
@@ -71,10 +71,10 @@ Using the Components Icon Navigation Pane
    .. grid-item::
       :columns: 6
 
-      .. figure:: /assets/images/accessions/icons/accessions_icon_pointer_biodata.png
+      .. figure:: /assets/images/accessions/icons/accessions-icon-pointer-biodata.png
          :alt: Accessions profile component icon for Biodata profiles
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/icons/accessions_icon_pointer_biodata.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/icons/accessions-icon-pointer-biodata.png
          :class: with-shadow with-border
          :height: 110px
 
@@ -96,6 +96,6 @@ Using the Components Icon Navigation Pane
    Images declaration
 ..
 
-.. |accessions-component-button| image:: /assets/images/accessions/buttons/components_accessions_button.png
+.. |accessions-component-button| image:: /assets/images/accessions/buttons/components-accessions-button.png
    :height: 4ex
    :class: no-scaled-link

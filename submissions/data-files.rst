@@ -34,10 +34,10 @@ Using the Components Button
 Click the |files-component-button| component button in the **Components**
 column as shown below:
 
-.. figure:: /assets/images/files/buttons/files_button_pointer_biodata.png
+.. figure:: /assets/images/files/buttons/files-button-pointer-biodata.png
   :alt: Biodata Files profile component
   :align: center
-  :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/buttons/files_button_pointer_biodata.png
+  :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/buttons/files-button-pointer-biodata.png
   :class: with-shadow with-border
   :height: 300px
 
@@ -62,10 +62,10 @@ Submit Files from your Local (Computer) System
 #. Click the |add-files-via-computer-button| button on the Data files page to
    add a new file by browsing your local file system
 
-   .. figure:: /assets/images/files/ui/files_pointer_to_add_files_via_computer_button.png
+   .. figure:: /assets/images/files/ui/files-pointer-to-add-files-via-computer-button.png
       :alt: 'Add new file by browsing local file system' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files_pointer_to_add_files_via_computer_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files-pointer-to-add-files-via-computer-button.png
       :class: with-shadow with-border
 
       **Button to add a new file by browsing your local file system**
@@ -74,17 +74,17 @@ Submit Files from your Local (Computer) System
 
       <br>
 
-#. An **Upload File** dialog is displayed. Click the **Upload** button to
+#. An **Upload File** dialogue is displayed. Click the **Upload** button to
    choose a file from your local system.
 
-   .. figure:: /assets/images/files/modals/files_upload_file_dialog.png
-      :alt: Upload File dialog
+   .. figure:: /assets/images/files/modals/files-upload-file-dialogue.png
+      :alt: Upload File dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files_upload_file_dialog.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files-upload-file-dialogue.png
       :class: with-shadow with-border
       :height: 300px
 
-      **Dialog for uploading data files**
+      **Dialogue for uploading data files**
 
    .. raw:: html
 
@@ -93,10 +93,10 @@ Submit Files from your Local (Computer) System
 #. The new file(s) will be displayed on the **Files** page after a successful
    submission.
 
-    .. figure:: /assets/images/files/ui/files_uploaded1.png
+    .. figure:: /assets/images/files/ui/files-uploaded1.png
       :alt: File(s) submitted
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files_uploaded1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files-uploaded1.png
       :class: with-shadow with-border
 
       **Data files page showing uploaded files**
@@ -124,10 +124,10 @@ Submit Data Files via the Terminal
 #. Click the |add-files-via-terminal-button| button on the Data files page to
    add a new file from a cluster via the terminal.
 
-   .. figure:: /assets/images/files/ui/files_pointer_to_add_files_via_terminal_button.png
+   .. figure:: /assets/images/files/ui/files-pointer-to-add-files-via-terminal-button.png
       :alt: 'Add new file via terminal' button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files_pointer_to_add_files_via_terminal_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files-pointer-to-add-files-via-terminal-button.png
       :class: with-shadow with-border
 
       **Files page: 'Add new file via terminal' button**
@@ -136,22 +136,22 @@ Submit Data Files via the Terminal
 
       <br>
 
-#. A **Move Data** dialog is displayed. Follow the instructions displayed then,
+#. A **Move Data** dialogue is displayed. Follow the instructions displayed then,
    click the **Process** button to submit the file(s) to the profile.
 
-    .. figure:: /assets/images/files/modals/files_move_data_dialog.png
-      :alt: Move Data dialog
+    .. figure:: /assets/images/files/modals/files-move-data-dialogue.png
+      :alt: Move Data dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files-move-data-dialogue.png
       :class: with-shadow with-border
       :height: 400px
 
-      **Files submission: Move Data dialog**
+      **Files submission: Move Data dialogue**
 
-   .. figure:: /assets/images/files/modals/files_move_data_dialog_terminal_input1.png
+   .. figure:: /assets/images/files/modals/files-move-data-dialogue-terminal-input1.png
       :alt: Terminal with command inputted
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_terminal_input1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files-move-data-dialogue-terminal-input1.png
       :class: with-shadow with-border
 
       **Input** $ ``ls - F1`` **command in the terminal**
@@ -160,14 +160,14 @@ Submit Data Files via the Terminal
 
          <br>
 
-   .. figure:: /assets/images/files/modals/files_move_data_dialog_with_details1.png
-      :alt: Move Data dialog with details inputted
+   .. figure:: /assets/images/files/modals/files-move-data-dialogue-with-details1.png
+      :alt: Move Data dialogue with details inputted
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_with_details1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files-move-data-dialogue-with-details1.png
       :class: with-shadow with-border
       :height: 400px
 
-      **Move Data dialog: Input the file name(s) returned after having ran
+      **Move Data dialogue: Input the file name(s) returned after having ran
       the** $ ``ls - F1`` **command in the terminal. Then, click
       the** ``Process`` **button.**
 
@@ -177,15 +177,15 @@ Submit Data Files via the Terminal
 
    .. _files-submission-via-terminal-download-commands:
 
-   .. figure:: /assets/images/files/modals/files_move_data_dialog_with_details2.png
-      :alt: Move Data dialog with result (a command) after having clicked the
+   .. figure:: /assets/images/files/modals/files-move-data-dialogue-with-details2.png
+      :alt: Move Data dialogue with result (a command) after having clicked the
             "Process" button
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_with_details2.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files-move-data-dialogue-with-details2.png
       :class: with-shadow with-border
       :height: 400px
 
-      **Move Data dialog: Command outputted after having clicked command in
+      **Move Data dialogue: Command outputted after having clicked command in
       the** ``Process`` **button. Download the command displayed.**
 
       The downloaded file will have *unknown* or *download* as the file name
@@ -195,10 +195,10 @@ Submit Data Files via the Terminal
 
       <br>
 
-   .. figure:: /assets/images/files/modals/files_move_data_dialog_terminal_input2.png
+   .. figure:: /assets/images/files/modals/files-move-data-dialogue-terminal-input2.png
       :alt: Terminal with command pasted
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_terminal_input2.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/modals/files-move-data-dialogue-terminal-input2.png
       :class: with-shadow with-border
 
       **Paste the copied command in the terminal**
@@ -218,10 +218,10 @@ Submit Data Files via the Terminal
    file submission via the terminal i.e. after the command has been executed
    successfully in the terminal.
 
-   .. figure:: /assets/images/files/ui/files_uploaded2.png
+   .. figure:: /assets/images/files/ui/files-uploaded2.png
        :alt: Files submitted
        :align: center
-       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files_uploaded2.png
+       :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/files/ui/files-uploaded2.png
        :class: with-shadow with-border
 
        **Files submission: Files page displaying the uploaded file(s)**
@@ -269,11 +269,11 @@ is verifying and validating the submitted file(s).
 The **ENA FILE PROCESSING STATUS** column is highlighted with a red rectangle
 border in the image below:
 
-.. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_ena_file_processing_status_column.png
+.. figure:: /assets/images/sequence-annotations/ui/sequence-annotations-pointer-to-ena-file-processing-status-column.png
    :alt: ENA (European Nucleotide Archive) File Processing Status column on
          the reads, annotations or assembly page
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_ena_file_processing_status_column.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/sequence-annotations/ui/sequence-annotations-pointer-to-ena-file-processing-status-column.png
    :class: with-shadow with-border
 
 .. raw:: html
@@ -325,23 +325,23 @@ Related Topics
     Images declaration
 ..
 
-.. |files-component-button| image:: /assets/images/files/buttons/components_files_button.png
+.. |files-component-button| image:: /assets/images/files/buttons/components-files-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-computer-button| image:: /assets/images/files/buttons/add_files_via_computer_button.png
+.. |add-files-via-computer-button| image:: /assets/images/files/buttons/add-files-via-computer-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-terminal-button| image:: /assets/images/files/buttons/add_files_via_terminal_button.png
+.. |add-files-via-terminal-button| image:: /assets/images/files/buttons/add-files-via-terminal-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-computer-button1| image:: /assets/images/files/buttons/add_files_via_computer_button1.png
+.. |add-files-via-computer-button1| image:: /assets/images/files/buttons/add-files-via-computer-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-terminal-button1| image:: /assets/images/files/buttons/add_files_via_terminal_button1.png
+.. |add-files-via-terminal-button1| image:: /assets/images/files/buttons/add-files-via-terminal-button1.png
    :height: 4ex
    :class: no-scaled-link
 

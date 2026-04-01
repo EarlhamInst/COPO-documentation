@@ -23,10 +23,10 @@ is displayed if you are not logged in.
 
    <br>
 
-.. figure:: /assets/images/dashboard/ui/dashboard_tol1.png
+.. figure:: /assets/images/dashboard/ui/dashboard-tol1.png
    :alt: Tree of Life dashboard 1.1
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard_tol1.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard-tol1.png
    :class: with-shadow with-border
 
    **ToL Dashboard: Overview of COPO statistics and ToL inspection**
@@ -35,10 +35,10 @@ is displayed if you are not logged in.
 
    <br>
 
-.. figure:: /assets/images/dashboard/ui/dashboard_tol2.png
+.. figure:: /assets/images/dashboard/ui/dashboard-tol2.png
    :alt: Tree of Life dashboard 1.2
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard_tol2.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard-tol2.png
    :class: with-shadow with-border
 
    **ToL Dashboard: Geographical location of all GALs and Partners and an
@@ -48,18 +48,18 @@ is displayed if you are not logged in.
 
    <br>
 
-.. figure:: /assets/images/dashboard/ui/dashboard_tol_world_map_with_popup_dialog.png
+.. figure:: /assets/images/dashboard/ui/dashboard-tol-world-map-with-popup-dialogue.png
    :alt: Tree of Life dashboard 1.2
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard_tol_world_map_with_popup_dialog.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/dashboard/ui/dashboard-tol-world-map-with-popup-dialogue.png
    :class: with-shadow with-border
 
-   **ToL Dashboard: Popup dialog with more information about one of the GALs**
+   **ToL Dashboard: Popup dialogue with more information about one of the GALs**
 
 To view more details about a GAL or Partner, click one of the map locations on
 the world map.
 
-A popup dialog will be displayed information about the GAL or Partner such as
+A popup dialogue will be displayed information about the GAL or Partner such as
 name, state, country and number of samples produced.
 
 .. raw:: html
@@ -74,10 +74,10 @@ Tree of Life Inspection
 A `ToL inspection <tol-inspect-page_>`__ analyses sample metadata and
 facilitates search faceting as well as data discovery of the results.
 
-.. figure:: /assets/images/tol_inspection/ui/tol_inspection_web_page.png
+.. figure:: /assets/images/tol-inspection/ui/tol-inspection-web-page.png
    :alt: Tree of Life Inspection page
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/tol_inspection/ui/tol_inspection_web_page.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/tol-inspection/ui/tol-inspection-web-page.png
    :class: with-shadow with-border
 
    **Tree of Life (ToL) Inspection page**
@@ -90,10 +90,10 @@ Tree of Life Inspection by Genome Acquisition Lab
 A `ToL inspection by GAL <tol-inspect-by-gal-page_>`__  analyses the sample
 metadata by Genome Acquisition Labs (GALs) [#f2]_ based on their taxonomy.
 
-.. figure:: /assets/images/tol_inspection/ui/tol_inspection_by_gal_web_page.png
+.. figure:: /assets/images/tol-inspection/ui/tol-inspection-by-gal-web-page.png
    :alt: Tree of Life Inspection by Genome Acquisition Lab page
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/tol_inspection/ui/tol_inspection_by_gal_web_page.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/tol-inspection/ui/tol-inspection-by-gal-web-page.png
    :class: with-shadow with-border
 
    **Tree of Life (ToL) Inspection by Genome Acquisition Lab (GAL) page**

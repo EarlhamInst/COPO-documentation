@@ -8,7 +8,7 @@ Supported Projects
    * Primary projects, also called main or umbrella projects, are the main
      focus of a research study. In COPO, they are
      referred to as profiles, profile types or projects. In a Tree of Life
-     profile, they are called :abbr:`ToL (Tree of Life)` [#f1]_ projects.
+     profile, they are called Tree of Life (ToL) [#f1]_ projects.
 
    * Secondary projects, also called subprojects or child projects, are part of
      a research study. In COPO, they are referred to as associated profile

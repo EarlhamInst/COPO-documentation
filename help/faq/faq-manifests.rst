@@ -65,46 +65,46 @@ What is the difference between a manifest and a checklist?
     Images declaration
 ..
 
-.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components_assembly_button.png
+.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components-assembly-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |barcoding-manifest-component-button| image:: /assets/images/barcoding/buttons/components_barcoding_manifest_button.png
+.. |barcoding-manifest-component-button| image:: /assets/images/barcoding/buttons/components-barcoding-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |confirm-button| image:: /assets/images/buttons/confirm_button.png
+.. |confirm-button| image:: /assets/images/buttons/confirm-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples_download_manifest_button.png
+.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples-download-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |export-manifest-to-csv-format-button| image:: /assets/images/samples/buttons/samples_export_to_csv_format_button.png
+.. |export-manifest-to-csv-format-button| image:: /assets/images/samples/buttons/samples-export-to-csv-format-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button1.png
+.. |finish-button| image:: /assets/images/buttons/finish-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-component-button| image:: /assets/images/reads/buttons/components_reads_button.png
+.. |reads-component-button| image:: /assets/images/reads/buttons/components-reads-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |samples-component-button| image:: /assets/images/samples/buttons/components_samples_button.png
+.. |samples-component-button| image:: /assets/images/samples/buttons/components-samples-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |sequence-annotations-component-button| image:: /assets/images/sequence_annotations/buttons/components_sequence_annotations_button.png
+.. |sequence-annotations-component-button| image:: /assets/images/sequence-annotations/buttons/components-sequence-annotations-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-permits-button| image:: /assets/images/buttons/permits_upload_button.png
+.. |upload-permits-button| image:: /assets/images/buttons/permits-upload-button.png
    :height: 4ex
    :class: no-scaled-link

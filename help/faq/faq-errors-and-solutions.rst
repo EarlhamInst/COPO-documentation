@@ -64,7 +64,7 @@ Invalid date in column
       ``00:00:00``.
 
       This time component is usually not visible in the cell. An example of
-      this is ``2025-05-01 00:00:00``) but only ``2025-05-01`` is inputted and
+      this is ``2025-05-01 00:00:00`` but only ``2025-05-01`` is inputted and
       visible in the cell.
 
       Refer to the :ref:`Solution option #2
@@ -75,11 +75,11 @@ Invalid date in column
 
          <br>
 
-      .. figure:: /assets/images/errors/error_invalid_collection_date.png
+      .. figure:: /assets/images/errors/error-invalid-collection-date.png
          :alt: Example of invalid date format error message for collection
                date column
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/errors/error_invalid_collection_date.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/errors/error-invalid-collection-date.png
          :class: with-shadow with-border
          :height: 200px
 
@@ -90,11 +90,11 @@ Invalid date in column
 
          <br>
 
-      .. figure:: /assets/images/errors/error_invalid_date_of_collection.png
+      .. figure:: /assets/images/errors/error-invalid-date-of-collection.png
          :alt: Example of invalid date format error message for
                DATE_OF_COLLECTION column
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/errors/error_invalid_date_of_collectione.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/errors/error-invalid-date-of-collection.png
          :class: with-shadow with-border
          :height: 200px
 
@@ -153,10 +153,10 @@ Invalid column '<column-name>'
    there is a typo in the
 
 
-   .. figure:: /assets/images/errors/error_invalid_column_incorrect_manifest_uploaded.png
+   .. figure:: /assets/images/errors/error-invalid-column-incorrect-manifest-uploaded.png
       :alt: Example of incorrect manifest uploaded error message
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/errors/error_invalid_column_incorrect_manifest_uploaded.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/errors/error-invalid-column-incorrect-manifest-uploaded.png
       :class: with-shadow with-border
       :height: 300px
 
@@ -181,6 +181,6 @@ Invalid column '<column-name>'
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link

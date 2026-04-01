@@ -20,33 +20,33 @@ Updating Profiles
      samples that have not been accepted and sent to European Nucleotide
      Archive (ENA) will also have the associated profile type updated.
 
-   * If the profile is shared, it cannot be updated by the sharee.
+   * If the profile is shared, it cannot be updated nor deleted by the sharee.
 
 To edit a profile, click the |vertical-ellipsis-icon| icon associated with a
 profile. Then, click the ``Edit`` button.
 
-..  figure:: /assets/images/profiles/ui/profile_options_edit_record.png
+..  figure:: /assets/images/profiles/ui/profile-options-edit-record.png
     :alt: Edit profile option
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_options_edit_record.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-options-edit-record.png
     :class: with-shadow with-border
     :height: 400px
 
     **Click the** ``Edit`` **button**
 
-..  figure:: /assets/images/profiles/ui/profile_options_edit_record_details.png
+..  figure:: /assets/images/profiles/ui/profile-options-edit-record-details.png
     :alt: Profile update details
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_options_edit_record_details.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-options-edit-record-details.png
     :class: with-shadow with-border
     :height: 550px
 
     **Update the details then, click** ``Save`` **to apply the changes**
 
-..  figure:: /assets/images/profiles/ui/profile_record_updated.png
+..  figure:: /assets/images/profiles/ui/profile-record-updated.png
     :alt: Profile updated message
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_record_updated.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-record-updated.png
     :class: with-shadow with-border
 
     **Profile updated**
@@ -75,28 +75,28 @@ Deleting Profiles
 To delete a profile, click the |vertical-ellipsis-icon| icon associated with a
 profile. Then, click the ``Delete`` button.
 
-..  figure:: /assets/images/profiles/ui/profile_options_delete_record.png
+..  figure:: /assets/images/profiles/ui/profile-options-delete-record.png
     :alt: Delete profile option
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile_options_delete_record.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-options-delete-record.png
     :class: with-shadow with-border
     :height: 310px
 
     **Click the** ``Delete`` **button**
 
-..  figure:: /assets/images/profiles/modals/profile_options_delete_confirmation_dialog.png
-    :alt: Profile deletion confirmation dialog
+..  figure:: /assets/images/profiles/modals/profile-options-delete-confirmation-dialogue.png
+    :alt: Profile deletion confirmation dialogue
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile_options_delete_confirmation_dialog.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile-options-delete-confirmation-dialogue.png
     :class: with-shadow with-border
     :height: 210px
 
     **Confirm profile deletion**
 
-..  figure:: /assets/images/profiles/modals/profile_options_delete_error_dialog.png
-    :alt: Profile deletion error dialog
+..  figure:: /assets/images/profiles/modals/profile-options-delete-error-dialogue.png
+    :alt: Profile deletion error dialogue
     :align: center
-    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile_options_delete_error_dialog.png
+    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/modals/profile-options-delete-error-dialogue.png
     :class: with-shadow with-border
     :height: 170px
 
@@ -108,6 +108,6 @@ Once deleted, the profile is removed from the **Work profiles** page.
     Images declaration
 ..
 
-.. |vertical-ellipsis-icon| image:: /assets/images/profiles/icons/profile_vertical_ellipsis_icon.png
+.. |vertical-ellipsis-icon| image:: /assets/images/profiles/icons/profile-vertical-ellipsis-icon.png
    :height: 4ex
    :class: no-scaled-link

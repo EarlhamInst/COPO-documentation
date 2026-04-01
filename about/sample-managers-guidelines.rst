@@ -85,10 +85,10 @@ the **ENTER** key on the keyboard to perform the search.
       * ``public_name``
       * ``sraAccession``
 
-.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_profiles_table_search_box.png
+.. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-profiles-table-search-box.png
    :alt: Profiles table search box on 'Accept or Reject Samples' page
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_profiles_table_search_box.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-profiles-table-search-box.png
    :class: with-shadow with-border
 
    **Accept or Reject Samples page: Profiles table search box**
@@ -107,10 +107,10 @@ search.
 If a match is found in any of the sample records, the relevant sample(s) will
 be displayed in the **Samples** table.
 
-.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_table_search_box.png
+.. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-table-search-box.png
    :alt: Samples table search box on 'Accept or Reject Samples' page
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_table_search_box.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-table-search-box.png
    :class: with-shadow with-border
 
    **Accept or Reject Samples page: Samples table search box**
@@ -139,11 +139,11 @@ group by following the steps below:
    page title on the left side of the **Accept or Reject Samples** page as
    shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-manifest-dropdown-menu1.png
       :alt: 'Accept or Reject Samples' manifest dropdown menu is shown if
             sample manager belongs to more than one manifest group
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-manifest-dropdown-menu1.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Manifest dropdown menu beside 'Choose to
@@ -158,11 +158,11 @@ group by following the steps below:
 
    Choose the desired manifest group from the dropdown menu as shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-manifest-dropdown-menu2.png
       :alt: 'Accept or Reject Samples' manifest dropdown menu options are shown
             after the dropdown menu is clicked
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-manifest-dropdown-menu2.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Manifest dropdown menu with options
@@ -201,11 +201,11 @@ tab on the **Accept or Reject Samples** page then, checking the
 ***Samples** table displayed (if the profile has submitted samples) as shown
 below:
 
-.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project1.png
+.. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-associated-tol-project1.png
    :alt: Associated TOL Project column in the 'Samples' table on the 'Accept
          or Reject Samples' page for a single associated profile type
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project1.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-associated-tol-project1.png
    :class: with-shadow with-border
    :height: 200px
 
@@ -216,11 +216,11 @@ below:
 
    <br>
 
-.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project2.png
+.. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-associated-tol-project2.png
    :alt: Associated TOL Project column in the 'Samples' table on the 'Accept
          or Reject Samples' page with multiple associated profile types
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project2.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-associated-tol-project2.png
    :class: with-shadow with-border
    :height: 200px
 
@@ -278,11 +278,11 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-accept-samples-button-dtol.png
       :alt: Accepting samples on the 'Accept or Reject Samples' page for DTOL
             profiles
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-accept-samples-button-dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Accepting samples within DTOL profiles**
@@ -291,11 +291,11 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_erga.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-accept-samples-button-erga.png
       :alt: Accepting samples on the 'Accept or Reject Samples' page for ERGA
             profiles
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_erga.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-accept-samples-button-erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Accepting samples within ERGA profiles**
@@ -304,20 +304,20 @@ Accepting samples
 
       <br>
 
-   A confirmation popup dialog will be displayed as shown below after the
+   A confirmation popup dialogue will be displayed as shown below after the
    |accept-samples-button| button is clicked.
 
    Click the **Okay** button to accept the selected sample record(s) or click
    the **Cancel** button to cancel the action.
 
-   .. figure:: /assets/images/samples/accept_reject_samples/modals/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
-      :alt: Accept samples confirmation dialog on the 'Accept or Reject
+   .. figure:: /assets/images/samples/accept-reject-samples/modals/samples-accept-reject-accept-samples-confirmation-popup-dialogue.png
+      :alt: Accept samples confirmation dialogue on the 'Accept or Reject
             Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/modals/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/modals/samples-accept-reject-accept-samples-confirmation-popup-dialogue.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples page: Accept samples confirmation dialog**
+      **Accept or Reject Samples page: Accept samples confirmation dialogue**
 
    .. raw:: html
 
@@ -327,11 +327,11 @@ Accepting samples
    processing stage and will be displayed in the **Processing Samples** tab as
    shown in the examples below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-processing-stage-asg-dtol.png
       :alt: Accepted ASG or DTOL samples at the 'Processing Samples' stage on
             the 'Accept or Reject Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-processing-stage-asg-dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Accepted DTOL samples at the processing
@@ -341,11 +341,11 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-processing-stage-erga.png
       :alt: Accepted samples at the 'Processing Samples' stage on the 'Accept
             or Reject Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-processing-stage-erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Accepted ERGA samples at the processing
@@ -359,11 +359,11 @@ Accepting samples
    accepted stage and will be displayed in the **Accepted Samples** tab as
    shown the examples below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-accepted-stage-asg-dtol.png
       :alt: Accepted samples at the 'Accepted Samples' stage on the 'Accept or
             Reject Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-accepted-stage-asg-dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Accepted DTOL samples at the accepted
@@ -373,11 +373,11 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-accepted-stage-erga.png
       :alt: Accepted ERGA samples at the 'Accepted Samples' stage on the
             'Accept or Reject Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-accepted-samples-at-accepted-stage-erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Accepted ERGA samples at the accepted
@@ -400,10 +400,10 @@ Rejecting samples
 
    Then, click the |reject-samples-button| button as shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_reject_samples_button.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-reject-samples-button.png
       :alt: Rejecting samples on the 'Accept or Reject Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_reject_samples_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-reject-samples-button.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Rejecting samples**
@@ -415,11 +415,11 @@ Rejecting samples
 #. The samples will proceed to the rejected stage and will be displayed in the
    **Rejected Samples** tab as shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_rejected_samples_at_rejected_stage.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-rejected-samples-at-rejected-stage.png
       :alt: Rejected samples at the 'Rejected Samples' stage on the 'Accept or
             Reject Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_rejected_samples_at_rejected_stage.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-rejected-samples-at-rejected-stage.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Rejected samples at the rejected stage**
@@ -446,11 +446,11 @@ following the steps below:
    for the profile that you would like upload a manifest for or update a
    submitted manifest for as shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-dtol-profile.png
       :alt: Pointer to 'Samples' page link on the 'Accept or Reject Samples'
             page for the desired DTOL profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-dtol-profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Navigate to 'Samples' page by clicking
@@ -462,11 +462,11 @@ following the steps below:
 
    .. centered:: **OR**
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-erga-profile.png
       :alt: Pointer to 'Samples' page link on the 'Accept or Reject Samples'
             page for the desired ERGA profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-erga-profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Navigate to 'Samples' page by clicking
@@ -478,11 +478,11 @@ following the steps below:
 
 #. The **Samples** page will be displayed as shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-dtol.png
       :alt: Pointer to 'Samples' page on the 'Accept or Reject Samples' page
             for a DTOL profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-dtol.png
       :class: with-shadow with-border
 
       **Samples page for a DTOL profile**
@@ -493,11 +493,11 @@ following the steps below:
 
    .. centered:: **OR**
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-erga.png
       :alt: Pointer to 'Samples' page on the 'Accept or Reject Samples' page
             for an ERGA profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-erga.png
       :class: with-shadow with-border
 
       **Samples page for an ERGA profile**
@@ -557,16 +557,16 @@ the steps below:
       Permits are downloaded as a ``.zip`` file
 
    If no permits were submitted for the selected sample record(s), a message is
-   displayed in the popup dialog indicating such as shown below:
+   displayed in the popup dialogue indicating such as shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/modals/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
-      :alt: No permits exist message in popup dialog for selected sample
+   .. figure:: /assets/images/samples/accept-reject-samples/modals/samples-accept-reject-download-permits-dialogue-with-no-permits-exist-message.png
+      :alt: No permits exist message in popup dialogue for selected sample
             record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/modals/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/modals/samples-accept-reject-download-permits-dialogue-with-no-permits-exist-message.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples page: Popup dialog displaying message, 'No
+      **Accept or Reject Samples page: Popup dialogue displaying message, 'No
       permits exist for selected sample record(s)'**
 
 
@@ -601,10 +601,10 @@ the steps below:
    Then, click the |view-images-button2| button to view image(s) submitted for
    the selected sample record(s).
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_view_images_button.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-view-images-button.png
       :alt: 'Accept or Reject Samples' page
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_view_images_button.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-view-images-button.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Pointer to 'View images' button**
@@ -614,21 +614,21 @@ the steps below:
       <br>
 
 #. If any image submission(s) exist for the selected sample record(s), a popup
-   dialog will be displayed with the image(s) submitted for the selected
+   dialogue will be displayed with the image(s) submitted for the selected
    sample record(s) as shown below:
 
    .. hint::
 
       Click the image to view a larger version.
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_images_displayed.png
-      :alt: View images popup dialog with images displayed for selected sample
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-view-images-dialogue-with-images-displayed.png
+      :alt: View images popup dialogue with images displayed for selected sample
             record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_images_displayed.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-view-images-dialogue-with-images-displayed.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples page: Popup dialog displaying submitted
+      **Accept or Reject Samples page: Popup dialogue displaying submitted
       image(s) for selected sample record(s)**
 
    .. raw:: html
@@ -638,16 +638,16 @@ the steps below:
    .. centered:: **OR**
 
    If no images were submitted for the selected sample record(s), a message is
-   displayed in the popup dialog indicating such as shown below:
+   displayed in the popup dialogue indicating such as shown below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
-      :alt: No images exists message in popup dialog for selected sample
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-view-images-dialogue-with-no-images-exist-message.png
+      :alt: No images exist message in popup dialogue for selected sample
             record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-view-images-dialogue-with-no-images-exist-message.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples page: Popup dialog displaying message, 'No
+      **Accept or Reject Samples page: Popup dialogue displaying message, 'No
       images exist for selected sample record(s)'**
 
 .. raw:: html
@@ -697,11 +697,11 @@ manifest on behalf of a manifest submitter [#f2]_:
    the profile that you would like upload a manifest for or update a submitted
    manifest for as shown in the examples below:
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-dtol-profile.png
       :alt: Pointer to 'Samples' page link on the 'Accept or Reject Samples'
             page for the desired DTOL profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-dtol-profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Navigate to 'Samples' page by clicking
@@ -711,11 +711,11 @@ manifest on behalf of a manifest submitter [#f2]_:
 
       <br>
 
-   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+   .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-erga-profile.png
       :alt: Pointer to 'Samples' page link on the 'Accept or Reject Samples'
             page for the desired ERGA profile
       :align: center
-      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-accept-reject-pointer-to-samples-link-icon-for-erga-profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples page: Navigate to 'Samples' page by clicking
@@ -727,11 +727,11 @@ manifest on behalf of a manifest submitter [#f2]_:
 
 #. The **Samples** page will be displayed as shown in the examples below:
 
-    .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
+    .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-dtol.png
         :alt: Pointer to 'Samples' page on the 'Accept or Reject Samples' page
               for a DTOL profile
         :align: center
-        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
+        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-dtol.png
         :class: with-shadow with-border
 
         **Samples page for a DTOL profile**
@@ -740,11 +740,11 @@ manifest on behalf of a manifest submitter [#f2]_:
 
        <br>
 
-    .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
+    .. figure:: /assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-erga.png
         :alt: Pointer to 'Samples' page on the 'Accept or Reject Samples' page
               for an ERGA profile
         :align: center
-        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
+        :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/samples/accept-reject-samples/ui/samples-web-page-after-clicked-link-icon-erga.png
         :class: with-shadow with-border
 
         **Samples page for an ERGA profile**
@@ -833,27 +833,27 @@ manifest on behalf of a manifest submitter [#f2]_:
     Images declaration
 ..
 
-.. |accept-samples-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_button_accept.png
+.. |accept-samples-button| image:: /assets/images/samples/accept-reject-samples/buttons/samples-accept-reject-button-accept.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept-reject-samples/buttons/samples-accept-reject-navigation-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |download-permits-button2| image:: /assets/images/buttons/permits_download_button2.png
+.. |download-permits-button2| image:: /assets/images/buttons/permits-download-button2.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |reject-samples-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_button_reject.png
+.. |reject-samples-button| image:: /assets/images/samples/accept-reject-samples/buttons/samples-accept-reject-button-reject.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |link-icon| image:: /assets/images/samples/accept_reject_samples/icons/samples_accept_reject_samples_link_icon.png
+.. |link-icon| image:: /assets/images/samples/accept-reject-samples/icons/samples-accept-reject-samples-link-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |view-images-button2| image:: /assets/images/buttons/images_view_button2.png
+.. |view-images-button2| image:: /assets/images/buttons/images-view-button2.png
    :height: 4ex
    :class: no-scaled-link
 

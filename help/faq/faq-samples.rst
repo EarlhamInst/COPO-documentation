@@ -32,11 +32,11 @@ Why is the ‘Finish’ or ‘Confirm’ button missing after manifest upload?
    button first then,
 
    * The **Finish** button will be displayed in the
-     **Upload Sample Spreadsheet** dialog (once there are no errors) if
+     **Upload Sample Spreadsheet** dialogue (once there are no errors) if
      uploading the manifest for the first time.
 
    * Alternatively, if the manifest is being updated, the **Confirm** button
-     will be displayed in the **Upload Sample Spreadsheet** dialog (once
+     will be displayed in the **Upload Sample Spreadsheet** dialogue (once
      there are no errors).
 
 .. raw:: html
@@ -482,11 +482,11 @@ How do you submit sample metadata so that it appears in public repositories?
    #. If applicable, upload :ref:`permits <permits-submission>` and/or
       :ref:`images <image-submission>` after uploading the sample manifest in
       the same attempt. Use the appropriate button in the
-      **Upload Sample Spreadsheet** dialog to complete this step.
+      **Upload Sample Spreadsheet** dialogue to complete this step.
 
       .. important::
 
-         This process must be completed in one go; you cannot close the dialog
+         This process must be completed in one go; you cannot close the dialogue
          and return later to upload the permits
          and/or images. The permits and/or images rely on metadata from the
          sample manifest and as such they must be
@@ -494,7 +494,7 @@ How do you submit sample metadata so that it appears in public repositories?
 
       .. note::
 
-         The **Upload Sample Spreadsheet** title of the dialog will change
+         The **Upload Sample Spreadsheet** title of the dialogue will change
          depending on the type of submission that
          you are making e.g. **Upload ERGA Sample Spreadsheet**.
 
@@ -668,58 +668,58 @@ Why am I seeing multiple errors after uploading a sample manifest?
     Images declaration
 ..
 
-.. |add-asg-manifest-button| image:: /assets/images/samples/asg/buttons/add_asg_manifest_button.png
+.. |add-asg-manifest-button| image:: /assets/images/samples/asg/buttons/add-asg-manifest-button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-dtol-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
+.. |add-dtol-manifest-button| image:: /assets/images/buttons/add-manifest-button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-erga-manifest-button| image:: /assets/images/samples/erga/buttons/add_erga_manifest_button.png
+.. |add-erga-manifest-button| image:: /assets/images/samples/erga/buttons/add-erga-manifest-button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components_assembly_button.png
+.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components-assembly-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |barcoding-manifest-component-button| image:: /assets/images/barcoding/buttons/components_barcoding_manifest_button.png
+.. |barcoding-manifest-component-button| image:: /assets/images/barcoding/buttons/components-barcoding-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |confirm-button| image:: /assets/images/buttons/confirm_button.png
+.. |confirm-button| image:: /assets/images/buttons/confirm-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples_download_manifest_button.png
+.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples-download-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |export-manifest-to-csv-format-button| image:: /assets/images/samples/buttons/samples_export_to_csv_format_button.png
+.. |export-manifest-to-csv-format-button| image:: /assets/images/samples/buttons/samples-export-to-csv-format-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button1.png
+.. |finish-button| image:: /assets/images/buttons/finish-button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-component-button| image:: /assets/images/reads/buttons/components_reads_button.png
+.. |reads-component-button| image:: /assets/images/reads/buttons/components-reads-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |samples-component-button| image:: /assets/images/samples/buttons/components_samples_button.png
+.. |samples-component-button| image:: /assets/images/samples/buttons/components-samples-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |sequence-annotations-component-button| image:: /assets/images/sequence_annotations/buttons/components_sequence_annotations_button.png
+.. |sequence-annotations-component-button| image:: /assets/images/sequence-annotations/buttons/components-sequence-annotations-button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-permits-button| image:: /assets/images/buttons/permits_upload_button.png
+.. |upload-permits-button| image:: /assets/images/buttons/permits-upload-button.png
    :height: 4ex
    :class: no-scaled-link

@@ -92,7 +92,7 @@ The following are various ways to retrieve a SOP for a manifest:
      - Project website
      - Note
    * -  **Aquatic Symbiosis Genomics (ASG)** [#f5]_
-     - :download:`SOP <../assets/files/sops/ASG_MANIFEST_SOP_v2.5.pdf>`
+     - :download:`SOP <../assets/files/sops/asg-manifest-sop-v2.5.pdf>`
      -  .. centered:: -
      - |globe| `Website <https://www.sanger.ac.uk/collaboration/aquatic-
        symbiosis-genomics-project>`__
@@ -100,7 +100,7 @@ The following are various ways to retrieve a SOP for a manifest:
        some minor changes and omissions.
 
    * -  **Darwin Tree of Life (DToL)** [#f6]_
-     - :download:`SOP <../assets/files/sops/DTOL_MANIFEST_SOP_v2.5.pdf>`
+     - :download:`SOP <../assets/files/sops/dtol-manifest-sop-v2.5.pdf>`
      - .. rst-class:: fa fa-github
 
           |whitespace| `GitHub repository
@@ -116,7 +116,7 @@ The following are various ways to retrieve a SOP for a manifest:
      - Content is not yet available. Please check back later.
 
    * -  **European Reference Genome Atlas (ERGA)** [#f7]_
-     - :download:`SOP <../assets/files/sops/ERGA_MANIFEST_SOP_v2.5.1.pdf>`
+     - :download:`SOP <../assets/files/sops/erga-manifest-sop-v2.5.1.pdf>`
      - .. rst-class:: fa fa-github
 
           |whitespace| `GitHub repository <https://github.com/ERGA-
@@ -126,7 +126,7 @@ The following are various ways to retrieve a SOP for a manifest:
      - .. centered:: -
 
    * -  **Population Genomics (POP_GENOMICS)**
-     - :download:`SOP <../assets/files/sops/POPGENOMICS_MANIFEST_SOP_v1.1.pdf>`
+     - :download:`SOP <../assets/files/sops/popgenomics-manifest-sop-v1.1.pdf>`
      - .. centered:: -
      - .. centered:: -
      - .. centered:: -
@@ -161,15 +161,15 @@ Related Topics
     Images declaration
 ..
 
-.. |blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
+.. |blank-manifest-download-button| image:: /assets/images/buttons/download-button-blank-manifest.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/icons/arrow_right.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/arrow-right.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |sop-download-button| image:: /assets/images/buttons/download_button_sop.png
+.. |sop-download-button| image:: /assets/images/buttons/download-button-sop.png
    :height: 4ex
    :class: no-scaled-link
 
