@@ -1,5 +1,5 @@
 _build
-_buildinternal
+_build-internal
 _templates
 .vscode
 .DS_Store
