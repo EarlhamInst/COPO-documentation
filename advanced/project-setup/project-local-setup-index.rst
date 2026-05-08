@@ -391,6 +391,11 @@ Then, search for and install the following extensions:
   application that allows  you to manage your MongoDB databases. It can be
   downloaded from the `Studio 3T website <https://studio3t.com/download/>`__.
 
+  .. code-block:: bash
+     :caption: Local connection string to connect to MongoDB database in the Docker container
+
+     mongodb://copo_user:password@localhost:27017/admin?retryWrites=true&loadBalanced=false&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-1
+
 7.3: Use Dev Containers extension to launch the COPO project application
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

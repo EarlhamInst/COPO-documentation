@@ -55,7 +55,7 @@ Please use the links to find instructions specific to your needs.
    :caption: Data Discovery & Retrieval
    :name: data-discovery-retrieval-section
 
-   retrieval/manifest_templates
+   retrieval/manifest-templates
    discovery/manifest-wizard
    retrieval/accessions
    discovery/tol-dashboard

@@ -10,11 +10,20 @@ produced by sample submitters [#f2]_.
 
 .. note::
 
-   * Make a request to the :email:`COPO team <ei.copo@earlham.ac.uk>`
-     indicating the type of profile manifest group that you would like to be
-     assigned to as a sample manager and the associated profile type.
+   If would like to be assigned a sample manager, please submit a request to
+   the :email:`COPO team <ei.copo@earlham.ac.uk>` specifying:
 
-     The permission will be granted after the request has been approved.
+   * the type of profile manifest group
+
+     * See a list of :ref:`supported primary projects <primary-projects>`
+       (or main projects).
+
+   * the associated profile type
+
+     * See :ref:`supported associated projects <associated-projects>` which
+       are alo referred to as secondary projects.
+
+   The permission will be granted after the request has been approved.
 
 .. raw:: html
 

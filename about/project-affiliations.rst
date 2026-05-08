@@ -15,6 +15,8 @@ Supported Projects
      types or associated projects. In a Tree of Life profile, they are called
      associated :abbr:`ToL (Tree of Life)` projects.
 
+.. _primary-projects:
+
 Primary Projects
 -------------------
 
