@@ -287,7 +287,7 @@ Related Topics
 
 .. [#f1] See term: :term:`Tree of Life profile <ToL profile>`.
 .. [#f2] See term: :term:`Research object`.
-.. [#f3] See term: :term:`ENA`.
+.. [#f3] See term: :term:`European Nucleotide Archive (ENA) <ENA>`.
 .. [#f4] The associated project type identifies the subproject a record
    belongs to. For example, a sample may be part of the
    :abbr:`ERGA (European Reference Genome Atlas)` project while being

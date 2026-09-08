@@ -52,4 +52,4 @@ Related Topics
    metadata to be submitted.
 
    See term: :term:`Manifest` for more information.
-.. [#f3] See term: :term:`ENA`.
+.. [#f3] See term: :term:`European Nucleotide Archive (ENA) <ENA>`.

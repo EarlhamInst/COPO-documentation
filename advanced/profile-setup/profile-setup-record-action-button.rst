@@ -411,6 +411,5 @@ Related Topics
     Unicode declaration
 ..
 
-.. |globe| unicode:: U+1F310
 
 .. |section| unicode:: U+1F4D6

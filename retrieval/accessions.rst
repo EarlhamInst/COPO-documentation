@@ -146,7 +146,7 @@ instructions.
 On Accessions Dashboard
 -----------------------
 
-Visit the `Accessions dashboard <accessions-dashboard_>`__ |globe|
+Visit the `Accessions dashboard <accessions-dashboard_>`__ |external-link-icon|
 
 .. figure:: /assets/images/dashboard/ui/dashboard-accessions-other-accessions.png
    :alt: Other accessions on Accessions dashboard
@@ -189,11 +189,10 @@ Related Topics
    :height: 4ex
    :class: no-scaled-link
 
-..
-    Unicode declaration
-..
-
-.. |globe| unicode:: U+1F310
+.. |external-link-icon| image:: /assets/images/icons/external-link-icon.png
+   :height: 2ex
+   :width: 2ex
+   :class: no-scaled-link
 
 ..
     Link declaration

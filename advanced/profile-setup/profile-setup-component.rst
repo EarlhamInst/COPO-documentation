@@ -17,7 +17,7 @@ Component Database Table Structure
 Each component that make up a profile has specific settings and
 functionalities that contribute to the profile's overall purpose.
 
-The PostgreSQL table **Component** consists of the following fields:
+The PostgresSQL table **Component** consists of the following fields:
 
 * ``id`` (Integer): The unique identifier for the component
 * ``name`` (String): The name of the component
@@ -161,22 +161,26 @@ visible on the **Work profiles** page.
 Explore the implementation details of each component of the Django application
 used in the COPO project through the links provided below:
 
-* |globe| `Accessions component Django application \
-  <copo-github-accession-app_>`__
+* `Accessions component Django application \
+  <copo-github-accession-app_>`__ |external-link-icon|
 
-* |globe| `Assembly component Django application <copo-github-assembly-app_>`__
+* `Assembly component Django application \
+  <copo-github-assembly-app_>`__ |external-link-icon|
 
-* |globe| `Barcoding component Django application \
-  <copo-github-barcoding-app_>`__
+* `Barcoding component Django application \
+  <copo-github-barcoding-app_>`__ |external-link-icon|
 
-* |globe| `Data files component Django application <copo-github-files-app_>`__
+* `Data files component Django application \
+  <copo-github-files-app_>`__ |external-link-icon|
 
-* |globe| `Reads component Django application <copo-github-reads-app_>`__
+* `Reads component Django application \
+  <copo-github-reads-app_>`__ |external-link-icon|
 
-* |globe| `Samples component Django application <copo-github-samples-app_>`__
+* `Samples component Django application \
+  <copo-github-samples-app_>`__ |external-link-icon|
 
-* |globe| `Sequence annotations component Django application \
-  <copo-github-sequence-annotation-app_>`__
+* `Sequence annotations component Django application \
+  <copo-github-sequence-annotation-app_>`__ |external-link-icon|
 
 Other Django applications created in the COPO project can be found in the
 ``src/apps`` folder of the `COPO GitHub repository <copo-github-apps_>`__.
@@ -439,6 +443,11 @@ Related Topics
    :height: 5ex
    :class: no-scaled-link
 
+.. |external-link-icon| image:: /assets/images/icons/external-link-icon.png
+   :height: 2ex
+   :width: 2ex
+   :class: no-scaled-link
+
 .. |files-component-button| image:: /assets/images/files/buttons/components-files-button.png
    :height: 4ex
    :class: no-scaled-link
@@ -470,8 +479,6 @@ Related Topics
 ..
     Unicode declaration
 ..
-
-.. |globe| unicode:: U+1F310
 
 .. |section| unicode:: U+1F4D6
 

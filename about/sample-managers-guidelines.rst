@@ -791,7 +791,7 @@ manifest on behalf of a manifest submitter [#f2]_:
       profile type as well as the profile title and requesting that the
       samples be **removed** from the profile.
 
-      The samples has to be removed from the profile so that the sample
+      The samples have to be removed from the profile so that the sample
       metadata in the newer version of the manifest can be registered in the
       profile.
 

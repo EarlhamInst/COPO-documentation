@@ -253,5 +253,5 @@ is Sarah Cossey, contact: :email:`dpa@earlham.ac.uk <dpa@earlham.ac.uk>`.
 
 .. rubric:: Footnotes
 
-.. [#f1] See term: :term:`ENA`.
+.. [#f1] See term: :term:`European Nucleotide Archive (ENA) <ENA>`.
 .. [#f2] See term: :term:`NCBI`.

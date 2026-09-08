@@ -88,5 +88,5 @@ child project(s) when making your request.
 
 .. rubric:: Footnotes
 
-.. [#f1] See term: :term:`ENA`.
+.. [#f1] See term: :term:`European Nucleotide Archive (ENA) <ENA>`.
 .. [#f2] See term: :term:`NCBI`.

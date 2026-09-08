@@ -1124,7 +1124,7 @@ Fetch Sample Records that have Image Submissions
 .. rubric:: Footnotes
 
 .. [#f1] Refer to the :ref:`project-affiliations` section for more information
-.. [#f2] See term: :term:`ENA`
+.. [#f2] See term: :term:`European Nucleotide Archive (ENA) <ENA>`
 .. [#f3] See term: :term:`Sample manager`
 .. [#f4] See :ref:`associated-projects` section for available subprojects.
 

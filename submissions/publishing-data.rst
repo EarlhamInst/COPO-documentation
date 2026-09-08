@@ -201,7 +201,7 @@ Related Topics
 
 .. rubric:: Footnotes
 
-.. [#f1] See term: :term:`ENA`.
+.. [#f1] See term: :term:`European Nucleotide Archive (ENA) <ENA>`.
 .. [#f2] Also known as COPO profile. See:
    :term:`COPO profile or work profile<COPO profile>`.
 .. [#f3] See term: :term:`Tree of Life (ToL) <ToL>`

@@ -67,7 +67,8 @@ Please use the links to find instructions specific to your needs.
    :name: advanced-section
 
    advanced/project-setup/project-local-setup-index
-   advanced/project-setup/project-application-structure.rst
+   advanced/project-setup/project-application-structure
+   advanced/defining-new-data-types-index
    advanced/admin-interface
 
 .. toctree::

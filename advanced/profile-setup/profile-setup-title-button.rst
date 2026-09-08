@@ -104,8 +104,8 @@ The PostgreSQL table **TitleButton** consists of the following fields:
      |section| :ref:`Section on Button Usage in the Project
      <accessing-accept-reject-samples-page>`
 
-     |globe| `Associated page <https://copo-
-     project.org/copo/dtol_submission/accept_reject_sample>`__
+     `Associated page \
+     <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__ |external-link-icon|
 
    * **download_blank_manifest_template**: Button to download a blank manifest
      template. It is styled with a brown colour and an icon of a download sign
@@ -121,21 +121,21 @@ The PostgreSQL table **TitleButton** consists of the following fields:
      |section| :ref:`Section on Button Usage in the Project
      <accessing-accept-reject-samples-page>`
 
-     |globe| `Associated page
-     <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__
+     `Associated page
+     <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__ |external-link-icon|
 
-     |globe| `Django Admin UI
+     `Django Admin UI \
      <https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/ass
      ets/images/django_admin_interface/profile/title_button/title_button_accept
-     -reject-samples-django-admin-ui.png>`__
+     -reject-samples-django-admin-ui.png>`__ |external-link-icon|
 
    * **tol_inspect**: Button to inspect the :abbr:`ToL (Tree of Life)` samples.
      It is styled with a yellow colour and an icon of a clipboard list
 
      |section| :ref:`Section on Button Usage in the Project <tol-inspection>`
 
-     |globe| `Associated page
-     <https://copo-project.org/copo/tol_dashboard/tol_inspect>`__
+     `Associated page \
+     <https://copo-project.org/copo/tol_dashboard/tol_inspect>`__ |external-link-icon|
 
    * **tol_inspect_gal**: Button to inspect the
      :abbr:`ToL (Tree of Life)` by Genome Acquisition Lab (GAL). It is styled
@@ -144,8 +144,8 @@ The PostgreSQL table **TitleButton** consists of the following fields:
      |section| :ref:`Section on Button Usage in the Project
      <tol-inspection-by-gal>`
 
-     |globe| `Associated page
-     <https://copo-project.org/copo/tol_dashboard/tol_inspect/gal>`__
+     `Associated page \
+     <https://copo-project.org/copo/tol_dashboard/tol_inspect/gal>`__ |external-link-icon|
 
    * **copo_accessions**: Button to access the Accessions Dashboard. It is
      styled with a pink colour and an icon of a sitemap
@@ -352,6 +352,11 @@ Related Topics
    :height: 2ex
    :class: no-scaled-link
 
+.. |external-link-icon| image:: /assets/images/icons/external-link-icon.png
+   :height: 2ex
+   :width: 2ex
+   :class: no-scaled-link
+
 .. |quick-tour-button| image:: /assets/images/buttons/quick-tour-button.png
    :height: 3ex
    :class: no-scaled-link
@@ -363,7 +368,5 @@ Related Topics
 ..
     Unicode declaration
 ..
-
-.. |globe| unicode:: U+1F310
 
 .. |section| unicode:: U+1F4D6

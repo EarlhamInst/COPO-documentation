@@ -1,0 +1,327 @@
+<CHECKLIST_SET>
+    <CHECKLIST accession="COPO_example" checklistType="Sample">
+        <IDENTIFIERS>
+            <PRIMARY_ID>COPO_example</PRIMARY_ID>
+            <ENA_CHECKLIST_ID>ERC000011</ENA_CHECKLIST_ID>
+        </IDENTIFIERS>
+        <DESCRIPTOR>
+            <LABEL>Example sample checklist label</LABEL>
+            <NAME>Example sample field checklist name</NAME>
+            <DESCRIPTION>An example for sample checklist</DESCRIPTION>
+            <AUTHORITY>COPO</AUTHORITY>
+            <FIELD_GROUP restrictionType="Any number or none of the fields">
+                <NAME>sample collection</NAME>
+                <FIELD>
+                    <LABEL>Sample</LABEL>
+                    <NAME>sample</NAME>
+                    <DESCRIPTION>A unique reference or identifier for the sample. Example: sample123</DESCRIPTION>
+                    <FIELD_TYPE>
+                        <TEXT_FIELD>
+                            <TEXT_FIELD/>
+                        </TEXT_FIELD>
+                    </FIELD_TYPE>
+                    <MANDATORY>mandatory</MANDATORY>
+                    <MULTIPLICITY>single</MULTIPLICITY>
+                </FIELD>
+                    <LABEL>Organism</LABEL>
+                    <NAME>organism</NAME>
+                    <MANDATORY>optional</MANDATORY>
+                        <TEXT_CHOICE_FIELD>
+                            <TEXT_VALUE>
+                            </TEXT_VALUE>
+                        </TEXT_CHOICE_FIELD>
+                    <NAME>collection date</NAME>
+                    <NAME>geographic location (country and/or sea)</NAME>
+                                <VALUE>Afghanistan</VALUE>
+                                <VALUE>Albania</VALUE>
+                                <VALUE>Algeria</VALUE>
+                                <VALUE>American Samoa</VALUE>
+                                <VALUE>Andorra</VALUE>
+                                <VALUE>Angola</VALUE>
+                                <VALUE>Anguilla</VALUE>
+                                <VALUE>Antarctica</VALUE>
+                                <VALUE>Antigua and Barbuda</VALUE>
+                                <VALUE>Arctic Ocean</VALUE>
+                                <VALUE>Argentina</VALUE>
+                                <VALUE>Armenia</VALUE>
+                                <VALUE>Aruba</VALUE>
+                                <VALUE>Ashmore and Cartier Islands</VALUE>
+                                <VALUE>Atlantic Ocean</VALUE>
+                                <VALUE>Australia</VALUE>
+                                <VALUE>Austria</VALUE>
+                                <VALUE>Azerbaijan</VALUE>
+                                <VALUE>Bahamas</VALUE>
+                                <VALUE>Bahrain</VALUE>
+                                <VALUE>Baker Island</VALUE>
+                                <VALUE>Baltic Sea</VALUE>
+                                <VALUE>Bangladesh</VALUE>
+                                <VALUE>Barbados</VALUE>
+                                <VALUE>Bassas da India</VALUE>
+                                <VALUE>Belarus</VALUE>
+                                <VALUE>Belgium</VALUE>
+                                <VALUE>Belize</VALUE>
+                                <VALUE>Benin</VALUE>
+                                <VALUE>Bermuda</VALUE>
+                                <VALUE>Bhutan</VALUE>
+                                <VALUE>Bolivia</VALUE>
+                                <VALUE>Borneo</VALUE>
+                                <VALUE>Bosnia and Herzegovina</VALUE>
+                                <VALUE>Botswana</VALUE>
+                                <VALUE>Bouvet Island</VALUE>
+                                <VALUE>Brazil</VALUE>
+                                <VALUE>British Virgin Islands</VALUE>
+                                <VALUE>Brunei</VALUE>
+                                <VALUE>Bulgaria</VALUE>
+                                <VALUE>Burkina Faso</VALUE>
+                                <VALUE>Burundi</VALUE>
+                                <VALUE>Cambodia</VALUE>
+                                <VALUE>Cameroon</VALUE>
+                                <VALUE>Canada</VALUE>
+                                <VALUE>Cape Verde</VALUE>
+                                <VALUE>Cayman Islands</VALUE>
+                                <VALUE>Central African Republic</VALUE>
+                                <VALUE>Chad</VALUE>
+                                <VALUE>Chile</VALUE>
+                                <VALUE>China</VALUE>
+                                <VALUE>Christmas Island</VALUE>
+                                <VALUE>Clipperton Island</VALUE>
+                                <VALUE>Cocos Islands</VALUE>
+                                <VALUE>Colombia</VALUE>
+                                <VALUE>Comoros</VALUE>
+                                <VALUE>Cook Islands</VALUE>
+                                <VALUE>Coral Sea Islands</VALUE>
+                                <VALUE>Costa Rica</VALUE>
+                                <VALUE>Cote d&apos;Ivoire</VALUE>
+                                <VALUE>Croatia</VALUE>
+                                <VALUE>Cuba</VALUE>
+                                <VALUE>Curacao</VALUE>
+                                <VALUE>Cyprus</VALUE>
+                                <VALUE>Czechia</VALUE>
+                                <SYNONYM>Czech Republic</SYNONYM>
+                                <VALUE>Democratic Republic of the Congo</VALUE>
+                                <VALUE>Denmark</VALUE>
+                                <VALUE>Djibouti</VALUE>
+                                <VALUE>Dominica</VALUE>
+                                <VALUE>Dominican Republic</VALUE>
+                                <VALUE>East Timor</VALUE>
+                                <VALUE>Ecuador</VALUE>
+                                <VALUE>Egypt</VALUE>
+                                <VALUE>El Salvador</VALUE>
+                                <VALUE>Equatorial Guinea</VALUE>
+                                <VALUE>Eritrea</VALUE>
+                                <VALUE>Estonia</VALUE>
+                                <VALUE>Ethiopia</VALUE>
+                                <VALUE>Europa Island</VALUE>
+                                <VALUE>Falkland Islands (Islas Malvinas)</VALUE>
+                                <VALUE>Faroe Islands</VALUE>
+                                <VALUE>Fiji</VALUE>
+                                <VALUE>Finland</VALUE>
+                                <VALUE>France</VALUE>
+                                <VALUE>French Guiana</VALUE>
+                                <VALUE>French Polynesia</VALUE>
+                                <VALUE>French Southern and Antarctic Lands</VALUE>
+                                <VALUE>Gabon</VALUE>
+                                <VALUE>Gambia</VALUE>
+                                <VALUE>Gaza Strip</VALUE>
+                                <VALUE>Georgia</VALUE>
+                                <VALUE>Germany</VALUE>
+                                <VALUE>Ghana</VALUE>
+                                <VALUE>Gibraltar</VALUE>
+                                <VALUE>Glorioso Islands</VALUE>
+                                <VALUE>Greece</VALUE>
+                                <VALUE>Greenland</VALUE>
+                                <VALUE>Grenada</VALUE>
+                                <VALUE>Guadeloupe</VALUE>
+                                <VALUE>Guam</VALUE>
+                                <VALUE>Guatemala</VALUE>
+                                <VALUE>Guernsey</VALUE>
+                                <VALUE>Guinea</VALUE>
+                                <VALUE>Guinea-Bissau</VALUE>
+                                <VALUE>Guyana</VALUE>
+                                <VALUE>Haiti</VALUE>
+                                <VALUE>Heard Island and McDonald Islands</VALUE>
+                                <VALUE>Honduras</VALUE>
+                                <VALUE>Hong Kong</VALUE>
+                                <VALUE>Howland Island</VALUE>
+                                <VALUE>Hungary</VALUE>
+                                <VALUE>Iceland</VALUE>
+                                <VALUE>India</VALUE>
+                                <VALUE>Indian Ocean</VALUE>
+                                <VALUE>Indonesia</VALUE>
+                                <VALUE>Iran</VALUE>
+                                <VALUE>Iraq</VALUE>
+                                <VALUE>Ireland</VALUE>
+                                <VALUE>Isle of Man</VALUE>
+                                <VALUE>Israel</VALUE>
+                                <VALUE>Italy</VALUE>
+                                <VALUE>Jamaica</VALUE>
+                                <VALUE>Jan Mayen</VALUE>
+                                <VALUE>Japan</VALUE>
+                                <VALUE>Jarvis Island</VALUE>
+                                <VALUE>Jersey</VALUE>
+                                <VALUE>Johnston Atoll</VALUE>
+                                <VALUE>Jordan</VALUE>
+                                <VALUE>Juan de Nova Island</VALUE>
+                                <VALUE>Kazakhstan</VALUE>
+                                <VALUE>Kenya</VALUE>
+                                <VALUE>Kerguelen Archipelago</VALUE>
+                                <VALUE>Kingman Reef</VALUE>
+                                <VALUE>Kiribati</VALUE>
+                                <VALUE>Kosovo</VALUE>
+                                <VALUE>Kuwait</VALUE>
+                                <VALUE>Kyrgyzstan</VALUE>
+                                <VALUE>Laos</VALUE>
+                                <VALUE>Latvia</VALUE>
+                                <VALUE>Lebanon</VALUE>
+                                <VALUE>Lesotho</VALUE>
+                                <VALUE>Liberia</VALUE>
+                                <VALUE>Libya</VALUE>
+                                <VALUE>Liechtenstein</VALUE>
+                                <VALUE>Lithuania</VALUE>
+                                <VALUE>Luxembourg</VALUE>
+                                <VALUE>Macau</VALUE>
+                                <VALUE>Macedonia</VALUE>
+                                <VALUE>Madagascar</VALUE>
+                                <VALUE>Malawi</VALUE>
+                                <VALUE>Malaysia</VALUE>
+                                <VALUE>Maldives</VALUE>
+                                <VALUE>Mali</VALUE>
+                                <VALUE>Malta</VALUE>
+                                <VALUE>Marshall Islands</VALUE>
+                                <VALUE>Martinique</VALUE>
+                                <VALUE>Mauritania</VALUE>
+                                <VALUE>Mauritius</VALUE>
+                                <VALUE>Mayotte</VALUE>
+                                <VALUE>Mediterranean Sea</VALUE>
+                                <VALUE>Mexico</VALUE>
+                                <VALUE>Micronesia</VALUE>
+                                <VALUE>Midway Islands</VALUE>
+                                <VALUE>Moldova</VALUE>
+                                <VALUE>Monaco</VALUE>
+                                <VALUE>Mongolia</VALUE>
+                                <VALUE>Montenegro</VALUE>
+                                <VALUE>Montserrat</VALUE>
+                                <VALUE>Morocco</VALUE>
+                                <VALUE>Mozambique</VALUE>
+                                <VALUE>Myanmar</VALUE>
+                                <VALUE>Namibia</VALUE>
+                                <VALUE>Nauru</VALUE>
+                                <VALUE>Navassa Island</VALUE>
+                                <VALUE>Nepal</VALUE>
+                                <VALUE>Netherlands</VALUE>
+                                <VALUE>New Caledonia</VALUE>
+                                <VALUE>New Zealand</VALUE>
+                                <VALUE>Nicaragua</VALUE>
+                                <VALUE>Niger</VALUE>
+                                <VALUE>Nigeria</VALUE>
+                                <VALUE>Niue</VALUE>
+                                <VALUE>Norfolk Island</VALUE>
+                                <VALUE>North Korea</VALUE>
+                                <VALUE>North Sea</VALUE>
+                                <VALUE>Northern Mariana Islands</VALUE>
+                                <VALUE>Norway</VALUE>
+                                <VALUE>Oman</VALUE>
+                                <VALUE>Pacific Ocean</VALUE>
+                                <VALUE>Pakistan</VALUE>
+                                <VALUE>Palau</VALUE>
+                                <VALUE>Palmyra Atoll</VALUE>
+                                <VALUE>Panama</VALUE>
+                                <VALUE>Papua New Guinea</VALUE>
+                                <VALUE>Paracel Islands</VALUE>
+                                <VALUE>Paraguay</VALUE>
+                                <VALUE>Peru</VALUE>
+                                <VALUE>Philippines</VALUE>
+                                <VALUE>Pitcairn Islands</VALUE>
+                                <VALUE>Poland</VALUE>
+                                <VALUE>Portugal</VALUE>
+                                <VALUE>Puerto Rico</VALUE>
+                                <VALUE>Qatar</VALUE>
+                                <VALUE>Republic of the Congo</VALUE>
+                                <VALUE>Reunion</VALUE>
+                                <VALUE>Romania</VALUE>
+                                <VALUE>Ross Sea</VALUE>
+                                <VALUE>Russia</VALUE>
+                                <VALUE>Rwanda</VALUE>
+                                <VALUE>Saint Helena</VALUE>
+                                <VALUE>Saint Kitts and Nevis</VALUE>
+                                <VALUE>Saint Lucia</VALUE>
+                                <VALUE>Saint Pierre and Miquelon</VALUE>
+                                <VALUE>Saint Vincent and the Grenadines</VALUE>
+                                <VALUE>Samoa</VALUE>
+                                <VALUE>San Marino</VALUE>
+                                <VALUE>Sao Tome and Principe</VALUE>
+                                <VALUE>Saudi Arabia</VALUE>
+                                <VALUE>Senegal</VALUE>
+                                <VALUE>Serbia</VALUE>
+                                <VALUE>Seychelles</VALUE>
+                                <VALUE>Sierra Leone</VALUE>
+                                <VALUE>Singapore</VALUE>
+                                <VALUE>Sint Maarten</VALUE>
+                                <VALUE>Slovakia</VALUE>
+                                <VALUE>Slovenia</VALUE>
+                                <VALUE>Solomon Islands</VALUE>
+                                <VALUE>Somalia</VALUE>
+                                <VALUE>South Africa</VALUE>
+                                <VALUE>South Georgia and the South Sandwich Islands</VALUE>
+                                <VALUE>South Korea</VALUE>
+                                <VALUE>Southern Ocean</VALUE>
+                                <VALUE>Spain</VALUE>
+                                <VALUE>Spratly Islands</VALUE>
+                                <VALUE>Sri Lanka</VALUE>
+                                <VALUE>Sudan</VALUE>
+                                <VALUE>Suriname</VALUE>
+                                <VALUE>Svalbard</VALUE>
+                                <VALUE>Swaziland</VALUE>
+                                <VALUE>Sweden</VALUE>
+                                <VALUE>Switzerland</VALUE>
+                                <VALUE>Syria</VALUE>
+                                <VALUE>Taiwan</VALUE>
+                                <VALUE>Tajikistan</VALUE>
+                                <VALUE>Tanzania</VALUE>
+                                <VALUE>Tasman Sea</VALUE>
+                                <VALUE>Thailand</VALUE>
+                                <VALUE>Togo</VALUE>
+                                <VALUE>Tokelau</VALUE>
+                                <VALUE>Tonga</VALUE>
+                                <VALUE>Trinidad and Tobago</VALUE>
+                                <VALUE>Tromelin Island</VALUE>
+                                <VALUE>Tunisia</VALUE>
+                                <VALUE>Turkey</VALUE>
+                                <VALUE>Turkmenistan</VALUE>
+                                <VALUE>Turks and Caicos Islands</VALUE>
+                                <VALUE>Tuvalu</VALUE>
+                                <VALUE>USA</VALUE>
+                                <VALUE>Uganda</VALUE>
+                                <VALUE>Ukraine</VALUE>
+                                <VALUE>United Arab Emirates</VALUE>
+                                <VALUE>United Kingdom</VALUE>
+                                <VALUE>Uruguay</VALUE>
+                                <VALUE>Uzbekistan</VALUE>
+                                <VALUE>Vanuatu</VALUE>
+                                <VALUE>Venezuela</VALUE>
+                                <VALUE>Viet Nam</VALUE>
+                                <VALUE>Virgin Islands</VALUE>
+                                <VALUE>Wake Island</VALUE>
+                                <VALUE>Wallis and Futuna</VALUE>
+                                <VALUE>West Bank</VALUE>
+                                <VALUE>Western Sahara</VALUE>
+                                <VALUE>Yemen</VALUE>
+                                <VALUE>Zambia</VALUE>
+                                <VALUE>Zimbabwe</VALUE>
+                                <VALUE>missing</VALUE>
+                                <VALUE>missing: control sample</VALUE>
+                                <VALUE>missing: data agreement established pre-2023</VALUE>
+                                <VALUE>missing: endangered species</VALUE>
+                                <VALUE>missing: human-identifiable</VALUE>
+                                <VALUE>missing: lab stock</VALUE>
+                                <VALUE>missing: sample group</VALUE>
+                                <VALUE>missing: synthetic construct</VALUE>
+                                <VALUE>missing: third party data</VALUE>
+                                <VALUE>not applicable</VALUE>
+                                <VALUE>not collected</VALUE>
+                                <VALUE>not provided</VALUE>
+                                <VALUE>restricted access</VALUE>
+            </FIELD_GROUP>
+        </DESCRIPTOR>
+    </CHECKLIST>
+</CHECKLIST_SET>

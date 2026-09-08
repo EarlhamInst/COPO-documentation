@@ -94,8 +94,8 @@ The following are various ways to retrieve a SOP for a manifest:
    * -  **Aquatic Symbiosis Genomics (ASG)** [#f5]_
      - :download:`SOP <../assets/files/sops/asg-manifest-sop-v2.5.pdf>`
      -  .. centered:: -
-     - |globe| `Website <https://www.sanger.ac.uk/collaboration/aquatic-
-       symbiosis-genomics-project>`__
+     - `Website <https://www.sanger.ac.uk/collaboration/aquatic-
+       symbiosis-genomics-project>`__ |external-link-icon|
      - This follows most of the instructions outlined in the DToL SOP, with
        some minor changes and omissions.
 
@@ -106,7 +106,7 @@ The following are various ways to retrieve a SOP for a manifest:
           |whitespace| `GitHub repository
           <https://github.com/darwintreeoflife/metadata>`__
 
-     - |globe| `Website <https://www.darwintreeoflife.org>`__
+     - `Website <https://www.darwintreeoflife.org>`__ |external-link-icon|
      - .. centered:: -
 
    * -  **Darwin Tree of Life Environmental Samples (DToL_ENV)**
@@ -169,6 +169,11 @@ Related Topics
    :height: 2ex
    :class: no-scaled-link
 
+.. |external-link-icon| image:: /assets/images/icons/external-link-icon.png
+   :height: 2ex
+   :width: 2ex
+   :class: no-scaled-link
+
 .. |sop-download-button| image:: /assets/images/buttons/download-button-sop.png
    :height: 4ex
    :class: no-scaled-link
@@ -176,6 +181,5 @@ Related Topics
 ..
     Unicode declaration
 ..
-.. |globe|  unicode:: U+1F310
 
 .. |whitespace|  unicode:: U+0020

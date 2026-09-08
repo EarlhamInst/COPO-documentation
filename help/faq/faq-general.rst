@@ -66,7 +66,7 @@ What data types can be submitted?
       Situ Hybridisation)`)
     * :ref:`Reads <reads>` (e.g. Illumina, Oxford Nanopore Technologies,
       PacBio)
-    * :ref:`Samples <samples-submission>` (e.g. Tree of Life,
+    * :ref:`Samples <samples-submission>` (e.g. :abbr:`ToL (Tree of Life)`,
       :abbr:`DwC (Darwin Core)`,
       :abbr:`MIxS (Minimum Information about any, (x) Sequence)`,
       :abbr:`FAANG (Functional Annotation of Animal Genomes)`)

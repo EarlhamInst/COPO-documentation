@@ -146,8 +146,7 @@ Invalid column '<column-name>'
       <br>
 
    This error occurs when a column header in the uploaded manifest does not
-   match any of the expected column headers
-   for the selected checklist.
+   match any of the expected column headers for the selected checklist.
 
    This error usually occurs when the incorrect checklist is selected or if
    there is a typo in the

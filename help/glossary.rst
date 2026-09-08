@@ -437,12 +437,35 @@ Glossary
 
      See the :ref:`SOPs <fill-blank-manifests>` section for more information.
 
+   Standard
+     A standard is a set of rules or guidelines that define how data should be
+     structured, formatted and represented. It ensures consistency and
+     interoperability of data across different systems and platforms.
+
+     In the context of COPO, a standard defines the expected structure and
+     format of the data for a specific data type. It is referred to as namespace
+     in the ``data`` worksheet of the main schema spreadsheet files in the
+     `COPO schemas repository <https://github.com/EarlhamInst/COPO-schemas>`__.
+
+     Refer to any of the following sections for usage of standards in COPO:
+
+     - :ref:`defining-other-data-types`
+     - :ref:`endpoints-mapping`
+
    Studio3T
      Studio3T, formerly known as Robo3T, is a :abbr:`GUI (Graphical User
      Interface)` for MongoDB.
 
      Visit `Studio3T <https://studio3t.com/download/>`__ to download an
      appropriate version for your :abbr:`OS (Operating system)`.
+
+   Term
+     A term is used to refer to the fields in the ``term_name`` column of the
+     ``data`` worksheet in spreadsheet files available in the `COPO schemas
+     repository <https://github.com/EarlhamInst/COPO-schemas>`__.
+
+     The term names are used to identify the data fields to be included in a
+     manifest (also known as checklist or spreadsheet).
 
    :abbr:`ToL (Tree of Life)`
      A worldwide collaborative effort of biologists and nature enthusiasts to
