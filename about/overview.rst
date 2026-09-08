@@ -112,7 +112,7 @@ demo mode.
 .. hint::
 
    You can register for an ORCID iD on the
-   `ORCID website <https://orcid.org/signin/>`__ for free.
+   `ORCID website <https://orcid.org/signin>`__ for free.
 
 ..  figure:: /assets/images/ui/copo-homepage1.png
     :alt: COPO homepage

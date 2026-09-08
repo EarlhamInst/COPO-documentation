@@ -146,7 +146,8 @@ Upload Reads
       <br>
 
 4. A dialogue is displayed. Click the |reads-upload-button-biodata|
-   button in the dialogue to choose the spreadsheet file from your local system.
+   button in the dialogue to choose the spreadsheet file from your local
+   system.
 
    .. figure:: /assets/images/reads/biodata/modals/reads-upload-spreadsheet-dialogue-biodata.png
       :alt: Upload Reads spreadsheet dialogue

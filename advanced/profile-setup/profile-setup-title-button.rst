@@ -1,7 +1,7 @@
 .. _profile-setup-title-button:
 
 TitleButton
-~~~~~~~~~~~~
+~~~~~~~~~~~
 
 Title buttons are individual elements or modules that make up the profile.
 These can include various functionalities or data points that contribute to
@@ -105,7 +105,7 @@ The PostgreSQL table **TitleButton** consists of the following fields:
      <accessing-accept-reject-samples-page>`
 
      `Associated page \
-     <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__ |external-link-icon|
+     <copo-accept-reject-samples-page-link_>`__ |external-link-icon|
 
    * **download_blank_manifest_template**: Button to download a blank manifest
      template. It is styled with a brown colour and an icon of a download sign
@@ -122,12 +122,9 @@ The PostgreSQL table **TitleButton** consists of the following fields:
      <accessing-accept-reject-samples-page>`
 
      `Associated page
-     <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__ |external-link-icon|
+     <copo-accept-reject-samples-page-link_>`__ |external-link-icon|
 
-     `Django Admin UI \
-     <https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/ass
-     ets/images/django_admin_interface/profile/title_button/title_button_accept
-     -reject-samples-django-admin-ui.png>`__ |external-link-icon|
+     `Django Admin UI <copo-django-admin-ui-image_>`__ |external-link-icon|
 
    * **tol_inspect**: Button to inspect the :abbr:`ToL (Tree of Life)` samples.
      It is styled with a yellow colour and an icon of a clipboard list
@@ -253,9 +250,9 @@ Visualisation of TitleButton in Project
    **Work profiles page: Visual representation of 'new component' title
    button**
 
-* **new_component_template** button displays the tooltip *Add record* when hovered over. It is
-  the |add-profile-button| button indicated by the blue arrow in the image
-  above.
+* **new_component_template** button displays the tooltip *Add record* when
+  hovered over. It is the |add-profile-button| button indicated by the blue
+  arrow in the image above.
 
 .. raw:: html
 
@@ -272,8 +269,8 @@ Visualisation of TitleButton in Project
    'quick tour' title buttons on Samples page**
 
 * **quick_tour_template** button displays the tooltip
-  *Take a tour of this page* when hovered over. It is the |quick-tour-button| button indicated
-  by the orange arrow in the image above.
+  *Take a tour of this page* when hovered over. It is the |quick-tour-button|
+  button indicated by the orange arrow in the image above.
 
 * **new_samples_spreadsheet_template** button displays the tooltip
   *Add or update samples from spreadsheet* when hovered over. It is the
@@ -294,8 +291,9 @@ Visualisation of TitleButton in Project
   |sop-download-button| button indicated by the yellow arrow.
 
 * **accept_reject_samples** button displays the tooltip *Accept or reject
-  Tree of Life samples* when hovered over. It is the |accept-reject-samples-navigation-button|
-  button indicated by the teal arrow and will only appear on the page if you are granted permission to be a
+  Tree of Life samples* when hovered over. It is the
+  |accept-reject-samples-navigation-button| button indicated by the teal
+  arrow and will only appear on the page if you are granted permission to be a
   sample manager.
 
 .. raw:: html
@@ -370,3 +368,11 @@ Related Topics
 ..
 
 .. |section| unicode:: U+1F4D6
+
+
+..
+    Link declaration
+..
+
+.. _copo-accept-reject-samples-page-link: https://copo-project.org/copo/dtol_submission/accept_reject_sample
+.. _copo-django-admin-ui-image: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/django-admin-interface/profile/title-button/title-button-accept-reject-samples-django-admin-ui.png

@@ -27,7 +27,7 @@ The search box provides the following abilities:
 * Partial word matching
 * Preserved text
 
-See `here <https://datatables.net/reference/api/search>`__ for more
+See `here <https://datatables.net/ref/core/api/search>`__ for more
 information about searching for data in DataTables.
 
 Using COPO API

@@ -4,11 +4,13 @@
 Updating Submitted Data
 =======================
 
-Updates follow the same process as the initial submission. The process is described in the **Data Submissions**
-section (in the sidebar on the left-hand side of the page). Click the desired submission type for instructions.
+Updates follow the same process as the initial submission. The process is
+described in the **Data Submissions** section (in the sidebar on the left-hand
+side of the page). Click the desired submission type for instructions.
 
-Data is updated by **uploading an amended manifest** or **updated spreadsheet file** to the **same profile** that was
-initially used to upload the manifest (before any modifications were done).
+Data is updated by **uploading an amended manifest** or
+**updated spreadsheet file** to the **same profile** that was initially used
+to upload the manifest (before any modifications were done).
 
 In essence, the uploaded manifest must include amendments for the change or
 update to occur. The system will detect any changes, process the updated data

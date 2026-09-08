@@ -136,8 +136,8 @@ Submit Data Files via the Terminal
 
       <br>
 
-#. A **Move Data** dialogue is displayed. Follow the instructions displayed then,
-   click the **Process** button to submit the file(s) to the profile.
+#. A **Move Data** dialogue is displayed. Follow the instructions displayed
+   then, click the **Process** button to submit the file(s) to the profile.
 
     .. figure:: /assets/images/files/modals/files-move-data-dialogue.png
       :alt: Move Data dialogue

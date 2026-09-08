@@ -60,7 +60,7 @@ type.
 .. figure:: /assets/images/profiles/ui/profile-add-profile-with-profile-types-dropdown-menu-displayed-tol.png
    :alt: Profile types dropdown menu when adding a new profile
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/blob/main/assets/images/profiles/ui/profile-add-profile-with-profile-types-dropdown-menu-displayed-tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-profile-with-profile-types-dropdown-menu-displayed-tol.png
    :class: with-shadow with-border
    :height: 300px
 
@@ -70,7 +70,7 @@ type.
 .. figure:: /assets/images/profiles/ui/profile-add-record-button-web-page-tol.png
    :alt: Add new profile button
    :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/blob/main/assets/images/profiles/ui/profile-add-record-button-web-page-tol.png
+   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/profiles/ui/profile-add-record-button-web-page-tol.png
    :class: with-shadow with-border
 
    **Click this button to add a new profile**

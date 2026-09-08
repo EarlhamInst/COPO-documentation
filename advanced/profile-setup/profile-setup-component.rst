@@ -154,7 +154,7 @@ Creation of Component
 
 To create a component in the project, a Django application has to be created
 for the component. Then, the component has to be associated with a profile
-type defined in the `ProfileType structure <profile-setup-profile-type>`_
+type defined in the :ref:`ProfileType structure <profile-setup-profile-type>`
 section. This association will allow the component to be accessible and
 visible on the **Work profiles** page.
 
@@ -316,7 +316,7 @@ Visualisation of Created Component
          :alt: Viewing components associated with a Tree of Life (ToL) profile
                on the 'Work profiles' page
          :align: center
-         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/django-admin-interface/profile/component/visualisation-component-button-tol-profile-components.png
+         :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/django-admin-interface/profile/component/visualisation-component-button-tol-profile-components.png
          :class: with-shadow with-border
 
          **Tree of Life (ToL) profile** [#f2]_

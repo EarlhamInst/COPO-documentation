@@ -124,8 +124,8 @@ Submit Samples
 
       <br>
 
-#. Click the |upload-sample-manifest-button| button in the dialogue displayed to
-   choose a file from your local system.
+#. Click the |upload-sample-manifest-button| button in the dialogue displayed
+   to choose a file from your local system.
 
     .. figure:: /assets/images/samples/modals/samples-upload-spreadsheet-dialogue.png
        :alt: Upload Sample Spreadsheet dialogue

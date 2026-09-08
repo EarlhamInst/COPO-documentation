@@ -258,20 +258,21 @@ Visualisation of RecordActionButton in Project
    **Assembly page: Visualisation of the add, edit, delete and submit
    action buttons**
 
-* **add_record_all** button displays the tooltip ``Add record`` when hovered over and uses a
-  |add-icon| icon. It is indicated by the blue arrow.
+* **add_record_all** button displays the tooltip ``Add record`` when hovered
+  over and uses a |add-icon| icon. It is indicated by the blue arrow.
 
-* **edit_record_single** button displays the tooltip ``Edit record`` when hovered over and uses
-  |edit-icon| icon. It is indicated by the green arrow.
+* **edit_record_single** button displays the tooltip ``Edit record`` when
+  hovered over and uses |edit-icon| icon. It is indicated by the green arrow.
 
-* **delete_record_multi** button displays the tooltip ``Delete records`` when hovered over and
-  uses a |delete-icon| icon. It is indicated by the red arrow. The icon and
-  colour of this button is used on multiple pages with different actions.
+* **delete_record_multi** button displays the tooltip ``Delete records``
+  when hovered over and uses a |delete-icon| icon. It is indicated by the red
+  arrow. The icon and colour of this button is used on multiple pages with
+  different actions.
 
-* **submit_assembly_multi** button displays the tooltip ``Submit assembly`` when hovered over
-  and uses a |info-icon| icon. The icon and colour used in for this button,
-  is also used for the **submit_annotation_multi**, **submit_read_multi** and
-  **submit_tagged_seq_multi** buttons.
+* **submit_assembly_multi** button displays the tooltip ``Submit assembly``
+  when hovered over and uses a |info-icon| icon. The icon and colour used in
+  for this button, is also used for the **submit_annotation_multi**,
+  **submit_read_multi** and **submit_tagged_seq_multi** buttons.
 
   The difference is in the label assigned and the action performed by the
   button. The button is indicated by the teal arrow in the image above.
@@ -290,13 +291,13 @@ Visualisation of RecordActionButton in Project
    **Samples page:  Visualisation of the download sample manifest action
    button, view images action button and download permits action button**
 
-* **add_local_all** button displays the tooltip ``Add new file by browsing local file
-  system`` when hovered over and uses a |computer-icon| icon. It is indicated by the blue arrow
-  on the right in the image above.
+* **add_local_all** button displays the tooltip ``Add new file by browsing
+  local file system`` when hovered over and uses a |computer-icon| icon. It
+  is indicated by the blue arrow on the right in the image above.
 
-* **add_terminal_all** button displays the tooltip ``Add new file by terminal`` when hovered over and
-  uses a |terminal-icon| icon. It is indicated by the blue arrow on the left
-  in the image above.
+* **add_terminal_all** button displays the tooltip
+  ``Add new file by terminal`` when hovered over and uses a |terminal-icon|
+  icon. It is indicated by the blue arrow on the left in the image above.
 
 .. raw:: html
 
@@ -313,14 +314,15 @@ Visualisation of RecordActionButton in Project
    button and add file via terminal record action button**
 
 * **download_sample_manifest_single** button displays the tooltip
-  ``Download Sample Manifest`` when hovered over and uses a |download-icon1| icon.
-  It is indicated by the blue arrow in the image above.
+  ``Download Sample Manifest`` when hovered over and uses a |download-icon1|
+  icon. It is indicated by the blue arrow in the image above.
 
-* **view_images_multiple** button displays the tooltip ``View Images`` when hovered over and uses a
-  |eye-icon| icon. It is indicated by the teal arrow.
+* **view_images_multiple** button displays the tooltip ``View Images`` when
+  hovered over and uses a |eye-icon| icon. It is indicated by the teal arrow.
 
-* **download_permits_multiple** button displays the tooltip ``Download Permits`` when hovered over and
-  uses a |download-icon2| icon. It is indicated by the orange arrow.
+* **download_permits_multiple** button displays the tooltip
+  ``Download Permits`` when hovered over and uses a |download-icon2| icon. It
+  is indicated by the orange arrow.
 
 .. raw:: html
 
@@ -337,8 +339,9 @@ Visualisation of RecordActionButton in Project
    **Work profiles page: Visualisation of the publish study record action
    button on a profile**
 
-* **releasestudy** button displays the tooltip ``Publish Study`` when hovered over and uses a
-  |globe-icon| icon. It is indicated by the blue arrow in the image above.
+* **releasestudy** button displays the tooltip ``Publish Study`` when
+  hovered over and uses a |globe-icon| icon. It is indicated by the blue
+  arrow in the image above.
 
 .. raw:: html
 

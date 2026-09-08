@@ -73,7 +73,7 @@ How do I assign locus tags to assemblies?
   submitted in COPO and deposited to ENA.
 
   See `ENA's documentation
-  <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`__
+  <https://ena-docs.readthedocs.io/en/latest/submit/general-guide/locus-tags.html#what-are-locus-tags>`__
   for more details. The documentation outlines rules that the locus tag prefix
   should conform to.
 

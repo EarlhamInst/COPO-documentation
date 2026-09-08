@@ -51,7 +51,7 @@ the **Images** page via any of the following methods:
 Using the Components Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Click the |images-component-button-st-fish| component button in the 
+#. Click the |images-component-button-st-fish| component button in the
    **Components** column as shown below:
 
    .. figure:: /assets/images/images-comp/buttons/images-button-pointer-biodata.png
@@ -176,7 +176,8 @@ Upload images
       <br>
 
 4. A dialogue is displayed. Click the |images-upload-button-st-fish|
-   button in the dialogue to choose the spreadsheet file from your local system.
+   button in the dialogue to choose the spreadsheet file from your local
+   system.
 
    .. figure:: /assets/images/images-comp/modals/images-upload-spreadsheet-dialogue-st-fish.png
       :alt: Upload images spreadsheet dialogue

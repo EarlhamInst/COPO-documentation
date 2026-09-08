@@ -174,7 +174,7 @@ Glossary
      support from other research funders.
 
      The other :abbr:`NBI (Norwich BioScience Institutes)` centres are `John
-     Innes Centre (JIC) <https://www.jic.ac.uk>`__,
+     Innes Centre (JIC) <https://jic.ac.uk/>`__,
      `Sainsbury Laboratory (TSL) <https://www.tsl.ac.uk/>`__  and `Quadram
      Institute Bioscience (QIB) <https://quadram.ac.uk>`__.
 
@@ -244,7 +244,7 @@ Glossary
    Locus tag
      Adapted from
      `ENA's definition
-     <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_:
+     <https://ena-docs.readthedocs.io/en/latest/submit/general-guide/locus-tags.html#what-are-locus-tags>`_:
      Locus tags are identifiers applied systematically to every gene in a
      sequencing project.
 
@@ -311,7 +311,7 @@ Glossary
      Django.
 
    Read the Docs
-     A documentation `hosting service <http://readthedocs.org>`__ based around
+     A documentation `hosting service <https://about.readthedocs.com/>`__ based around
      Sphinx. COPO documentation is hosted on `Read the Docs
      <https://copo-project.readthedocs.io/en/latest/>`__.
 

@@ -179,7 +179,8 @@ Upload images
       <br>
 
 4. A dialogue is displayed. Click the |images-upload-button-rembi|
-   button in the dialogue to choose the spreadsheet file from your local system.
+   button in the dialogue to choose the spreadsheet file from your local
+   system.
 
    .. figure:: /assets/images/images-comp/modals/images-upload-spreadsheet-dialogue-rembi.png
       :alt: Upload images spreadsheet dialogue

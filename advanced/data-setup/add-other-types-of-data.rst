@@ -124,10 +124,12 @@ Examples of Adding Other Types of Data in COPO
    The spreadsheet file containing the main schema can be identified by the
    substring ``_schema_main_``.
 
-* `Earlham Data Portal (EDP) data <edp-schema-directory_>`__ |external-link-icon|
+* `Earlham Data Portal (EDP) data <edp-schema-directory_>`__
+  |external-link-icon|
 * `Reads data <copo-reads-schema-directory_>`__ |external-link-icon|
 * `Image data <copo-image-schema-directory_>`__ |external-link-icon|
-* `Single-cell data <copo-single-cell-schema-directory_>`__ |external-link-icon|
+* `Single-cell data <copo-single-cell-schema-directory_>`__
+  |external-link-icon|
 
 
 .. raw:: html
@@ -392,7 +394,11 @@ With a new checklist type
 5. Save the spreadsheet file, commit it and push it to the `COPO-schemas
    GitHub repository <copo-schemas-directory_>`__.
 
-6. Proceed to the :ref:`defining-other-data-types-persist-data` section for
+6. Follow the steps in the
+   :ref:`defining-other-data-types-update-schema-version` section to update
+   the schema file version (optional).
+
+7. Proceed to the :ref:`defining-other-data-types-persist-data` section for
    the next steps.
 
 .. raw:: html
@@ -511,8 +517,78 @@ With additional fields for an existing checklist type
 4. Save the spreadsheet file, commit it and push it to the `COPO-schemas
    GitHub repository <copo-schemas-directory_>`__.
 
-5. Proceed to the :ref:`defining-other-data-types-persist-data` section for
+5. Follow the steps in the
+   :ref:`defining-other-data-types-update-schema-version` section to update
+   the schema file version (optional).
+
+6. Proceed to the :ref:`defining-other-data-types-persist-data` section for
    the next steps.
+
+.. raw:: html
+
+   <hr>
+
+.. _defining-other-data-types-update-schema-version:
+
+Update schema file version (optional)
+-------------------------------------
+
+If you've made significant changes to the data structure of a main schema
+spreadsheet file, it is recommended to increment the existing version number
+to reflect the changes made or add the path of the new schema file to the
+``COPO_SCHEMA_URL`` list in the `data.py <copo-settings-file_>`__ file
+located in the ``src/main_config/settings`` directory of the project of the
+`COPO-production GitHub repository <copo-github-repository_>`__.
+
+.. important::
+
+   The key (which is the schema name) in the **MANIFEST_VERSION** dictionary
+   in the `data.py <copo-settings-file_>`__ file must match the
+   schema name configured for the data type component in the
+   `setup_profile_types.py <copo-django-command-setup-profile-types_>`__
+   Django command.
+
+.. code-block:: python
+   :caption: Extend the MANIFEST_VERSION dictionary in data.py
+
+   ...
+
+   MANIFEST_VERSION =  {
+      "ASG": "2.5",
+      "DTOL": "2.5",
+      "DTOLENV": "2.4",
+      "DTOL_EI": "2.4",
+      "ERGA": "2.5.1",
+      "DTOL_BARCODE": "",
+      # Update the version number of existing schemas
+      "COPO_SINGLE_CELL": "0.4",
+      "COPO_IMAGE_REMBI": "0.1",
+      "COPO_IMAGE_STX_FISH": "0.1",
+      "COPO_READ": "0.1",
+      "EI_EDP": "0.1",
+      # OR...Add schema name and version number for your new data type here
+      # "<data-type-schema-name>": "<version-number>",
+   }
+
+   ...
+
+.. code-block:: python
+   :caption: Extend the SINGLE_CELL_SCHEMAS_URL list in data.py
+
+   ...
+
+   SINGLE_CELL_SCHEMAS_URL = [
+      "COPO_SINGLE_CELL": f"https://github.com/EarlhamInst/COPO-schemas/raw/refs/heads/main/single_cell/singlecell_schema_main_v{MANIFEST_VERSION['COPO_SINGLE_CELL']}.xlsx",
+      "COPO_IMAGE_REMBI": f"https://github.com/EarlhamInst/COPO-schemas/raw/refs/heads/main/images/rembi_image_schema_main_v{MANIFEST_VERSION['COPO_IMAGE_REMBI']}.xlsx",
+      "COPO_IMAGE_STX_FISH": f"https://github.com/EarlhamInst/COPO-schemas/raw/refs/heads/main/images/stx_fish_image_schema_main_v{MANIFEST_VERSION['COPO_IMAGE_STX_FISH']}.xlsx",
+      "COPO_READ": f"https://github.com/EarlhamInst/COPO-schemas/raw/refs/heads/main/reads/reads_schema_main_v{MANIFEST_VERSION['COPO_READ']}.xlsx",
+      "EI_EDP": f"https://github.com/EarlhamInst/COPO-schemas/raw/refs/heads/main/edp/edp_schema_main_v{MANIFEST_VERSION['EI_EDP']}.xlsx",
+      # Add the path to your spreadsheet file here
+      # e.g. "https://raw.githubusercontent.com/EarlhamInst/COPO-schemas/raw/refs/heads/main/<folder-name>/<data-type-name>_schema_main_v{MANIFEST_VERSION['<data-type-schema-name>']}.xlsx"
+   ]
+
+   ...
+
 
 .. raw:: html
 
@@ -523,7 +599,7 @@ With additional fields for an existing checklist type
 Persist added data to COPO
 --------------------------
 
-Now that the data structure has been amended and new data type has been
+Now that the data structure has been amended and the new data type has been
 added to the spreadsheet file in the
 `COPO-schemas GitHub repository <copo-schemas-directory_>`__,
 the following steps guide how to persist added data type(s) to the COPO
@@ -626,11 +702,14 @@ Related sections
     Link declaration
 ..
 
-.. _edp-schema-directory: https://github.com/EarlhamInst/COPO-schemas/tree/main/edp
 .. _copo-celery-file: https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/src/celery.py
-.. _copo-reads-schema-directory: https://github.com/EarlhamInst/COPO-schemas/tree/main/reads
+.. _copo-django-command-setup-profile-types: https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/src/apps/copo_core/management/commands/setup_profile_types.py
+.. _copo-github-repository: https://github.com/EarlhamInst/COPO-production
 .. _copo-image-schema-directory: https://github.com/EarlhamInst/COPO-schemas/tree/main/images
+.. _copo-reads-schema-directory: https://github.com/EarlhamInst/COPO-schemas/tree/main/reads
 .. _copo-schemas-directory: https://github.com/EarlhamInst/COPO-schemas
+.. _copo-settings-file: https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/src/main_config/settings/data.py
 .. _copo-single-cell-schema-directory: https://github.com/EarlhamInst/COPO-schemas/tree/main/single_cell
 .. _copo-single-cell-schemas-handler-file: https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/src/apps/copo_single_cell_submission/utils/SingleCellSchemasHandler.py
 .. _copo-single-cell-schemas-tasks-file: https://raw.githubusercontent.com/EarlhamInst/COPO-production/refs/heads/main/src/apps/copo_single_cell_submission/tasks.py
+.. _edp-schema-directory: https://github.com/EarlhamInst/COPO-schemas/tree/main/edp

@@ -135,8 +135,8 @@ Upload Data
 
       <br>
 
-4. A dialogue is displayed. Click the |barcoding-manifests-upload-button| button
-   to choose a spreadsheet file from your local system.
+4. A dialogue is displayed. Click the |barcoding-manifests-upload-button|
+   button to choose a spreadsheet file from your local system.
 
     .. figure:: /assets/images/barcoding/modals/barcoding-manifest-upload-barcoding-manifest-dialogue.png
        :alt: Upload Barcoding Manifest dialogue

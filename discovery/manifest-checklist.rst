@@ -235,9 +235,9 @@ Sample Manifest Checklists
              Centres from countries bordering the North-East Atlantic and its
              adjacent seas: the Mediterranean, the Black Sea, the Baltic, the
              North Sea and the Arctic are listed at
-             http://www.seadatanet.org/Overview/Partners. For the Ocean
+             https://www.seadatanet.org/About-us/SeaDataCloud/Partners. For the Ocean
              Sampling Day campaign, non-genomics data shall be reported to the
-             PANGAEA (http://www.pangaea.de/submit/).
+             PANGAEA (https://www.pangaea.de/submit/).
            - --
          * - ERC000028
            - ENA prokaryotic pathogen minimal sample checklist

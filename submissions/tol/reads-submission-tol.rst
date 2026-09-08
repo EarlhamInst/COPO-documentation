@@ -170,7 +170,8 @@ Upload Reads
       <br>
 
 4. A dialogue is displayed. Click the |reads-upload-button-tol|
-   button in the dialogue to choose the spreadsheet file from your local system.
+   button in the dialogue to choose the spreadsheet file from your local
+   system.
 
    .. figure:: /assets/images/reads/tol/modals/reads-upload-spreadsheet-dialogue-tol.png
       :alt: Upload Reads spreadsheet dialogue
