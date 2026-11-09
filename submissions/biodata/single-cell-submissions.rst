@@ -28,7 +28,7 @@ Using the Components Button
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the |single-cell-component-button| component button in the
-**Components** [#f3]_ column as shown below:
+**Components** [#f3]_ section as shown below:
 
 .. figure:: /assets/images/single-cell/buttons/single-cell-button-pointer-biodata.png
    :alt: Single-cell profile component button
@@ -353,7 +353,7 @@ Related Topics
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-single-cell-manifest-button| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
+.. |add-single-cell-manifest-button| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 

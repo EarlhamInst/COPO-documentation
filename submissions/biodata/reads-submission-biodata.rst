@@ -47,7 +47,7 @@ Using the Components Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Click the |reads-component-button| component button in the **Components**
-column as shown below:
+section as shown below:
 
 .. figure:: /assets/images/reads/biodata/buttons/reads-button-pointer-biodata.png
    :alt: Reads profile component button
@@ -355,7 +355,7 @@ Related Topics
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-reads-manifest-button-biodata| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
+.. |add-reads-manifest-button-biodata| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 

@@ -47,7 +47,7 @@ Using the Components Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Click the |reads-component-button| component button in the **Components**
-column as shown below:
+section as shown below:
 
 .. figure:: /assets/images/reads/tol/buttons/reads-button-pointer-tol.png
    :alt: Reads profile component button
@@ -372,7 +372,7 @@ Related Topics
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-reads-manifest-button-tol| image:: /assets/images/buttons/add-manifest-button-for-tol-profile.png
+.. |add-reads-manifest-button-tol| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 

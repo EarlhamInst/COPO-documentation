@@ -41,7 +41,7 @@ Using the Components Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Click the |samples-component-button| component button in the **Components**
-column as shown below:
+section as shown below:
 
 .. figure:: /assets/images/samples/buttons/samples-button-pointer-biodata.png
    :alt: Samples profile component button
@@ -335,7 +335,7 @@ Related Topics
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-samples-manifest-button-biodata| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
+.. |add-samples-manifest-button-biodata| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 

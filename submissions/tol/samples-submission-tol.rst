@@ -49,7 +49,7 @@ Using the Components Button
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the |samples-component-button| component button in the **Components**
-column as shown below:
+section as shown below:
 
 .. figure:: /assets/images/samples/buttons/samples-button-pointer-tol.png
    :alt: Samples profile component

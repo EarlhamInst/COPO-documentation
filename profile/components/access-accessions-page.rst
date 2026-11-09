@@ -12,7 +12,7 @@ Using the Components Button
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the |accessions-component-button| component button in the **Components**
-[#f3]_ column as shown below:
+[#f3]_ section as shown below:
 
 .. grid::
    :gutter: 2

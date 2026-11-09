@@ -27,7 +27,7 @@ Using the Components Button
 """""""""""""""""""""""""""
 
 Click the |sequence-annotations-component-button| component button in the
-**Components** column as shown below:
+**Components** section as shown below:
 
 .. figure:: /assets/images/sequence-annotations/ui/sequence-annotations-button-pointer-biodata.png
    :alt: Sequence Annotations profile component button

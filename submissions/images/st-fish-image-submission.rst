@@ -52,7 +52,7 @@ Using the Components Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Click the |images-component-button-st-fish| component button in the
-   **Components** column as shown below:
+   **Components** section as shown below:
 
    .. figure:: /assets/images/images-comp/buttons/images-button-pointer-biodata.png
       :alt: Images profile component button
@@ -365,7 +365,7 @@ Related Topics
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-images-manifest-button-st-fish| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
+.. |add-images-manifest-button-st-fish| image:: /assets/images/buttons/add-manifest-button.png
    :height: 4ex
    :class: no-scaled-link
 

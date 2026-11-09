@@ -76,18 +76,6 @@ within the data table on the respective submission page. For example:
 
 .. raw:: html
 
-   <br>
-
-.. figure:: /assets/images/accessions/ui/accessions-data-table-after-submission-reads.png
-   :alt: Accessions in data table after reads submission
-   :align: center
-   :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/accessions/ui/accessions-data-table-after-submission-reads.png
-   :class: with-shadow with-border
-
-   **Reads page displaying accessions in the data table after submission**
-
-.. raw:: html
-
    <hr>
 
 On Profile's Accessions Page

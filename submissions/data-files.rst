@@ -32,7 +32,7 @@ Using the Components Button
 """""""""""""""""""""""""""
 
 Click the |files-component-button| component button in the **Components**
-column as shown below:
+section as shown below:
 
 .. figure:: /assets/images/files/buttons/files-button-pointer-biodata.png
   :alt: Biodata Files profile component

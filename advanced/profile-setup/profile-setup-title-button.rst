@@ -338,7 +338,7 @@ Related Topics
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-reads-manifest-button| image:: /assets/images/buttons/add-manifest-button-for-biodata-profile.png
+.. |add-reads-manifest-button| image:: /assets/images/buttons/add-manifest-button.png
    :height: 3ex
    :class: no-scaled-link
 

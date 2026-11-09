@@ -38,14 +38,14 @@ Using the Components Button
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the |barcoding-manifest-component-button| component button in the
-**Components** column as shown below:
+**Components** section as shown below:
 
 .. figure:: /assets/images/barcoding/ui/barcoding-button-pointer-tol.png
    :alt: Tree of Life Barcoding Manifest profile component
    :align: center
    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/ui/barcoding-button-pointer-tol.png
    :class: with-shadow with-border
-   :height: 300px
+   :height: 200px
 
    **Button to access the Barcoding manifest page (highlighted)**
 
@@ -62,7 +62,7 @@ Using the Components Icon Navigation Pane
    :align: center
    :target: https://raw.githubusercontent.com/EarlhamInst/COPO-documentation/main/assets/images/barcoding/icons/barcoding-manifest-icon-pointer.png
    :class: with-shadow with-border
-   :height: 120px
+   :height: 100px
 
    **Navigation pane showing the Barcoding manifest component icon**
 
@@ -81,7 +81,7 @@ Upload Data
 
 .. tip::
 
-   In the **Barcoding Manifest**, the field, **Organism**, refers to the
+   In the **Barcoding** manifest, the field, **Organism**, refers to the
    biosample accession of the sample.
 
 1. On the **Barcoding manifests** page, click the dropdown menu to choose a
@@ -376,7 +376,7 @@ Related Topics
 ..
 
 .. |accessions-component-icon| image:: /assets/images/accessions/icons/components-accessions-icon.png
-   :height: 3ex
+   :height: 2ex
    :class: no-scaled-link
 
 .. |add-barcoding-manifest-manifest-button| image:: /assets/images/buttons/add-manifest-button.png

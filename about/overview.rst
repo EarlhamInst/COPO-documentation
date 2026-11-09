@@ -4,7 +4,7 @@
 Overview
 =========
 
-Collaborative Open Omics (COPO) is a web platform used researchers and data
+Collaborative OPen Omics (COPO) is a web platform used researchers and data
 generators to describe the data generated from their research such as samples,
 reads, images and processed data, using community-approved metadata and
 vocabularies [#f1]_. As a metadata broker, COPO uses
@@ -37,53 +37,8 @@ Stay informed about the project by visiting the `News page <news-page_>`__.
 
    <hr>
 
-.. _overview-public-repositories:
+.. include:: /about/public-repositories-overview.inc
 
-Where Your Submitted Data Goes
-------------------------------
-
-Data submissions made using COPO are published to public repositories. These
-repositories are secure online databases that allow the scientific community
-worldwide to access, share and reuse data.
-
-Supported repositories include:
-
-* `BioImage Archive (BIA) <https://www.ebi.ac.uk/bioimage-archive>`__
-* `BioStudies <https://www.ebi.ac.uk/biostudies>`__
-* `Comprehensive Knowledge Archive Network (CKAN)
-  <https://ckan.earlham.ac.uk>`__ (for Earlham Institute datasets)
-* `European Nucleotide Archive (ENA)
-  <https://www.ebi.ac.uk/ena/browser/home>`__
-* `National Centre for Biotechnology Information (NCBI)
-  <https://www.ncbi.nlm.nih.gov>`__
-* `Zenodo <https://zenodo.org>`__
-
-   .. list-table:: Data Submission Types and Repositories
-      :width: 100%
-      :align: center
-      :header-rows: 1
-
-      * - Submission type
-        - Public repository
-      * - Assemblies
-        - ENA
-      * - Barcoding (also known as Tagged sequences)
-        - ENA
-      * - Images
-        - * Zenodo for :abbr:`REMBI (Recommended Metadata for Biological
-            Images)` images and
-            :abbr:`ST-FISH (Spatial Transcriptomics Fluorescence In Situ
-            Hybridisation)`
-          * :abbr:`BIA (BioImage Archive)` for sample images and REMBI images
-            (forthcoming)
-      * - Reads
-        - ENA
-      * - Samples
-        - ENA
-      * - Sequence Annotations
-        - ENA
-      * - Single-cell
-        - ENA, Zenodo
 
 .. raw:: html
 
